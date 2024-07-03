@@ -1,0 +1,2747 @@
+[
+  {
+    "name": "SAP Commerce",
+    "id": "sap_commerce",
+    "min_required": 49,
+    "max_questions": 80,
+    "questions": [
+      {
+        "Question": "1",
+        "QuestionText": "What do you need to know about search profiles? (2 correct)",
+        "Options": [
+          "1.) Search profiles are catalog aware and can be merged together",
+          "2.) Search profiles can be configured in SmartEdit",
+          "3.) A search profile can contain only one boost rule",
+          "4.) A single search profile can have different configurations"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "2",
+        "QuestionText": "What out-of-the-box changes can occur in the Telco accelerator when a bundle component is added to a customer's cart? (3 correct)",
+        "Options": [
+          "1.) Other bundle components become available",
+          "2.) Additional bundle products or services are automatically added to the cart",
+          "3.) A customer becomes eligible for one or more promotions",
+          "4.) The prices of other bundle components change",
+          "5.) The bundle product image is updated"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "3",
+        "QuestionText": "You want to create a new search profile. Which out-of-the-box functionalities are available? (3 correct)",
+        "Options": [
+          "1.) Create new index properties",
+          "2.) Configure boost rules",
+          "3.) Create and define facets",
+          "4.) Promote or exclude individual or multiple items",
+          "5.) Create a boost rule for an individual item"
+        ],
+        "CorrectAnswer": "2,3,4"
+      },
+      {
+        "Question": "4",
+        "QuestionText": "What information is mandatory when you create a new product?(2 correct)",
+        "Options": [
+          "1.) Article number",
+          "2.) Description",
+          "3.) Catalog version",
+          "4.) Online from"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "5",
+        "QuestionText": "Why might you use an ImpEx script? (3 correct)",
+        "Options": [
+          "1.) To set up user groups and access rights",
+          "2.) To import a specific set of product data using a cron job",
+          "3.) To migrate data from a testing environment to a quality assurance environment",
+          "4.) To install Add-ons",
+          "5.) To make changes to the items.xml file"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "6",
+        "QuestionText": "What catalog versions are provided out-of-the-box for each catalog in SAP Commerce?",
+        "Options": [
+          "1.) One staged catalog version and multiple online catalog versions",
+          "2.) Multiple staged catalog versions and multiple online catalog versions",
+          "3.) One staged catalog version and one online catalog version",
+          "4.) Multiple staged catalog versions and one online catalog version"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "7",
+        "QuestionText": "A customer describes the relationship between their products, orders and customers. What UML diagram do you use to represent this?",
+        "Options": [
+          "1.) State diagram",
+          "2.) Use case diagram",
+          "3.) Class diagram",
+          "4.) Data flow diagram"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "8",
+        "QuestionText": "You are tasked with defining non-functional requirements. Which of the following requirements would you classify as non-functional? (3 correct)",
+        "Options": [
+          "1.) Team management",
+          "2.) Reliability",
+          "3.) Security",
+          "4.) Administration",
+          "5.) Portability"
+        ],
+        "CorrectAnswer": "2,3,5"
+      },
+      {
+        "Question": "9",
+        "QuestionText": "What does the fraud detection module provide out-of-the-box? (2 correct)",
+        "Options": [
+          "1.) Essential fraud checks conducted by the internal fraud service",
+          "2.) A sample/mock-up implementation based on a fraud symptom detection",
+          "3.) If an order is identified as fraud, it is rejected automatically and marked as cancelled",
+          "4.) A storefront interface for customers to see the reason that their order is judged fraudulent"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "10",
+        "QuestionText": "You want to add changeable product attributes which are NOT used in the business logic. How would you do this?",
+        "Options": [
+          "1.) By customizing the standard type system",
+          "2.) By creating product categories and feature lists",
+          "3.) By creating classifying categories and feature lists",
+          "4.) By extending the type system"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "11",
+        "QuestionText": "What does SAP Commerce use out-of-the-box to import product data? (3 correct)",
+        "Options": [
+          "1.) Data Hub",
+          "2.) SAP Integration APIs",
+          "3.) SmartEdit",
+          "4.) ImpEx",
+          "5.) SAP Process Integration"
+        ],
+        "CorrectAnswer": "1,4,5"
+      },
+      {
+        "Question": "12",
+        "QuestionText": "Your customer has data that needs to be replicated from a leading CRM system to SAP Hybris Commerce. There is customer information that is not represented by the A. Hybris data model. What would be required to make this information available in SAP Hybris Commerce?",
+        "Options": [
+          "1.) You must use the classification with a new feature assignment for the new attribute.",
+          "2.) You must create anew customer attribute in the Customer Support Cockpit when it becomes necessary.",
+          "3.) You must create new attributes on the existing customer type as a development task.",
+          "4.) You must modify CRM system process because the customer data structure cannot be changed in SAP Hybris Commerce."
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "13",
+        "QuestionText": "What are feature specific to the SAP Commerce, financial services accelerator?",
+        "Options": [
+          "1.) Find Agent functionality",
+          "2.) Order management",
+          "3.) Add to cart functionality",
+          "4.) PunchOut functionality"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "14",
+        "QuestionText": "What does the Cart & Checkout module provides out-of-the-box? (2 correct)",
+        "Options": [
+          "1.) Ability to pick, pack, label, and confirm shipments through the BackOffice Order Fulfilment Cockpit",
+          "2.) A centralized hub for integration with Fraud Service Providers",
+          "3.) Interfaces to interact with warehouse management systems",
+          "4.) Sourcing and Allocation"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "15",
+        "QuestionText": "In Order Management Services module, what are the functionalities of Sourcing Allocation? (2 correct)",
+        "Options": [
+          "1.) Allocation Service can modify the sourcing result from the Sourcing Service",
+          "2.) Sourcing Service offers functionality to determine the number of consignments and create the corresponding consignments",
+          "3.) Allocation Service allows reallocation of items from a consignment to another warehouse",
+          "4.) Sourcing Service provides a fitness evaluation to perform calculations to determine the optimal sourcing locations or consignment configurations to source orders"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "16",
+        "QuestionText": "For which use case is a product variant appropriate?",
+        "Options": [
+          "1.) The product manager defines new product attributes based on the product's location in the category hierarchy",
+          "2.) The customer selects each component of a bundle from a list of available products",
+          "3.) The product manager defines a localized variation of a product for each country-specific Web site",
+          "4.) The customer selects the fabric of a product being added to the cart"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "17",
+        "QuestionText": "You are creating a new promotion for an SAP Hybris Commerce storefront based on the promotion engine. What will the promotion engine evaluate when validating the promotion? (3 correct)",
+        "Options": [
+          "1.) The promotion rule's message",
+          "2.) The promotion's conditions",
+          "3.) The promotion's actions",
+          "4.) The promotion's priorities",
+          "5.) The promotion's vouchers"
+        ],
+        "CorrectAnswer": "2,3,4"
+      },
+      {
+        "Question": "18",
+        "QuestionText": "Who is the typical user of the type system?",
+        "Options": [
+          "1.) Developer",
+          "2.) Marketing manager",
+          "3.) Product manager",
+          "4.) Purchasing manager"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "19",
+        "QuestionText": "What are feature specific to the SAP Commerce, financial services accelerator?(2 correct)",
+        "Options": [
+          "1.) Find Agent functionality",
+          "2.) Order management",
+          "3.) PunchOut functionality",
+          "4.) Add to cart functionality"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "20",
+        "QuestionText": "Which services are part of the Backoffice Framework?(3 correct)",
+        "Options": [
+          "1.) Role-Based Access Rights",
+          "2.) Configuring Cockpits",
+          "3.) Managing Cron Jobs",
+          "4.) Customizing Widgets",
+          "5.) Creating HMC configuration"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "21",
+        "QuestionText": "Which tools can you use to manage your stores, currencies, and languages?(2 correct)",
+        "Options": [
+          "1.) SmartEdit",
+          "2.) Product Cockpit",
+          "3.) Backoffice",
+          "4.) WCMS Cockpit",
+          "5.) HMC"
+        ],
+        "CorrectAnswer": "3,5"
+      },
+      {
+        "Question": "22",
+        "QuestionText": "What are the benefits of SAP Commerce Cloud in the public cloud environment?(3 correct)",
+        "Options": [
+          "1.) Faster time to market",
+          "2.) Lower total cost of ownership",
+          "3.) Infrastructure is maintained by SAP",
+          "4.) It includes continuous innovation and updates",
+          "5.) You have full control over the operating system and hardware"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "23",
+        "QuestionText": "What types of modules are part of the Backoffice Framework?",
+        "Options": [
+          "1.) Cockpit widgets",
+          "2.) Browser widgets",
+          "3.) Form widgets",
+          "4.) Search widgets"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "24",
+        "QuestionText": "How can you integrate SAP Commerce with other systems? (3 correct)",
+        "Options": [
+          "1.) Using RESTful web services",
+          "2.) Using SOAP web services",
+          "3.) Using Data Hub",
+          "4.) Using ImpEx",
+          "5.) Using Apache Kafka"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "25",
+        "QuestionText": "Which features are included in the SAP Commerce Backoffice Framework?(3 correct)",
+        "Options": [
+          "1.) Workflow Management",
+          "2.) Product Content Management",
+          "3.) User and Rights Management",
+          "4.) Web Content Management",
+          "5.) Order Management"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "26",
+        "QuestionText": "Which out-of-the-box features does the SAP Commerce Financial Services Accelerator provide?(3 correct)",
+        "Options": [
+          "1.) Insurance product management",
+          "2.) Claims management",
+          "3.) Policy management",
+          "4.) Billing and invoicing",
+          "5.) Agent portal"
+        ],
+        "CorrectAnswer": "1,3,5"
+      },
+      {
+        "Question": "27",
+        "QuestionText": "Which processes are supported by SAP Commerce Order Management? (3 correct)",
+        "Options": [
+          "1.) Order fulfillment",
+          "2.) Order routing",
+          "3.) Return handling",
+          "4.) Inventory management",
+          "5.) Customer segmentation"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "28",
+        "QuestionText": "What does the SAP Commerce Cloud, context-driven services module provide? (3 correct)",
+        "Options": [
+          "1.) Customer journey tracking",
+          "2.) Real-time personalization",
+          "3.) Contextual merchandising",
+          "4.) Advanced inventory management",
+          "5.) Customer segmentation"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "29",
+        "QuestionText": "What can you do in the Basic Edit mode of SmartEdit? (3 correct)",
+        "Options": [
+          "1.) Add or edit component restrictions",
+          "2.) Synchronize a content catalog",
+          "3.) Save or recall a version",
+          "4.) Move components within a page",
+          "5.) Add components to a page"
+        ],
+        "CorrectAnswer": "1,4,5"
+      },
+      {
+        "Question": "30",
+        "QuestionText": "Which features are specific to the SAP Commerce, telco and media accelerator? (2 correct)",
+        "Options": [
+          "1.) Find agent",
+          "2.) Bundling of products and services",
+          "3.) Subscriptions",
+          "4.) Fraud detection engine"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "31",
+        "QuestionText": "You decide to increase the number of attributes of the multidimensional products in the B2B Power tools storefront. Which pages will need to be refactored to support the additional attributes? (3 correct)",
+        "Options": [
+          "1.) Shopping Cart page",
+          "2.) Homepage",
+          "3.) Product Detail page",
+          "4.) Order Form page",
+          "5.) Category page"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "32",
+        "QuestionText": "Which are features of the SAP Commerce Promotion Module? (3 correct)",
+        "Options": [
+          "1.) Rule-based promotion engine",
+          "2.) Promotion rules and actions",
+          "3.) Personalization of promotions",
+          "4.) Integration with external promotion engines",
+          "5.) Promotion templates"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "33",
+        "QuestionText": "What is a facet in the context of SAP Commerce search? (2 correct)",
+        "Options": [
+          "1.) An attribute used for filtering search results",
+          "2.) An attribute used for sorting search results",
+          "3.) A predefined search query",
+          "4.) A visual representation of search results"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "34",
+        "QuestionText": "Which functionalities are provided by the SAP Commerce Assisted Service Module? (3 correct)",
+        "Options": [
+          "1.) Managing customer orders",
+          "2.) Viewing customer carts",
+          "3.) Impersonating customers",
+          "4.) Managing customer consents",
+          "5.) Managing customer groups"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "35",
+        "QuestionText": "What are the capabilities of the SAP Commerce Cloud, Integration Framework? (3 correct)",
+        "Options": [
+          "1.) Out-of-the-box integrations",
+          "2.) Customizable data mapping",
+          "3.) Real-time data synchronization",
+          "4.) Pre-built connectors to SAP systems",
+          "5.) Support for multiple protocols"
+        ],
+        "CorrectAnswer": "1,4,5"
+      },
+      {
+        "Question": "36",
+        "QuestionText": "Which data can be managed via the Backoffice Product Content Management Module? (3 correct)",
+        "Options": [
+          "1.) Product categories",
+          "2.) Product descriptions",
+          "3.) Product prices",
+          "4.) Product stock levels",
+          "5.) Product images"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "37",
+        "QuestionText": "What are the features of the SAP Commerce Cloud Product Cockpit? (2 correct)",
+        "Options": [
+          "1.) Managing product categories",
+          "2.) Creating product bundles",
+          "3.) Managing product prices",
+          "4.) Managing product variants",
+          "5.) Viewing product stock levels"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "38",
+        "QuestionText": "Which components are part of the SAP Commerce Cloud, Core Platform? (3 correct)",
+        "Options": [
+          "1.) Service Layer",
+          "2.) SmartEdit",
+          "3.) Backoffice Framework",
+          "4.) Commerce Facades",
+          "5.) WCMS Cockpit"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "39",
+        "QuestionText": "What is the difference between boost rules and promoting items? (2 correct)",
+        "Options": [
+          "1.) Boost rules are defined globally while promoted items are category aware",
+          "2.) Boosting an item prioritizes it more than promoting an item does",
+          "3.) Boost rules are attribute-focused while promoted items are product-focused",
+          "4.) Promoting an item prioritizes it more than the boost rules do"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "40",
+        "QuestionText": "What should an architect be aware of when designing a product catalog in SAP Hybris Commerce? (3 correct)",
+        "Options": [
+          "1.) A catalog must have exactly one staged and one online version",
+          "2.) The catalog, category, and product items all carry a reference to the catalog version",
+          "3.) In practice, a catalog may have many staged versions maintained concurrently",
+          "4.) A product should never be created in the online catalog version",
+          "5.) Catalog synchronization is required to push staged changes to the online version"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "41",
+        "QuestionText": "Which functionalities are provided by SAP Commerce Personalization Module? (3 correct)",
+        "Options": [
+          "1.) Segmentation of users",
+          "2.) Management of personalization rules",
+          "3.) Customization of product recommendations",
+          "4.) Scheduling of personalization campaigns",
+          "5.) Personalization based on user behavior"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "42",
+        "QuestionText": "What are the advantages of using SAP Commerce Cloud, Context-Driven Services? (2 correct)",
+        "Options": [
+          "1.) Enhanced personalization",
+          "2.) Simplified integration with third-party services",
+          "3.) Improved scalability",
+          "4.) Faster data processing",
+          "5.) Real-time customer insights"
+        ],
+        "CorrectAnswer": "1,5"
+      },
+      {
+        "Question": "43",
+        "QuestionText": "Which features are part of SAP Commerce Cloud, Order Management? (3 correct)",
+        "Options": [
+          "1.) Order splitting",
+          "2.) Order consolidation",
+          "3.) Order orchestration",
+          "4.) Order routing",
+          "5.) Order rescheduling"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "44",
+        "QuestionText": "What are the key features of the SAP Commerce Cloud, Backoffice Framework? (3 correct)",
+        "Options": [
+          "1.) Extensible UI components",
+          "2.) Integrated workflow management",
+          "3.) Customizable widgets",
+          "4.) Multilingual support",
+          "5.) Integrated analytics"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "45",
+        "QuestionText": "Which components are included in SAP Commerce Cloud, Core Platform? (3 correct)",
+        "Options": [
+          "1.) Service Layer",
+          "2.) SmartEdit",
+          "3.) Backoffice Framework",
+          "4.) Commerce Facades",
+          "5.) WCMS Cockpit"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "46",
+        "QuestionText": "What are the benefits of using SAP Commerce Cloud, Financial Services Accelerator? (3 correct)",
+        "Options": [
+          "1.) Streamlined insurance policy management",
+          "2.) Enhanced claims processing",
+          "3.) Simplified billing and invoicing",
+          "4.) Improved customer experience",
+          "5.) Automated fraud detection"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "47",
+        "QuestionText": "Which capabilities are provided by SAP Commerce Cloud, Product Content Management? (3 correct)",
+        "Options": [
+          "1.) Product categorization",
+          "2.) Product versioning",
+          "3.) Product attribute management",
+          "4.) Product relationship management",
+          "5.) Product inventory management"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "48",
+        "QuestionText": "What are the key features of the SAP Commerce Cloud, Telco and Media Accelerator? (3 correct)",
+        "Options": [
+          "1.) Subscription management",
+          "2.) Product bundling",
+          "3.) Integrated billing",
+          "4.) Customer self-service",
+          "5.) Contract management"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "49",
+        "QuestionText": "Which integration options are available for SAP Commerce Cloud? (3 correct)",
+        "Options": [
+          "1.) RESTful web services",
+          "2.) SOAP web services",
+          "3.) Data Hub",
+          "4.) ImpEx",
+          "5.) Apache Kafka"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "50",
+        "QuestionText": "What functionalities are offered by SAP Commerce Cloud, Assisted Service Module? (3 correct)",
+        "Options": [
+          "1.) Managing customer orders",
+          "2.) Viewing customer carts",
+          "3.) Impersonating customers",
+          "4.) Managing customer consents",
+          "5.) Managing customer groups"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "51",
+        "QuestionText": "In the standard SAP Commerce accelerators, what are the CMS navigation nodes used for? (2 correct)",
+        "Options": [
+          "1.) To provide hierarchical structure in the navigation bar",
+          "2.) To filter product attributes",
+          "3.) To configure the checkout navigation page flow",
+          "4.) To configure links used in the navigation bar"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "52",
+        "QuestionText": "How can you configure personalized versions of a webstore for two different user groups using personalization based on SmartEdit? (2 correct)",
+        "Options": [
+          "1.) Create two customizations that use the same target group but separate sets of",
+          "2.) Create one customization with two target groups and two sets of storefront changes",
+          "3.) Create one customization and one target with two sets of storefronts changes",
+          "4.) Create two customizations, each with its own target group and storefront changes"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "53",
+        "QuestionText": "You are asked to propose an automated high-performance solution for updating the products on a retail store's Web site. You are also told that the product portfolio is only updated at the beginning of the month. What would you propose for this requirement?",
+        "Options": [
+          "1.) Workflows.",
+          "2.) Cron Jobs.",
+          "3.) The event system.",
+          "4.) The process engine."
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "54",
+        "QuestionText": "Which SAP solutions can be integrated with in SAP Commerce out-of-the-box? (3 correct)",
+        "Options": [
+          "1.) SAP Marketing Cloud",
+          "2.) SAP Customer Engagement Center",
+          "3.) SAP Sales and Distribution",
+          "4.) SAP Revenue Cloud",
+          "5.) SAP Materials Management"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "55",
+        "QuestionText": "Which out-of-the-box features do Commerce Customizations provide? (2 correct)",
+        "Options": [
+          "1.) Personalized promotions",
+          "2.) Personalized product bundles",
+          "3.) Personalized search results",
+          "4.) Personalized prices"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "56",
+        "QuestionText": "How can you use catalog versioning in SAP Hybris Commerce? (2 correct)",
+        "Options": [
+          "1.) To separate content for different customers or channels.",
+          "2.) To allow the business user to roll back to previous versions of the catalog.",
+          "3.) To maintain summer and winter assortments of products.",
+          "4.) To provide an audit trail of all the changes made by employees."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "57",
+        "QuestionText": "Which SAP solutions can be integrated with SAP Commerce out-of-the-box? (3 correct)",
+        "Options": [
+          "1.) SAP Customer Engagement Center",
+          "2.) SAP Revenue Cloud",
+          "3.) SAP Sales and Distribution",
+          "4.) SAP Marketing Cloud",
+          "5.) SAP Materials Management"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "58",
+        "QuestionText": "In which project phase do you make a go/no-go decision for the Build phase?",
+        "Options": [
+          "1.) Deployment",
+          "2.) Engineering",
+          "3.) Foundation",
+          "4.) Documentation"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "59",
+        "QuestionText": "Which checkout scenarios are supported out-of-the-box in the SAP Commerce, B2C accelerator? (2 correct)",
+        "Options": [
+          "1.) Express checkout",
+          "2.) Guided selling checkout",
+          "3.) Guest checkout",
+          "4.) One-click checkout"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "60",
+        "QuestionText": "Which calculations are performed by the SAP Commerce price factory? (3 correct)",
+        "Options": [
+          "1.) Tax calculation",
+          "2.) Coupon calculation",
+          "3.) Discount calculation",
+          "4.) Price calculation",
+          "5.) Promotion calculation"
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "61",
+        "QuestionText": "Why would you use a classification category? (2 correct)",
+        "Options": [
+          "1.) To hold custom properties",
+          "2.) To group products that require custom properties",
+          "3.) To link custom properties to products or catalog categories",
+          "4.) To organize products that belong to a catalog version"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "62",
+        "QuestionText": "In SAP Hybris Commerce, where can you configure Availability to Promise?",
+        "Options": [
+          "1.) In the BackOffice Order Fulfilment Cockpit.",
+          "2.) In the BackOffice Administration Cockpit.",
+          "3.) In the BackOffice Commerce Search Cockpit.",
+          "4.) In the BackOffice Order Fulfilment Cockpit."
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "63",
+        "QuestionText": "You want to feature a page on your storefront that can only be viewed by a special user group. What SAP Commerce user interface do you use to do this?",
+        "Options": [
+          "1.) BackOffice Adaptive Search Perspective",
+          "2.) SmartEdit",
+          "3.) BackOffice Sales Organization Perspective",
+          "4.) BackOffice Product Cockpit"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "64",
+        "QuestionText": "What can end-users do when working with workflows? (2 correct)",
+        "Options": [
+          "1.) Add attachments to workflow tasks",
+          "2.) Share a workflow task on Social Media",
+          "3.) Track a workflow.",
+          "4.) Comment on a workflow task"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "65",
+        "QuestionText": "You want to create a new web page. What are page templates used for? (2 correct)",
+        "Options": [
+          "1.) To specify the layout of a page",
+          "2.) To add restrictions to a page",
+          "3.) To create page components",
+          "4.) To specify the shared slots"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "66",
+        "QuestionText": "In which cases would a data manager use synchronization? (3 correct)",
+        "Options": [
+          "1.) To copy the data from several staged catalog versions to the online catalog version.",
+          "2.) To copy all changes from a staged catalog version to an online catalog version.",
+          "3.) To import different products from an internal system to the product catalog.",
+          "4.) To merge changes made by different employees to the same product.",
+          "5.) To switch the product line of a shop toa different product catalog."
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "67",
+        "QuestionText": "What is the result of performing a product catalog synchronization? (2 correct)",
+        "Options": [
+          "1.) Product tax row updates to the staged version are published to the online version.",
+          "2.) Product category updates to the staged version are published to the online version.",
+          "3.) Duplicate product references are deleted from the catalog.",
+          "4.) Invalid product data is rolled back to the latest staged version."
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "68",
+        "QuestionText": "Which restriction types are available out-of-the-box for page components? (4 correct)",
+        "Options": [
+          "1.) Category Restriction",
+          "2.) Time Restriction",
+          "3.) Country Restriction",
+          "4.) IP Address Restriction",
+          "5.) User group Restriction"
+        ],
+        "CorrectAnswer": "1,2,3,5"
+      },
+      {
+        "Question": "69",
+        "QuestionText": "What is the function of the business analyst within a project team? (2 correct)",
+        "Options": [
+          "1.) Selects and develops appropriate test automation tools and frameworks.",
+          "2.) Designs, codes, and performs integration testing.",
+          "3.) Elicits, elaborates, and clarifies the requirements.",
+          "4.) Identifies potential solutions and analyses the feasibility of options."
+        ],
+        "CorrectAnswer": "3,4"
+      },
+      {
+        "Question": "70",
+        "QuestionText": "What happens when you recover a saved version of a page in SmartEdit? (2 correct)",
+        "Options": [
+          "1.) You will NOT be able to edit the recovered version",
+          "2.) You will be able to edit the version you have recorded",
+          "3.) You will be prompted to save your work as a new version",
+          "4.) Your unsaved work will be saved as a new version automatically"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "71",
+        "QuestionText": "Which checkout scenarios are supported out-of-the-box in the SAP Commerce, B2C accelerator? (2 correct)",
+        "Options": [
+          "1.) Guided selling checkout",
+          "2.) Guest checkout",
+          "3.) Express checkout",
+          "4.) One-click checkout"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "72",
+        "QuestionText": "How do you add a property to a set of product? (2 correct)",
+        "Options": [
+          "1.) Create a new classification category and feature, and assign it to a catalog category",
+          "2.) Create a sub type of the product item type and include the new required property",
+          "3.) Create a new catalog version and include all products with the new required property",
+          "4.) Create a new facet and include the new required property"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "73",
+        "QuestionText": "In SAP Commerce, if multiple Price Rows match a price request, which Price Row has priority?",
+        "Options": [
+          "1.) The Price Row with NO specific product or customer",
+          "2.) The Price Row for a specific product group and customer group",
+          "3.) The Price Row with NO specific product but with specific customer",
+          "4.) The Price Row for a specific product and specific customer"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "74",
+        "QuestionText": "You have been asked to import some data using ImpEx scripts that create user interface components on a storefront. What tool would you use to execute the ImpEx scripts?",
+        "Options": [
+          "1.) Product Cockpit",
+          "2.) Order Fulfilment Cockpit",
+          "3.) hybris Administration Console",
+          "4.) SmartEdit"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "75",
+        "QuestionText": "What are key features of the SAP Hybris Commerce Rule Engine? (2 correct)",
+        "Options": [
+          "1.) It provides a Backoffice interface to create new conditions.",
+          "2.) It provides a centralized repository of rules.",
+          "3.) It provides separation of data and logic.",
+          "4.) It provides a Backoffice interface to trigger the rule execution."
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "76",
+        "QuestionText": "What can you do with the Preview Mode in SmartEdit? (2 correct)",
+        "Options": [
+          "1.) Edit some basic properties of a page if you have special permissions",
+          "2.) Display the staged version content catalog in different languages, dates and time",
+          "3.) Synchronize the catalog with the online version",
+          "4.) Navigate to the page to be personalized"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "77",
+        "QuestionText": "How do you add a property to a set of products? (2 correct)",
+        "Options": [
+          "1.) Create a sub type of the product item type and include the new required property",
+          "2.) Create a new catalog version and include all products with the new required property",
+          "3.) Create a new classification category and feature, and assign it to a catalog category",
+          "4.) Create a new facet and include the new required property"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "78",
+        "QuestionText": "In the requirements gathering session, your customer describes the process they use to approve a new product description. Which UML diagrams can you use to model this process? (2 correct)",
+        "Options": [
+          "1.) State diagram",
+          "2.) Use case diagram.",
+          "3.) Activity diagram",
+          "4.) Class diagram"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "79",
+        "QuestionText": "What is Application Management according to the SAP Hybris Application Lifecycle Framework for Commerce? (2 correct)",
+        "Options": [
+          "1.) A continuous work stream that starts with the first deployment to production environment, aiming to provide support and live-operations management.",
+          "2.) A continuous work stream that starts with the first initiation phase, aiming to provide ongoing smaller development work that can be done outside of a Project.",
+          "3.) A continuous work stream aimed to support, operate, and maintain the live solution once it's been deployed to a live production environment and is being used by end users.",
+          "4.) A continuous work stream running the entire duration of a release, aiming to organize preparation and execution activities around a go-live event."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "80",
+        "QuestionText": "When working with multidimensional product variants, which of the following are relevant? (2 correct)",
+        "Options": [
+          "1.) A GenericVariantProduct describes a product with at least three VariantValueCategory items",
+          "2.) The base product cannot be purchased",
+          "3.) A Variant Category is equivalent to one of the dimensions, such as size, color, or fit",
+          "4.) VariantValueCategory items are containers for VariantCategory items"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "81",
+        "QuestionText": "Why do you create multiple search profiles? (2 correct)",
+        "Options": [
+          "1.) To personalize search box configurations",
+          "2.) To personalize Search Engine Optimization (SEO) settings for different parts of a website",
+          "3.) To personalize search results for different target groups",
+          "4.) To personalize facets for different categories"
+        ],
+        "CorrectAnswer": "3,4"
+      },
+      {
+        "Question": "82",
+        "QuestionText": "A customer wants to create promotional coupons for a marketing campaign. The coupons should be valid only for one use. How can you implement this in SAP Commerce?",
+        "Options": [
+          "1.) Generate a single-code coupon in the BackOffice Customer Support Cockpit",
+          "2.) Generate a multi-code coupon in the BackOffice Customer Support Cockpit",
+          "3.) Generate a single-code coupon in the BackOffice Administration Cockpit",
+          "4.) Generate a multi-code coupon in the BackOffice Administration Cockpit"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "83",
+        "QuestionText": "Which of the following solutions can be used to integrate third-party systems with SAP Commerce? (3 correct)",
+        "Options": [
+          "1.) RESTful services",
+          "2.) BackOffice Product Content Management",
+          "3.) Administration console (hac) of SAP Commerce",
+          "4.) SAP Integration APIs",
+          "5.) Datahub"
+        ],
+        "CorrectAnswer": "1,4,5"
+      },
+      {
+        "Question": "84",
+        "QuestionText": "According to the SAP Hybris Application Lifecycle Framework for Commerce, when should you work on effort estimation?",
+        "Options": [
+          "1.) Post-Project",
+          "2.) During the Engineering phase",
+          "3.) During deployment",
+          "4.) During the Foundation phase"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "85",
+        "QuestionText": "When creating a new Price Row, what information can you specify? (3 correct)",
+        "Options": [
+          "1.) Country",
+          "2.) Website",
+          "3.) Channel",
+          "4.) Scale",
+          "5.) Date range"
+        ],
+        "CorrectAnswer": "1,4,5"
+      },
+      {
+        "Question": "86",
+        "QuestionText": "A customer wants to extend the functionality of the SAP Commerce Accelerator without touching its core code base. What solution do you recommend to the customer?",
+        "Options": [
+          "1.) Add-on",
+          "2.) Java library",
+          "3.) Recipe",
+          "4.) Localextensions.xml"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "87",
+        "QuestionText": "What Search Engine Optimization (SEO) features does SAP Commerce offer? (3 correct)",
+        "Options": [
+          "1.) Automatically generated meta descriptions and keywords",
+          "2.) Configurable URL construction rules",
+          "3.) Fields in PCM for meta descriptions and keywords",
+          "4.) Automatically generated XML sitemaps",
+          "5.) Automatically generated HTML sitemaps"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "88",
+        "QuestionText": "What is an SAP Hybris Add-on?",
+        "Options": [
+          "1.) A type of extension that allows you to extend SAP Hybris Commerce accelerator functionality, such as sharing on a social network.",
+          "2.) A set of Java libraries, distributed as a JAR file, used to call external service providers, such as payment, tax, or fraud service providers.",
+          "3.) A commerce extension that provides optional functionality, such as behavioural targeting, vouchers, Sold faceted search, or subscriptions.",
+          "4.) A type of extension running on a separate framework that provides specialized backend functionality and connects with SAP Hybris through RESTful Web Services."
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "89",
+        "QuestionText": "What does the order fulfilment process do? (2 correct)",
+        "Options": [
+          "1.) Creates a support ticket on behalf of a customer",
+          "2.) Loads XML format definitions based on standard Business Process Model and Notation (BPMN)",
+          "3.) Manages and controls an order through all stages in the system once it has been placed",
+          "4.) Pre-processes orders and splits them into consignments if necessary"
+        ],
+        "CorrectAnswer": "3,4"
+      },
+      {
+        "Question": "90",
+        "QuestionText": "Your customer tells you that an order is either: placed pending in delivery OR fulfilled. What UML diagram do you use to model the lifecycle of an order for this customer?",
+        "Options": [
+          "1.) Data flow diagram.",
+          "2.) Class diagram.",
+          "3.) State diagram.",
+          "4.) Use case diagram."
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "91",
+        "QuestionText": "In SAP Commerce, if multiple Price Rows match a price request which Price Row has priority?",
+        "Options": [
+          "1.) The Price Row for a specific product and specific customer",
+          "2.) The Price Row with NO specific product but with specific customer",
+          "3.) The Price Row for a specific product group and customer group",
+          "4.) The Price Row with NO specific product or customer"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "92",
+        "QuestionText": "What does the Assisted Service Module enable a customer sales and service agent to do? (3 correct)",
+        "Options": [
+          "1.) View or edit the customer's cart using the360 degree customer view",
+          "2.) Search for a customer's account or session",
+          "3.) Override the rules of a promotion on behalf the customer",
+          "4.) Create a voucher on behalf of the customer",
+          "5.) Create a new customer account on the customer's behalf"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "93",
+        "QuestionText": "You would like to create a new web page based on existing content using SmartEdit. How can you do this? (3 correct)",
+        "Options": [
+          "1.) Create a page based on an existing page template",
+          "2.) Clone a component and edit it",
+          "3.) Clone a page and edit its content",
+          "4.) Clone a web site and edit it",
+          "5.) Clone a media item and edit its properties"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "94",
+        "QuestionText": "Which of the following data can be integrated with SAP Commerce via SAP Integrations out-of-the-box? (3 correct)",
+        "Options": [
+          "1.) Search profile data",
+          "2.) Order data",
+          "3.) Stock data",
+          "4.) Price data",
+          "5.) Promotion data"
+        ],
+        "CorrectAnswer": "2,3,4"
+      },
+      {
+        "Question": "95",
+        "QuestionText": "Your apparel store currently offers color and price range facets. Which attributes would also be appropriate for Solr faceting?",
+        "Options": [
+          "1.) Summary",
+          "2.) Brand",
+          "3.) Megapixels",
+          "4.) Approval status"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "96",
+        "QuestionText": "What document does a business analyst produce during the initiation phase?",
+        "Options": [
+          "1.) High-level requirement list",
+          "2.) End-user documentation",
+          "3.) Foundation workshop agenda",
+          "4.) Quality assurance documentation"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "97",
+        "QuestionText": "Which tasks does a business analyst perform during the Foundation phase? (3 correct)",
+        "Options": [
+          "1.) Communication planning",
+          "2.) Create requirements",
+          "3.) Risk Identification",
+          "4.) Assign key tasks",
+          "5.) Resource planning"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "98",
+        "QuestionText": "What does SAP Commerce provide for developing payment functionality? (2 correct)",
+        "Options": [
+          "1.) A two-layered architecture framework to support flexible implementation",
+          "2.) An out-of-the-box payment adapter gateway with PayPal",
+          "3.) An architecture framework with services, methods, and adapters",
+          "4.) Interfaces to support customer-made adapters to communicate with other payment service providers"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "99",
+        "QuestionText": "How does SAP Commerce arrange its product and category data?",
+        "Options": [
+          "1.) Categories can contain other categories and/or products",
+          "2.) All categories must have at least one super category",
+          "3.) A product is duplicated when it is associated with a new category",
+          "4.) Each product must be associated with only one category"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "100",
+        "QuestionText": "Which features are specific to the SAP Hybris Commerce, B2B accelerator? (3 correct)",
+        "Options": [
+          "1.) Price quote requests",
+          "2.) Order approval processes",
+          "3.) Bundling promotions",
+          "4.) PunchOut support",
+          "5.) Product searching"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "101",
+        "QuestionText": "Which Hybris items do you use to model a B2B company? (3 correct)",
+        "Options": [
+          "1.) Departments",
+          "2.) Units",
+          "3.) Divisions",
+          "4.) Budgets",
+          "5.) Cost centers"
+        ],
+        "CorrectAnswer": "2,4,5"
+      },
+      {
+        "Question": "102",
+        "QuestionText": "In which user interface do you create a new variant of an existing base product? (2 correct)",
+        "Options": [
+          "1.) WCMS Cockpit",
+          "2.) Product Cockpit",
+          "3.) Hybris Administration Console",
+          "4.) BackOffice Administration Cockpit"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "103",
+        "QuestionText": "What is the recommended way to deploy Solr in a production environment? (2 correct)",
+        "Options": [
+          "1.) Embedded with the SAP Commerce Cloud server",
+          "2.) As one leading server and multiple subordinate servers",
+          "3.) As one standalone server",
+          "4.) As a Solr Cloud"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "104",
+        "QuestionText": "What should you pay attention to when connecting two widgets?",
+        "Options": [
+          "1.) The output socket's type does not have to be the same as the input socket's type.",
+          "2.) The input socket's type should be the same as the output socket's type.",
+          "3.) The output socket's type must be the same as the input socket type.",
+          "4.) The input socket's type must be a sub type of a composed item type."
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "105",
+        "QuestionText": "You are creating a business process (mybusinessprocess) that requires an action (actionB) to pass an info String value to another action (actionE) occurring later in the process. What do you need to do to make this possible? (2 correct)",
+        "Options": [
+          "1.) Create a myBusinessProcess item type that extends BusinessProcess and adds an info String property. Use an instance of this type to start the process in your Java code with businessProcessService.startProcess(new myBusinessProcessModel).",
+          "2.) Create a myBusinessProcess item type that extends BusinessProcess and adds an info String property. Specify myBusinessProcessModel as the processClass argument to the process.",
+          "3.) Create an event myEvent that extends the AbstractProcessEvent and adds an info String property. Register the target action as a listener for this event. Fire the event with eventService.publishEvent (myEvent).",
+          "4.) In the mybusinessprocess.xml definition file, define an info event and configure actionB as the event's originator and actionE as its target. Trigger the event in the class implementing actionB using businessProcessService.triggerEvent(info)."
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "106",
+        "QuestionText": "You are asked to define a new business process. What steps do you perform? (3 correct)",
+        "Options": [
+          "1.) Define the process in BPMN format.",
+          "2.) Define the actions as Spring beans.",
+          "3.) Create actions in Java code.",
+          "4.) Define actions as new item types.",
+          "5.) Define the process in XML format."
+        ],
+        "CorrectAnswer": "2,3,5"
+      },
+      {
+        "Question": "107",
+        "QuestionText": "When using Monitoring Support in the Integration API Module, what should you pay attention to? (2 correct)",
+        "Options": [
+          "1.) You can monitor the inbound integration requests using the Meta API.",
+          "2.) In Outbound monitoring, if the source of the OutboundRequest is not from outbound sync or webhooks, it is set as UNKNOWN.",
+          "3.) If you want to disable the monitoring, you need to change the dedicated properties in local.properties and restart the commerce cloud server.",
+          "4.) If the number of batches in a bulk request exceeds the limit allowed, then the system records one Inbound Request with the payload."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "108",
+        "QuestionText": "What does the Cloud Portal application enable you to do? (3 correct)",
+        "Options": [
+          "1.) Set up and deploy SAP Commerce Cloud in the public cloud.",
+          "2.) Manage the configurations of your cloud hot folders.",
+          "3.) Create and configure endpoints tied to configured aspects.",
+          "4.) Review the page load times of your environments.",
+          "5.) Generate new passwords for admin and anonymous users."
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "109",
+        "QuestionText": "What can a *-backoffice-widgets.xml contain in the Backoffice framework? (2 correct)",
+        "Options": [
+          "1.) Spring beans of backoffice web context",
+          "2.) Context configuration object definition",
+          "3.) Virtual socket definition",
+          "4.) Widget connection"
+        ],
+        "CorrectAnswer": "3,4"
+      },
+      {
+        "Question": "110",
+        "QuestionText": "You synchronize a media item stored in SAP Commerce Cloud from a staged version to an online version. What happens next? (2 correct)",
+        "Options": [
+          "1.) Both staged and online media items now refer to the same image file in the file system.",
+          "2.) The staged and online media items now refer to two different image files in the file system.",
+          "3.) The values of the attributes are copied from the source item in the staged catalog to the target item in the online catalog.",
+          "4.) The media format in the staged version is also synchronized to the media format in the online version."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "111",
+        "QuestionText": "What are the advantages of using classification attributes? (2 correct)",
+        "Options": [
+          "1.) Cached classification attributes provide better performance than fixed properties.",
+          "2.) Classification attributes are applied dynamically in response to customer actions.",
+          "3.) Business users can create or modify classification attribute definitions using the Backoffice.",
+          "4.) Rebuilding and redeployment are NOT required."
+        ],
+        "CorrectAnswer": "3,4"
+      },
+      {
+        "Question": "112",
+        "QuestionText": "You are running a transaction that creates an item and updates it twice. If the transaction is committed successfully, how many AfterSaveEvent items will the ServiceLayer create?",
+        "Options": [
+          "1.) 1",
+          "2.) 2",
+          "3.) 3",
+          "4.) 4"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "113",
+        "QuestionText": "You are implementing two new independent extensions, extension A and extension B, both of which extend and overwrite a bean of the core platform. How can you make sure the bean from extension A doesn't override the one from extension B? (2 correct)",
+        "Options": [
+          "1.) Use the beans' parent attribute in extension B to specify the core bean.",
+          "2.) Add only one of the extensions into localextensions.xml at the same time.",
+          "3.) The beans are loaded in alphabetical order; therefore, extension B takes precedence.",
+          "4.) Define a dependency wherein extension B requires extension A."
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "114",
+        "QuestionText": "You need to add a new Cockpit to the Backoffice to implement new features for a business user role. Which tasks are required? (2 correct)",
+        "Options": [
+          "1.) Create or reuse an add-on, and install it into the storefront.",
+          "2.) Create a new multiplexer widget for the borderlayout widget.",
+          "3.) Create or reuse a Backoffice extension with the proper meta information.",
+          "4.) Add a new layout widget in config.xml."
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "115",
+        "QuestionText": "Which of the following relations are defined in the data model for personalization (based on SmartEdit)? (2 correct)",
+        "Options": [
+          "1.) A one-to-many relation between CxExpressionTrigger and CxSegment",
+          "2.) A one-to-many relation between CxCustomization and CxVariation.",
+          "3.) A many-to-many relation between CxVariation and CxAbstractAction.",
+          "4.) A many-to-many relation between CxSegmentTrigger and CxSegment."
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "116",
+        "QuestionText": "How can CronJobs be started or aborted? (3 correct)",
+        "Options": [
+          "1.) CronJobs can be started manually using flexible search.",
+          "2.) CronJobs can be aborted automatically if a configurable time threshold is exceeded.",
+          "3.) CronJobs can be started manually via the Backoffice administration perspective.",
+          "4.) CronJobs can be aborted only if implemented as abortable.",
+          "5.) CronJobs can be started manually via the command line by running \"ant runcronjob\"."
+        ],
+        "CorrectAnswer": "2,3,4"
+      },
+      {
+        "Question": "117",
+        "QuestionText": "What are AddOns specifically designed to allow an SAP Commerce developer to do? (2 correct)",
+        "Options": [
+          "1.) Extend the Accelerator storefront.",
+          "2.) Extend the Backoffice.",
+          "3.) Provide additional RESTful web services for OCC.",
+          "4.) Provide a new web application."
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "118",
+        "QuestionText": "What is the effect of the redeclare attribute within an itemtype definition? (2 correct)",
+        "Options": [
+          "1.) It can be used to change the type of an attribute.",
+          "2.) It can be used to change the class of an itemtype.",
+          "3.) It can be used to change the name of an attribute.",
+          "4.) It can be used to change the modifier of an attribute."
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "119",
+        "QuestionText": "Your solution has been live for a significant period of time. Now you need to update project data across multiple environments, but this update should only be executed once. What is the recommended approach for updating the project data?",
+        "Options": [
+          "1.) Create a class that extends AbstractPatchesSystemSetup and configure any data patches, which can run an import of your ImpEx files during an update.",
+          "2.) Extract a SQL script of all the changes in a single environment, which a OBA can then run directly against the database for all remaining environments.",
+          "3.) Create a class that extends AbstractSystemSetup and use the @SystemSetup annotation with TYPE.PROJECT, which can run an import of your ImpEx files during an update.",
+          "4.) With each deployment, manually import the ImpEx files via the hybris Admin Console or via the ant importimpex target."
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "120",
+        "QuestionText": "You restart the platform without running \"ant all\". Which of the following changes take effect? (2 correct)",
+        "Options": [
+          "1.) Addition of a Spring bean definition",
+          "2.) Removal of an extension from the localextensions.xml file",
+          "3.) Definition of a new item type in the items.xml file for an extension",
+          "4.) Changes to database properties in the local.properties file"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "121",
+        "QuestionText": "What are best practices when using models? (2 correct)",
+        "Options": [
+          "1.) Create models using Java's 'new' keyword",
+          "2.) Use modelService.getQ to obtain an item referenced by another using its PK.",
+          "3.) Save the model using the modelService after the model is modified.",
+          "4.) Create models using modelService.create( )."
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "122",
+        "QuestionText": "Which of the following are best practices for adding a new parameter to an existing method of CommerceCartService? (2 correct)",
+        "Options": [
+          "1.) Overload the existing method of CommerceCartService by adding the new parameter.",
+          "2.) Add a new property to CommerceCartParameter in a beans.xml file.",
+          "3.) Extend the default strategy called by the method to handle the new parameter.",
+          "4.) Extend the default implementation of the method to handle the new parameter."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "123",
+        "QuestionText": "Which features does the Cloud Hot Folders module support? (2 correct)",
+        "Options": [
+          "1.) Direct configuration of Hot Folders in the Cloud Portal",
+          "2.) Media using external URLs in uploaded ImpEx",
+          "3.) Zip archives with Impex, media and CSV files",
+          "4.) Data export into Azure Blob storage."
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "124",
+        "QuestionText": "What can you do within the integration UI Tool in Backoffice? (2 correct)",
+        "Options": [
+          "1.) Create a search restriction to secure an integration object for only a certain integration user group.",
+          "2.) Set up access rights for integration objects.",
+          "3.) Force-delete an integration object even if it is associated with an InboundChannelConfiguration (ICC).",
+          "4.) Export the configuration types so that they can be imported into a target system."
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "125",
+        "QuestionText": "Which of the following can you configure in a widget definition (definition.xml) file? (3 correct)",
+        "Options": [
+          "1.) The available non-virtual sockets",
+          "2.) The available virtual sockets",
+          "3.) The view file",
+          "4.) The default values for widget settings",
+          "5.) The business logic of the widget via a bean shell script"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "126",
+        "QuestionText": "How many category items will the following ImpEx create? $prodCat=electronicsPr $version=Staged fli. $catVersion=catalogVersion(catalog(id [defauIt=$prodCat]),version[default=$version]) INSERT_UPDATE Category;code[unique=true];$catVersion[unique=true] ;test_category;eIectronicsProductCatalog ;test_category;apparelProductCatalog:$version ;test_category;:Online ;test_category;",
+        "Options": [
+          "1.) 1",
+          "2.) 3",
+          "3.) 4",
+          "4.) 2"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "127",
+        "QuestionText": "What type of class should you implement when you need to change the trigger for recalculating the user experience results?",
+        "Options": [
+          "1.) A populator",
+          "2.) An interceptor",
+          "3.) A voter",
+          "4.) A controller"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "128",
+        "QuestionText": "What must you always specify when you are creating a new Adaptive Search Profile? (3 correct)",
+        "Options": [
+          "1.) Category",
+          "2.) Index configuration",
+          "3.) Index type",
+          "4.) User",
+          "5.) Catalog version"
+        ],
+        "CorrectAnswer": "2,3,5"
+      },
+      {
+        "Question": "129",
+        "QuestionText": "Assuming that property impex.legacy.scripting is set to false and 'Enable code execution' is checked, what are the results of the following ImpEx script? INSERT_UPDATE Title;code[unique=true] #0/ogroovy0/o beforeEach: line.clear(); ;foo; ;bar; ;baz;",
+        "Options": [
+          "1.) No entries will be updated or inserted.",
+          "2.) Only the Title with code that equals \"baz\" will be updated or inserted.",
+          "3.) All data rows will be cleared of unnecessary space.",
+          "4.) All \"foo\", \"bar\", and \"baz\" codes will be updated or inserted."
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "130",
+        "QuestionText": "Which component configurations does the ServiceLayer architecture promote? (3 correct)",
+        "Options": [
+          "1.) Services orchestrate Strategies",
+          "2.) Services orchestrate Converters",
+          "3.) Facades orchestrate Converters",
+          "4.) Facades orchestrate Strategies",
+          "5.) Facades orchestrate Services"
+        ],
+        "CorrectAnswer": "1,4,5"
+      },
+      {
+        "Question": "131",
+        "QuestionText": "Which services are included in the basecommerce extension to address customer services functionality? (3 correct)",
+        "Options": [
+          "1.) OrderCancelService",
+          "2.) ReturnService",
+          "3.) CustomerReviewService",
+          "4.) CustomerAccountService",
+          "5.) RefundService"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "132",
+        "QuestionText": "Which configuration options are available on a cache region? (3 correct)",
+        "Options": [
+          "1.) Size",
+          "2.) Persistence mode",
+          "3.) Statistics enabled",
+          "4.) Clustering enabled",
+          "5.) Eviction policy"
+        ],
+        "CorrectAnswer": "1,3,5"
+      },
+      {
+        "Question": "133",
+        "QuestionText": "In an extension named myext, you defined Pump, a subtype of the Product item type with a property named efficiency. You have also extended the productDTO bean to have an efficiency property. To copy the efficiency property to the productDTO, what do you need to do? (2 correct)",
+        "Options": [
+          "1.) Write a PumpProductConverter class that extends AbstractPopulatingConverter, and copies the efficiency property from the Pump item to the productDTO bean if the item is an instance of Pump. Configure an instance of this converter in myext-spring.xml.",
+          "2.) Make sure the definition of the Pump item type defines the efficiency attribute with persistence type property. When you run ant all, the productConverter class generated in bootstrap/gensrc will copy the efficiency property to the productDTO.",
+          "3.) Create a PumpPopulator class that extends ProductPopulator and, if necessary, copies the efficiency property from the Pump item to the productDTO bean. In myext-spring.xml, redefine the productPopulator alias to point to an instance of PumpPopulator.",
+          "4.) Write a PumpAttributePopulator class that copies the efficiency property from the item to the OTO only if its method is passed an instance of PumpModel. Define a bean for this new class in myext-spring.xml, and use a modifyPopulatorList bean to add it to the productConverter's list of populators."
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "134",
+        "QuestionText": "To install and configure the Solr server in cloud mode, which sequence of steps should you use?",
+        "Options": [
+          "1.) Disable the autostart for the default instance. Enable the autostart for the cloud instance. Set the cloud instance mode to true.",
+          "2.) Disable the autostart for the cloud instance. Enable the autostart for the default instance. Set the default instance mode to cloud.",
+          "3.) Disable the autostart for the default instance. Enable the autostart for the cloud instance. Set the cloud instance mode to cloud.",
+          "4.) Disable the autostart for the cloud instance. Enable the autostart for the default instance. Set the cloud instance mode to true."
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "135",
+        "QuestionText": "You are creating a new ancillary catalog for your site. Which of the following principles should you consider? (2 correct)",
+        "Options": [
+          "1.) Restrict the read and write access of this catalog in its permission tab in Backoffice.",
+          "2.) A catalog version has a hierarchy of categories, containing products.",
+          "3.) A catalog must have at least 2 versions: staged and online.",
+          "4.) You can create an unlimited number of catalog versions under this catalog."
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "136",
+        "QuestionText": "To define the data that gets extracted into the Solr index for searching, what do you need to provide? (2 correct)",
+        "Options": [
+          "1.) A flexible search query for an incremental update",
+          "2.) A solrconfig XML file",
+          "3.) An ImpEx script for a full load",
+          "4.) A flexible search query for a full load"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "137",
+        "QuestionText": "You are creating a product with a new feature using a classification system. What should you pay attention to? (2 correct)",
+        "Options": [
+          "1.) Use feature descriptor values if the values of the new feature are limited to a selection.",
+          "2.) Create an empty classification unit even if the new feature doesn't have a unit.",
+          "3.) Use a feature descriptor to represent the name of the new feature and assign it to the product.",
+          "4.) Create a classifying category with an attribute assignment model and assign it to the product."
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "138",
+        "QuestionText": "In personalization (based on SmartEdit), you want to configure when the experience calculation is triggered for registered customers without requiring any customization. What are the available options? (3 correct)",
+        "Options": [
+          "1.) Trigger the experience calculation for certain URL patterns.",
+          "2.) Trigger the experience calculation after a defined number of requests.",
+          "3.) Trigger the experience calculation when the customer logs in.",
+          "4.) Trigger the experience calculation when the customer adds a product to the cart.",
+          "5.) Trigger the experience calculation when the customer is promoted to a reward-level status."
+        ],
+        "CorrectAnswer": "1,3,4"
+      },
+      {
+        "Question": "139",
+        "QuestionText": "You need to create a CronJob for an automated task that will be performed every day at midnight. Which steps would you follow? (3 correct)",
+        "Options": [
+          "1.) Register the JobPerformable bean in your extension's Spring configuration file.",
+          "2.) Define the Cronjob logic in a class that implements the JobPerformable interface.",
+          "3.) Perform a system update for essential data.",
+          "4.) Perform a system update for sample data.",
+          "5.) Create a CronJob item and a trigger for midnight using ImpEx or Backoffice."
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "140",
+        "QuestionText": "Where are enumerations stored? (2 correct)",
+        "Options": [
+          "1.) Dynamic enumerations are stored in the active session.",
+          "2.) Non-dynamic enumerations are stored as SpEL lists in Spring.",
+          "3.) Dynamic enumerations are stored in the database.",
+          "4.) Non-dynamic enumerations are stored as enumeration classes."
+        ],
+        "CorrectAnswer": "3,4"
+      },
+      {
+        "Question": "141",
+        "QuestionText": "What causes item data to be invalidated in the SAP Commerce Cloud entity cache? (2 correct)",
+        "Options": [
+          "1.) Receiving an invalidation event for the item via cluster messaging",
+          "2.) Calling the modelService.create() method passing a Model class",
+          "3.) Calling a setter method on a Model class",
+          "4.) Calling the modelService.save() method passing an item model"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "142",
+        "QuestionText": "Which of the following is a mechanism used by WCMS to position components on a page?",
+        "Options": [
+          "1.) The Page item has a position map that links each component to the component in the page that the item should be displayed in.",
+          "2.) The ContentSlot item's code property is used to determine which slot in the page that the item should be displayed in.",
+          "3.) The component's CurrentPosition attribute is used to determine which component within the page the item should be displayed in.",
+          "4.) The position attribute in the ContentSlotForTemplate item is used to identify the slot in the page that the item should be displayed in."
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "143",
+        "QuestionText": "You are creating a new SolrIndexProperty as a facet and want to define it using facet ranges. What do you need to do to achieve that?",
+        "Options": [
+          "1.) Manually create SolrValueRange items to define the range boundaries. Create a SolrValueRangeSet, add SolrValueRange items, and add to the SolrIndexProperty.",
+          "2.) Define the number of ranges in the SolrIndexProperty. Provide sample data that is used to generate the SolrValueRange items.",
+          "3.) Define the cadence of the ranges in the SolrIndexProperty. Provide the sample data that is used to generate the SolrValueRangeSet.",
+          "4.) Create SolrValueRange items to define the range boundaries. Add them to the SolrIndexProperty."
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "144",
+        "QuestionText": "You have these example item types defined in myext-items.xml: What additional steps are needed to support the identification attribute?",
+        "Options": [
+          "1.) Define a one-to-many relation between Student and Passport using a relation tag with parameter localized=\"true\". Add a maptype tag for localized:Passport with parameters argumenttype=\"Language\" and returntype=\"Passport\". Run an ant updatesystem command. A passportlp table will be generated to store the localized property values. Define a localized Passport attribute for the Student type in myext/resources/localization/myext-locales_XY.properties.",
+          "2.) Add a maptype tag for localized:Passport with parameters argumenttype=\"Language\" and returntype=\"Passport\".",
+          "3.) Run an ant updatesystem command. A passportlp table will be generated to store the localized property values.",
+          "4.) Define a localized Passport attribute for the Student type in myext/resources/localization/myext-locales_XY.properties."
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "145",
+        "QuestionText": "When you define an aspect in your manifest.json file, what types of information should you provide? (2 correct)",
+        "Options": [
+          "1.) properties",
+          "2.) addons",
+          "3.) webapps",
+          "4.) extensions"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "146",
+        "QuestionText": "Which of the following items are configured via a direct relation to a BaseStore? (3 correct)",
+        "Options": [
+          "1.) A list of Content Catalogs providing the pages, slots, and other CMSI terns shown to Customers",
+          "2.) A list of Product Catalogs providing the product info shown to Customers",
+          "3.) A list of customers associated with the BaseStore.",
+          "4.) A list of warehouses that support the delivery",
+          "5.) A list of points of service that represent local branches"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "147",
+        "QuestionText": "Which interface would you inject into your class to allow you to trigger an indexing operation via API?",
+        "Options": [
+          "1.) IndexerStrategy",
+          "2.) IndexerQueryContext",
+          "3.) IndexerListener",
+          "4.) IndexerService"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "148",
+        "QuestionText": "How can you create asynchronous events in the SAP Commerce Cloud platform? (2 correct)",
+        "Options": [
+          "1.) Implement the ClusterAwareEvent interface.",
+          "2.) Extend the AbstractEvent class.",
+          "3.) Implement the TransactionAwareEvent interface.",
+          "4.) Change the platformClusterEventSender Spring bean configuration."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "149",
+        "QuestionText": "What can you do in the Builds workspace in Cloud Portal? (2 correct)",
+        "Options": [
+          "1.) Delete a build that is no longer needed",
+          "2.) View the history of the past deployments of a selected build",
+          "3.) Deploy a successful build to a certain environment",
+          "4.) Rebuild a successful build to do a performance test"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "150",
+        "QuestionText": "What Solr index operation uses the indexedProperties field on the SolrExtIndexerCronJob?",
+        "Options": [
+          "1.) FULL",
+          "2.) UPDATE",
+          "3.) DELETE",
+          "4.) PARTIAL UPDATE"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "151",
+        "QuestionText": "What can you configure on the Endpoint Configuration page in Cloud Portal? (3 correct)",
+        "Options": [
+          "1.) SSL Certificate",
+          "2.) IP Filter Sets",
+          "3.) Trusted Certificates",
+          "4.) Redirect Sets",
+          "5.) Host Alias Sets"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "152",
+        "QuestionText": "In SmartEdit, what can you do with variations defined for a customization? (3 correct)",
+        "Options": [
+          "1.) Assign the customer a custom search profile if a variation is in effect.",
+          "2.) Apply a variation to customers who belong to a combination of segments.",
+          "3.) Show different content in a slot if a variation is in effect.",
+          "4.) More than one variation in a customization can be triggered at the same time.",
+          "5.) Give the customer a coupon if a variation is in effect."
+        ],
+        "CorrectAnswer": "2,3,5"
+      },
+      {
+        "Question": "153",
+        "QuestionText": "When a customer places an order using the default order management process defined in the yacceleratorfulfilmentprocess extension, when does the fulfillment process send the notification that the order has been placed?",
+        "Options": [
+          "1.) After the order has been fraud checked",
+          "2.) After the order has been completely sourced",
+          "3.) At the first stage of the fulfillment process",
+          "4.) After the payment has been processed"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "154",
+        "QuestionText": "Which of the following configurations can be done to a ContentSlot? (2 correct)",
+        "Options": [
+          "1.) Assign it to a maximum of one page using a ContentSlotForPage item.",
+          "2.) Add a list of CMSComponents to it.",
+          "3.) Assign it to one or more pages using ContentSlotForPage items.",
+          "4.) Define valid CMS Components for it by modifying the ElementsForSlot relation."
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "155",
+        "QuestionText": "What is the purpose of the dynamic forms in the Backoffice?",
+        "Options": [
+          "1.) To provide a dynamic extension of type definitions in the SAP Commerce platform",
+          "2.) To provide dynamic client-side validation of web forms",
+          "3.) To provide a dynamic layout of the wizards at runtime using drag and drop",
+          "4.) To enable dynamic behaviors in the user interface of Backoffice applications"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "156",
+        "QuestionText": "During development, how do you ensure that the modified resources of an installed addon get copied into the storefront? (2 correct)",
+        "Options": [
+          "1.) Set up the resourceFilter.",
+          "2.) Set up the addonFilter.",
+          "3.) Run an ant all command.",
+          "4.) Run an ant deploy command."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "157",
+        "QuestionText": "In an Accelerator-based storefront, which of the following would allow you to display a custom CMS Component? (2 correct)",
+        "Options": [
+          "1.) Create a JSP named [componentTypeCode].jsp that pulls data from a [ComponentTypeCode]Data object.",
+          "2.) Configure a custom controller bean and redefine the DefaultCMSComponentController alias to point to it.",
+          "3.) Configure a renderer in the cmsComponentRendererRegistry that doesn't need to use a data object or a view.",
+          "4.) Create a controller for this component and register it in the cmsComponentControllerRegistry."
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "158",
+        "QuestionText": "Which of the following are valid types of environments in SAP Commerce Cloud in the public cloud? (3 correct)",
+        "Options": [
+          "1.) Staging",
+          "2.) Production",
+          "3.) Pre-Production",
+          "4.) Test",
+          "5.) Development"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "159",
+        "QuestionText": "The miniature car replicas your company sells on its site are now available in a choice of colors, each at a different price point. You wish your product page to allow your customers to select the color before adding the replica to the cart. To complicate things, your boss won't let you restart your production servers to add this functionality. What entities would you have to create to achieve this?",
+        "Options": [
+          "1.) A ConfigurationCategory, an AbstractConfiguratorSetting for color, a ConfiguratorType, and an OrderEntryProductInfo for each color a given replica is available in.",
+          "2.) A VariantCategory for color, a VariantValueCategory for each color, and a GenericVariantProduct for each color a given replica is available in.",
+          "3.) A ClassificationCategory, a ClassificationAttribute for color, a ClassificationAttributeUnit, a ClassificationAttributeValue for each color a given replica is available in, and a ClassAttributeAssignmentModel instance to tie them together.",
+          "4.) A ComposedType, that extends the VariantProduct type to add a color attribute, and an instance of this type for each color a given replica is available in."
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "160",
+        "QuestionText": "You are implementing a new custom promotion action that changes the delivery mode of an order. What steps are required to make sure that the effects of this action are reverted as soon as the condition that triggered it is NO longer fulfilled?",
+        "Options": [
+          "1.) Implement the undo method in your custom rule action strategy",
+          "2.) Define a new session attribute to store the original delivery mode",
+          "3.) Implement your custom action item so that it can store the original delivery mode",
+          "4.) Create a promotion that uses the inverse action if the condition is NOT fulfilled"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "161",
+        "QuestionText": "Which of the following steps could be included in the process of installing an AddOn? (3 correct)",
+        "Options": [
+          "1.) Run ant all.",
+          "2.) Configure storefront properties files.",
+          "3.) Run ant addoninstall.",
+          "4.) Run ant modulegen.",
+          "5.) Copy files from the storefront to the AddOn web source folder."
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "162",
+        "QuestionText": "When are consignments created for an order in the default order management implementation?",
+        "Options": [
+          "1.) When an administrator approves the order",
+          "2.) After the order is placed, but before it is sourced successfully",
+          "3.) When the user adds items to the cart",
+          "4.) After the order is placed and after it has been sourced successfully"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "163",
+        "QuestionText": "How can you start a business process in SAP Commerce Cloud? (2 correct)",
+        "Options": [
+          "1.) Use the hot folder functionality by creating a file in the configured hot folder.",
+          "2.) Use the Backoffice Business Process section.",
+          "3.) Invoke the appropriate method of the BusinessProcessService from a script in the hybris Administration Console (hAC) scripting console.",
+          "4.) Invoke the appropriate method of the BusinessProcessService from Java code."
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "164",
+        "QuestionText": "How does Spartacus compare to the SAP Commerce Cloud Accelerators? (2 correct)",
+        "Options": [
+          "1.) They have the same feature parity, but Spartacus is more upgradable.",
+          "2.) Accelerators are JSP-based while Spartacus is JavaScript-based.",
+          "3.) They are both using OCC API to connect to the commerce platform.",
+          "4.) They are both extensible according to project requirement."
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "165",
+        "QuestionText": "How is the primary key (PK) for an SAP Commerce Cloud item created? (2 correct)",
+        "Options": [
+          "1.) It is automatically generated and assigned.",
+          "2.) It is generated from a counter and the type code of the item.",
+          "3.) It is generated from the item's unique business key(s).",
+          "4.) It is provided by the user in the Create wizard or as a column value in ImpEx."
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "166",
+        "QuestionText": "Why are rule-aware objects (RAOs) used in the rule engine? (2 correct)",
+        "Options": [
+          "1.) To store the configuration of the rule engine",
+          "2.) To provide the data as facts in rule conditions and actions",
+          "3.) To persist the results of the rule evaluation",
+          "4.) To eliminate unnecessary data provided by complex objects"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "167",
+        "QuestionText": "You are creating an extension with a web module. What do you need to ensure? (2 correct)",
+        "Options": [
+          "1.) An extension with a web module can only be extended with an addon.",
+          "2.) An extension with a web module must have a web folder.",
+          "3.) An extension with a web module must always have a core module.",
+          "4.) The web root must be set in the web module directive in the extensioninfo.xml file."
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "168",
+        "QuestionText": "What happens when you use a deployment tag in the items.xml file? (2 correct)",
+        "Options": [
+          "1.) All instances of the enclosing type are stored in the specified database table.",
+          "2.) Only non-inherited properties of the enclosing type are stored in the deployment table.",
+          "3.) The deployment typecode is used as part of the primary key (PK) of that type's items.",
+          "4.) The name of the deployment table is generated automatically."
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "169",
+        "QuestionText": "You need to create a new custom promotion based on customer reviews for a product. You create a customPromotion extension with a new Rule Aware Object to keep customer reviews. In which file will you define this new Rule Aware Object?",
+        "Options": [
+          "1.) In the customPromotion-backoffice-config.xml file",
+          "2.) In the customPromotion-spring.xml file",
+          "3.) In the customPromotion-beans.xml file",
+          "4.) In the customPromotion-items.xml file"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "170",
+        "QuestionText": "Your system contains a search restriction with the following parameters: Type: Product User: anonymous. Restriction: 1=0. There is a product \"Candle\" in the online catalog and a variant product \"PinkCandle\" in the online catalog. The system renders the Product Detail Page for Pink Candle using the following flexible search query: \"SELECT {pk} FROM {VariantProduct} WHERE {code}=\"PinkCandle\". What happens next?",
+        "Options": [
+          "1.) The flexible search query returns a null value.",
+          "2.) The flexible search query returns \"PinkCandle\".",
+          "3.) The flexible search query returns an SQL exception.",
+          "4.) The flexible search query returns an empty list."
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "171",
+        "QuestionText": "How are relations modeled in the database? (2 correct)",
+        "Options": [
+          "1.) One-to-many relations are stored in the links table.",
+          "2.) One-to-many relations are binary objects.",
+          "3.) One-to-many relations are stored in a column.",
+          "4.) Many-to-many relations are deployed as a table."
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "172",
+        "QuestionText": "What is SmartEdit's Navigation Management page useful for? (2 correct)",
+        "Options": [
+          "1.) It can define more than one navigation hierarchy, each accessed by a different component on the page.",
+          "2.) It allows you to manipulate a hierarchy of CMSNavigationNode items, each of which may contain a CMSNavigationEntry.",
+          "3.) It allows you to manipulate a parent-child hierarchy of CMSLinkComponent objects.",
+          "4.) It is used to configure automatic mapping of the Product Catalog's category hierarchy to the navigation bar displayed on site pages."
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "173",
+        "QuestionText": "You have created your products and price rows using the approach displayed in the following ImpEx file: $catalog-id=Default $catalog-version=Staged INSERT_UPDATE $catalogversion=catalogversion(catalog(id),version)[unique=true,default=$catalog-id:$catalog-version] Product;code[unique=true];$catalogversion;name[lang=en];unit(code);approvalStatus(code ); ;productl;; productl;pieces;approved; ;product2;;product2;pieces;approved; #in total 1000 product data lines INSERT_UPDATE PriceRow;productld[unique=true];price;unit(code);currency(isocode) ;product1;100;pieces;EUR;product 2;200;pieces;EUR #in total 1000 price row data lines. After you import this file and synchronize the catalogs (Staged to Online), how many items are stored in the database?",
+        "Options": [
+          "1.) 2000 products and 1000 price rows",
+          "2.) 1000 products and 2000 price rows",
+          "3.) 2000 products and 2000 price rows",
+          "4.) 1000 products and 1000 price rows"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "174",
+        "QuestionText": "You updated a price row for a particular product using the Backoffice Product Cockpit and also made sure the cronjob for synchronizing the involved product catalog was executed successfully. When you visit the category page containing the specific product, you discover that its new price value is NOT properly displayed. How can you fix this issue?",
+        "Options": [
+          "1.) Synchronize the category page in the Backoffice Administration Cockpit",
+          "2.) Run a Solr indexer operation in the Backoffice Administration Cockpit",
+          "3.) Synchronize the involved product in the Backoffice Product Cockpit directly",
+          "4.) Re-import the price using ImpEx"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "175",
+        "QuestionText": "What do you set up to create visibility rules for specific product items for a user group?",
+        "Options": [
+          "1.) A type access right on the Product type for the user group",
+          "2.) A search restriction on the UserGroup type",
+          "3.) A search restriction on the Product type for the user group",
+          "4.) A type access right on the UserGroup type"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "176",
+        "QuestionText": "Which order-splitting strategies are provided in the basecommerce extension? (3 correct)",
+        "Options": [
+          "1.) Split by warehouse",
+          "2.) Split by stock availability",
+          "3.) Split by named delivery date",
+          "4.) Split by order date",
+          "5.) Split by payment method"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "177",
+        "QuestionText": "How can you define a new event? (2 correct)",
+        "Options": [
+          "1.) Create a new EventTemplate in an ImpEx file.",
+          "2.) Create a new ItemType in an items.xml file.",
+          "3.) Extend a pre-defined event OTO in a custom beans.xml.",
+          "4.) Create a new OTO in a beans.xml file."
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "178",
+        "QuestionText": "When you are defining properties in manifest.json, which of the following attributes are you allowed to use? (3 correct)",
+        "Options": [
+          "1.) value",
+          "2.) name",
+          "3.) environment",
+          "4.) key",
+          "5.) persona"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "179",
+        "QuestionText": "What attributes can you set for a SearchRestriction? (2 correct)",
+        "Options": [
+          "1.) restrictedType",
+          "2.) currentUser",
+          "3.) principal",
+          "4.) argumentType"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "180",
+        "QuestionText": "Which of the core storefront features does Spartacus support? (3 correct)",
+        "Options": [
+          "1.) Customer Interests",
+          "2.) Wish List",
+          "3.) B2B Scheduled Replenishment",
+          "4.) Newsletter Subscription",
+          "5.) Configurable Promotions"
+        ],
+        "CorrectAnswer": "1,2,5"
+      },
+      {
+        "Question": "181",
+        "QuestionText": "What are the advantages of using keyword redirection within Search and Navigation? (2 correct)",
+        "Options": [
+          "1.) Customers can be redirected to a URL specified by the vendor.",
+          "2.) Keyword redirects can be easily configured using the Backoffice administration perspective.",
+          "3.) Keywords make Solr searches more efficient.",
+          "4.) Keywords specify synonyms that redirect to standard catalog terms."
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "182",
+        "QuestionText": "In Integration API Module, which of the following API verbs are controlled by access rights? (2 correct)",
+        "Options": [
+          "1.) Update - POST",
+          "2.) Create - POST",
+          "3.) Create - PATCH",
+          "4.) Update - POST, PATCH"
+        ],
+        "CorrectAnswer": "2,3"
+      }
+    ]
+  },
+  {
+    "name": "SAP BTP",
+    "id": "SAP_BTP",
+    "min_required": 21,
+    "max_questions": 30,
+    "questions": [
+      {
+        "Question": "1",
+        "QuestionText": "Which of the following are functions of the SAP AppRouter? (Select all correct answers)",
+        "Options": [
+          "1.) Load balancing and traffic distribution",
+          "2.) Authentication and authorization",
+          "3.) Data storage and retrieval",
+          "4.) UI rendering and design"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "2",
+        "QuestionText": "To set up trust and authorization for an SAP BTP application, which steps are involved? (Select all correct answers)",
+        "Options": [
+          "1.) Creating a new user for each application instance",
+          "2.) Configuring roles and&nbsp; permissions in the application manifest",
+          "3.) Defining security rules in the SAP Cloud Platform cockpit",
+          "4.) Implementing OAuth 2.0 for authentication"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "3",
+        "QuestionText": "Which of the following are valid identity providers for SAP BTP? (Select all correct answers)",
+        "Options": [
+          "1.) SAP Single Sign-On (SSO)",
+          "2.) Google",
+          "3.) Microsoft Azure Active Directory",
+          "4.) Amazon Web Services (AWS)"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "4",
+        "QuestionText": "What is the primary function of the approuter in an SAP BTP application architecture?",
+        "Options": [
+          "1.) Authenticating users and generating access tokens",
+          "2.) Handling database queries and data storage",
+          "3.) Creating user interfaces and frontend components.",
+          "4.) Managing server-side logic and business processes"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "5",
+        "QuestionText": "You are developing an SAP BTP application for a company that wants to implement single sign-on (SSO) with their existing Microsoft Azure Active Directory (Azure AD) identity provider. The company's employees should be able to log in to the SAP BTP application using their Azure AD credentials.What steps are required to achieve single sign-on integration with Azure AD in your SAP BTP application? (Select all that apply.)",
+        "Options": [
+          "1.) Configure the approuter to act as a frontend proxy",
+          "2.) Exchange API documentation with Azure AD",
+          "3.) Define routing rules in the \"xs-app.json\" file",
+          "4.) Set up trust by exchanging security tokens with Azure AD",
+          "5.) Implement role-based authorization in the frontend UI"
+        ],
+        "CorrectAnswer": "1,4"
+      },
+      {
+        "Question": "6",
+        "QuestionText": "You are designing an SAP BTP application that requires authentication and authorization through an external identity provider. You need to choose suitable identity providers based on the application's requirements.Which identity provider(s) would be appropriate for an SAP BTP application intended for internal use by company employees? (Select all that apply.)",
+        "Options": [
+          "1.) Google",
+          "2.) SAP S/4HANA",
+          "3.) Microsoft Azure Active Directory",
+          "4.) GitHub",
+          "5.) Okta"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "7",
+        "QuestionText": "You are developing an SAP BTP application for an e-commerce platform. The application needs to implement different authorization rules for different user roles. Customers can view products and place orders, while administrators can manage inventory and customer accounts.Question 13: Where should you implement the authorization rules based on user roles in your SAP BTP application?",
+        "Options": [
+          "1.) Frontend user interface components",
+          "2.) Identity Provider (IdP)",
+          "3.) Backend services",
+          "4.) approuter configuration"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "8",
+        "QuestionText": "What is SAP Cloud Application Programming Model (CAP)?",
+        "Options": [
+          "1.) A cloud-based IDE for SAP developers",
+          "2.) A development framework for building SAP Fiori applications",
+          "3.) A comprehensive development model for cloud-native applications",
+          "4.) A database management system for SAP HANA"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "9",
+        "QuestionText": "Which programming languages can be used with SAP CAP?",
+        "Options": [
+          "1.) Java",
+          "2.) Python",
+          "3.) JavaScript/Node.js",
+          "4.) Ruby"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "10",
+        "QuestionText": "What is the purpose of the 'cds' folder in a CAP project?",
+        "Options": [
+          "1.) It contains JavaScript libraries",
+          "2.) It defines the project's database schema",
+          "3.) It stores configuration files",
+          "4.) It houses CAP's UI components"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "11",
+        "QuestionText": "Scenario: You want to create a Fiori application using CAP. What is the role of the 'app' folder in your project?",
+        "Options": [
+          "1.) It defines database tables",
+          "2.) It contains UI-related files",
+          "3.) It stores business logic",
+          "4.) It is not related to Fiori applications"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "12",
+        "QuestionText": "Scenario: You want to implement custom authentication and authorization in your CAP application. Which CAP feature allows you to achieve this?",
+        "Options": [
+          "1.) Middleware services",
+          "2.) CDS views",
+          "3.) Service definitions",
+          "4.) CAP security policies"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "13",
+        "QuestionText": "What role does the 'package.json' file play in a CAP project?",
+        "Options": [
+          "1.) It contains UI templates",
+          "2.) It specifies project dependencies and scripts",
+          "3.) It defines database tables",
+          "4.) It is not relevant to CAP projects"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "14",
+        "QuestionText": "Scenario: You want to perform advanced data transformations before exposing data through a CAP service. What CAP feature can you use for this purpose?",
+        "Options": [
+          "1.) CAP authorization",
+          "2.) CDS views",
+          "3.) Service events",
+          "4.) UI components"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "15",
+        "QuestionText": "Which of the following data sources can be integrated with SAP CAP? (Select all that apply.)",
+        "Options": [
+          "1.) SAP HANA",
+          "2.) MySQL",
+          "3.) Microsoft Excel",
+          "4.) PostgreSQL"
+        ],
+        "CorrectAnswer": "1,2,4"
+      },
+      {
+        "Question": "16",
+        "QuestionText": "Scenario: You want to enable full-text search capabilities in your CAP application. Which CAP feature allows you to implement this functionality? (Select all that apply.)",
+        "Options": [
+          "1.) Full-text search module",
+          "2.) Text analytics service",
+          "3.) CAP security policies",
+          "4.) Service definitions"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "17",
+        "QuestionText": "Scenario: You are building a CAP application for a retail company. You need to model the product catalog. Which CAP artifacts would you use for this purpose? (Select all that apply.)",
+        "Options": [
+          "1.) Entity definitions",
+          "2.) Service modules",
+          "3.) CDS views",
+          "4.) UI components"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "18",
+        "QuestionText": "Scenario: In your CAP project, you want to create a calculated field that calculates the total price of an order based on the quantity and unit price. Which CAP feature should you use?",
+        "Options": [
+          "1.) Service modules",
+          "2.) CDS views with calculated fields",
+          "3.) UI components",
+          "4.) Middleware services"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "19",
+        "QuestionText": "Scenario: You want to expose OData and GraphQL services for your CAP application. Which CAP feature enables you to achieve this? (Select all that apply.)",
+        "Options": [
+          "1.) OData adapter",
+          "2.) GraphQL module",
+          "3.) Service definitions",
+          "4.) CDS views"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "20",
+        "QuestionText": "Scenario: You are building a CAP application for an e-commerce platform, and you need to create RESTful APIs for product search. What CAP artifact should you use?",
+        "Options": [
+          "1.) Service modules",
+          "2.) CDS views",
+          "3.) Entity definitions",
+          "4.) UI components"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "21",
+        "QuestionText": "Scenario: You need to implement complex business logic in your CAP application, such as pricing calculations or inventory management. What CAP feature allows you to encapsulate and execute such logic? (Select all that apply.)",
+        "Options": [
+          "1.) CDS views with calculated fields",
+          "2.) Service modules",
+          "3.) Middleware services",
+          "4.) UI annotations"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "22",
+        "QuestionText": "Scenario: Your CAP application needs to support advanced querying and filtering options for users. What CAP feature allows you to define and execute complex queries?",
+        "Options": [
+          "1.) CDS views with calculated fields",
+          "2.) OData adapter",
+          "3.) CAP security policies",
+          "4.) Service definitions"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "23",
+        "QuestionText": "Scenario: You want to enforce data validation rules in your CAP application to ensure data integrity. What CAP feature allows you to define and enforce validation rules?",
+        "Options": [
+          "1.) CAP authorization",
+          "2.) CDS views with calculated fields",
+          "3.) CAP security policies",
+          "4.) Data annotations"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "24",
+        "QuestionText": "Scenario: You need to implement a workflow in your CAP application where specific actions trigger events. What CAP feature is designed for this purpose?",
+        "Options": [
+          "1.) CAP authorization",
+          "2.) CDS views with calculated fields",
+          "3.) Service events",
+          "4.) CAP security policies"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "25",
+        "QuestionText": "Scenario: You have developed a CAP application, and you want to deploy it to both an on-premises environment and a cloud platform. What should you consider for successful deployment?",
+        "Options": [
+          "1.) Adhering to cloud-only deployment",
+          "2.) Using service modules exclusively",
+          "3.) Making use of CAP security policies",
+          "4.) Ensuring compatibility with both environments"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "26",
+        "QuestionText": "Scenario: Your CAP application deals with a large amount of textual data, and you want to implement full-text search capabilities. What CAP features can be used to enable full-text search? (Select all that apply.)",
+        "Options": [
+          "1.) Full-text search module",
+          "2.) Text analytics service",
+          "3.) CAP security policies",
+          "4.) Service events"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "27",
+        "QuestionText": "Which of the following is a common CI/CD tool used in SAP environments?",
+        "Options": [
+          "1.) Jenkins",
+          "2.) Microsoft Excel",
+          "3.) Adobe Photoshop",
+          "4.) Google Chrome"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "28",
+        "QuestionText": "What is the primary benefit of automated testing in CI/CD pipelines?",
+        "Options": [
+          "1.) Reducing the need for version control",
+          "2.) Ensuring 100% code coverage",
+          "3.) Detecting issues early in the development process",
+          "4.) Replacing manual code reviews"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "29",
+        "QuestionText": "Which of the following is a common tool used for containerization in CI/CD processes?",
+        "Options": [
+          "1.) Docker",
+          "2.) Jenkins",
+          "3.) Git",
+          "4.) JIRA"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "30",
+        "QuestionText": "What practice involves freezing changes to the codebase for a specific period, typically before a major release?",
+        "Options": [
+          "1.) Blue-green deployment",
+          "2.) Code freeze",
+          "3.) Canary deployment",
+          "4.) Git branching"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "31",
+        "QuestionText": "Which of the following are key principles of CD (Continuous Deployment)? (Select all that apply.)",
+        "Options": [
+          "1.) Automated deployments to production",
+          "2.) Frequent production releases",
+          "3.) Manual code reviews",
+          "4.) Delayed deployments"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "32",
+        "QuestionText": "What is the primary role of a CI/CD \"Artifact Repository\" in the software development process?",
+        "Options": [
+          "1.) To track code changes",
+          "2.) To store and manage software artifacts (e.g., binaries, packages)",
+          "3.) To conduct automated testing",
+          "4.) To review code changes"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "33",
+        "QuestionText": "Which of the following are practices associated with \"Blue-Green Deployment\"? (Select all that apply.)",
+        "Options": [
+          "1.) Simultaneous deployment of code changes",
+          "2.) Rolling back to a previous version in case of issues",
+          "3.) Deploying changes to a secondary environment",
+          "4.) Testing with a small subset of users"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "34",
+        "QuestionText": "Which of the following are typically included in a CI/CD \"Pipeline Configuration\"? (Select all that apply.)",
+        "Options": [
+          "1.) Environment variables",
+          "2.) Source code files",
+          "3.) Deployment scripts",
+          "4.) Bug tracking system"
+        ],
+        "CorrectAnswer": "1,3"
+      },
+      {
+        "Question": "35",
+        "QuestionText": "In an SAP development project, the team is implementing a CI/CD pipeline. During the pipeline configuration, which components are typically included in the \"Build\" stage? (Select all that apply.)",
+        "Options": [
+          "1.) Compiling source code",
+          "2.) Running unit tests",
+          "3.) Packaging artifacts",
+          "4.) Deploying to production"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "36",
+        "QuestionText": "A development team is practicing Continuous Deployment (CD) in their SAP project. Which practices are essential for safe CD in a real-world scenario? (Select all that apply.)",
+        "Options": [
+          "1.) Automated testing and quality gates",
+          "2.) Manual deployments to production",
+          "3.) Delayed code integration",
+          "4.) No testing in production"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "37",
+        "QuestionText": "Scenario: A development team is practicing Continuous Deployment (CD) for an SAP application. What practices can help ensure the safety and reliability of CD in this scenario?",
+        "Options": [
+          "1.) Frequent automated testing and quality gates",
+          "2.) Manual deployments to production",
+          "3.) No testing in production",
+          "4.) Delayed code integration"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "38",
+        "QuestionText": "What is the purpose of a bug tracking system in SAP development?",
+        "Options": [
+          "1.) Managing SAP project budgets",
+          "2.) Identifying defects and tracking their resolution",
+          "3.) Writing SAP user documentation",
+          "4.) Conducting automated SAP testing"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "39",
+        "QuestionText": "What is the purpose of a code repository in SAP development?",
+        "Options": [
+          "1.) Tracking SAP project budgets",
+          "2.) Managing SAP project timelines",
+          "3.) Storing and versioning SAP source code",
+          "4.) Storing SAP landscape configuration data"
+        ],
+        "CorrectAnswer": "3"
+      },
+      {
+        "Question": "40",
+        "QuestionText": "Scenario: In an SAP development project, the team is considering implementing a version control system. What are the benefits of using Git in this SAP scenario?",
+        "Options": [
+          "1.) Centralized repository management",
+          "2.) Distributed architecture for offline work",
+          "3.) Integration with SAP ECC",
+          "4.) Streamlined SAP project budget tracking"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "41",
+        "QuestionText": "You are working on an SAP BTP application that requires different levels of access based on user roles. You need to implement role-based authorization to ensure that only authorized users can perform certain actions.How can you implement role-based authorization in your SAP BTP application? (Select all that apply.)",
+        "Options": [
+          "1.) Configure the approuter to validate user roles during authentication",
+          "2.) Include role information in security tokens issued by the IdP.",
+          "3.) Implement authorization logic in the frontend user interface",
+          "4.) Define and enforce role-based authorization rules in backend services."
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "42",
+        "QuestionText": "In CAP, what is the role of the 'srv' folder in a project?",
+        "Options": [
+          "1.) It contains service definitions",
+          "2.) It's used for UI development",
+          "3.) It stores project documentation",
+          "4.) It defines the application's logic"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "43",
+        "QuestionText": "Scenario: You want to create a Fiori application using CAP. What is the role of the 'app' folder in your project?",
+        "Options": [
+          "1.) It defines database tables",
+          "2.) It contains UI-related files.",
+          "3.) It stores business logic",
+          "4.) It is not related to Fiori applications"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "44",
+        "QuestionText": "Scenario: You want to restrict access to certain data in your CAP application based on user roles. What CAP feature can you use for this purpose?",
+        "Options": [
+          "1.) CAP authorization",
+          "2.) CDS views",
+          "3.) Middleware services",
+          "4.) CAP security policies"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "45",
+        "QuestionText": "Scenario: You want to create a CAP project that exposes both OData and GraphQL services. Which CAP feature can you use for this purpose? (Select all that apply.)",
+        "Options": [
+          "1.) OData adapter",
+          "2.) GraphQL module",
+          "3.) Service definitions",
+          "4.) CDS views"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "46",
+        "QuestionText": "What is the role of the 'schema.cds' file in a CAP project?",
+        "Options": [
+          "1.) It defines database schemas",
+          "2.) It contains UI templates",
+          "3.) It specifies deployment configurations",
+          "4.) It defines CAP security policies"
+        ],
+        "CorrectAnswer": "1"
+      },
+      {
+        "Question": "47",
+        "QuestionText": "Scenario: You want to create a CAP project with a mobile application front end. Which technology can be used to build the mobile app in this scenario? (Select all that apply.)",
+        "Options": [
+          "1.) Android",
+          "2.) iOS",
+          "3.) SAP Fiori Mobile",
+          "4.) React Native"
+        ],
+        "CorrectAnswer": "3,4"
+      },
+      {
+        "Question": "48",
+        "QuestionText": "Scenario: A company is planning to adopt Agile methodologies for its SAP development projects. What advantages can they expect in terms of SAP project timelines and customer satisfaction in this Agile adoption scenario? (Select all that apply.)",
+        "Options": [
+          "1.) Strict adherence to SAP project timelines",
+          "2.) Improved collaboration and flexibility",
+          "3.) Heavy SAP documentation",
+          "4.) Longer development cycles"
+        ],
+        "CorrectAnswer": "2,4"
+      },
+      {
+        "Question": "49",
+        "QuestionText": "Scenario: You want to expose a RESTful API using CAP. Which CAP artifact is used for this purpose?",
+        "Options": [
+          "1.) CDS view",
+          "2.) Service module",
+          "3.) Data model",
+          "4.) UI component"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "50",
+        "QuestionText": "Scenario: You want to restrict access to certain data in your CAP application based on user roles. Which CAP feature allows you to implement this? (Select all that apply.)",
+        "Options": [
+          "1.) CAP authorization",
+          "2.) CDS views with row-level security",
+          "3.) Service events",
+          "4.) UI components"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "51",
+        "QuestionText": "Scenario: You have developed a CAP application, and you want to deploy it to both an on-premises environment and a cloud platform. What should you consider for successful deployment?",
+        "Options": [
+          "1.) Adhering to cloud-only deployment",
+          "2.) Using service modules exclusively",
+          "3.) Making use of CAP security policies",
+          "4.) Ensuring compatibility with both environments"
+        ],
+        "CorrectAnswer": "4"
+      },
+      {
+        "Question": "52",
+        "QuestionText": "Scenario: Your CAP application deals with a large amount of textual data, and you want to implement full-text search capabilities. What CAP features can be used to enable full-text search? (Select all that apply.)",
+        "Options": [
+          "1.) Full-text search module",
+          "2.) Text analytics service",
+          "3.) CAP security policies",
+          "4.) Service events"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "53",
+        "QuestionText": "Scenario: Your CAP application needs to react to real-time events, such as order updates or notifications. What CAP feature can be used to handle real-time events?",
+        "Options": [
+          "1.) CDS views with calculated fields",
+          "2.) Service events",
+          "3.) CAP authorization",
+          "4.) External services"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "54",
+        "QuestionText": "Scenario: In your CAP project, you need to create calculated fields based on existing data. What CAP feature should you use for this purpose?",
+        "Options": [
+          "1.) Service modules",
+          "2.) CDS views with calculated fields",
+          "3.) UI components",
+          "4.) Middleware services"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "55",
+        "QuestionText": "Which of the following are benefits of Continuous Integration (CI)? (Select all that apply.)",
+        "Options": [
+          "1.) Reduced integration issues",
+          "2.) Faster development cycles",
+          "3.) Improved code quality",
+          "4.) Automated deployments"
+        ],
+        "CorrectAnswer": "1,2,3"
+      },
+      {
+        "Question": "56",
+        "QuestionText": "Scenario: An SAP development team is considering adopting a coding standard. How does a coding standard benefit code readability in this SAP context?",
+        "Options": [
+          "1.) By increasing code complexity",
+          "2.) By defining consistent naming conventions and formatting",
+          "3.) By eliminating code reviews",
+          "4.) By automating SAP landscape management"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "57",
+        "QuestionText": "Scenario: A company is looking to streamline SAP deployment processes and enhance scalability. How can containerization tools like Docker contribute to these goals in this SAP deployment scenario?",
+        "Options": [
+          "1.) By increasing SAP project budgets",
+          "2.) By simplifying SAP landscape management",
+          "3.) By adding complexity to SAP deployment",
+          "4.) By reducing SAP documentation efforts"
+        ],
+        "CorrectAnswer": "2"
+      },
+      {
+        "Question": "58",
+        "QuestionText": "Scenario: An SAP development team is adopting version control. Which version control systems are suitable for SAP development in this scenario?&nbsp; (Select all that apply.)",
+        "Options": [
+          "1.) Git",
+          "2.) Subversion",
+          "3.) Mercurial",
+          "4.) Docker"
+        ],
+        "CorrectAnswer": "1,2"
+      },
+      {
+        "Question": "59",
+        "QuestionText": "Scenario: A company is implementing a bug tracking system for its SAP projects. How does this system aid in issue resolution and defect tracking in this SAP bug tracking scenario? (Select all that apply.)",
+        "Options": [
+          "1.) By increasing defects in the code",
+          "2.) By automating code reviews",
+          "3.) By identifying defects and tracking their resolution",
+          "4.) By reducing SAP project budgets"
+        ],
+        "CorrectAnswer": "2,3"
+      },
+      {
+        "Question": "60",
+        "QuestionText": "Scenario: A company is implementing a bug tracking system for its SAP projects. How does this system aid in issue resolution in this SAP bug tracking scenario? (Select all that apply.)",
+        "Options": [
+          "1.) It introduces more defects in the code",
+          "2.) It automates code reviews",
+          "3.) It identifies defects and tracks their resolution",
+          "4.) It eliminates the need for automated testing"
+        ],
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+]
