@@ -7,7 +7,19 @@
     <div v-for="(question, questionIndex) in selectedQuestions" :key="questionIndex"
          :class="['card', { 'border-danger': !isQuestionCorrect(question) && examCompleted && questionHasInteraction(questionIndex) }]">
       <div class="card-header">
-        <h4>{{ question.QuestionText }}</h4>
+        <div class="d-flex justify-content-between" >
+          <div style="max-width: 80%">
+            <h5>N{{questionIndex +1}}</h5>
+            <h4>{{ question.QuestionText }}</h4>
+          </div>
+          <div class="d-flex- justify-content-end">
+            <button @click="checkQuestion(question)" class="btn btn-primary"> check question</button>
+          </div>
+
+        </div>
+
+
+       <VCodeBlock v-if="question.Code" highlightjs  :code="question.Content" :lang="question.Lang" theme="github-dark-dimmed"/>
       </div>
       <div class="card-body">
         <div v-if="isSingleAnswer(question)">
@@ -42,7 +54,7 @@
     </div>
 
     <div v-if="examCompleted" class="mt-3">
-      <h3 v-if="passed">Congratulations! You passed the exam.</h3>
+      <h3 v-if="passed">Congratulations! You passed the exam. {{finalScore}}</h3>
       <h3 v-else>Sorry, you did not pass the exam.</h3>
     </div>
   </div>
@@ -52,6 +64,65 @@
 import { ref } from 'vue';
 import type { Exam, Question } from '@/types'; // Defina seus tipos TypeScript
 import examsData from '@/static/exams.json'; // Importe os dados do exame
+import VCodeBlock from '@wdns/vue-code-block';
+import hljs from 'highlight.js/lib/core';
+hljs.registerLanguage('impex', function (hljs) {
+  return {
+    name: 'Impex',
+    case_insensitive: true,  // Impex is case insensitive
+    keywords: {
+      keyword: 'INSERT INSERT_UPDATE UPDATE REMOVE DELETE',
+      literal: 'true false null',
+      built_in: '$START_USERRIGHTS $END_USERRIGHTS $lang $configProperty $contentCatalog $contentCV $macro $catalog-id $catalog-version $catalogversion',  // Impex variables
+    },
+    contains: [
+      hljs.COMMENT('#', '$'),  // Comments in Impex start with #
+      {
+        className: 'section',
+        begin: /\b(?:INSERT|INSERT_UPDATE|UPDATE|REMOVE|DELETE)\b/,  // Commands like INSERT, UPDATE, etc.
+        end: /;/,  // Commands generally end with a semicolon
+        contains: [
+          hljs.QUOTE_STRING_MODE,  // Strings enclosed in quotes
+          {
+            className: 'attribute',
+            begin: /\b[A-Za-z][A-Za-z0-9]*(\([\w\.\:\[\]\=\-]+\))?\b/,  // Matches the attribute names with optional modifiers
+            relevance: 0
+          },
+          {
+            className: 'operator',
+            begin: /[+=|<>.-]+/,  // Operators used in Impex expressions
+            relevance: 0
+          }
+        ]
+      },
+      {
+        className: 'variable',
+        begin: /\$[A-Za-z_-][A-Za-z0-9_-]*\b/,  // Matches Impex variables
+        relevance: 10
+      },
+      {
+        className: 'params',
+        begin: /\b(?:unique|default|lang)\s*=\s*[^\s;]+/,  // Matches Impex modifiers like unique=true or default=$catalog-id:$catalog-version
+        keywords: 'unique default lang',
+        relevance: 10
+      },
+      {
+        className: 'literal',
+        begin: /\b(true|false|null)\b/,  // Literal values
+        relevance: 0
+      },
+      hljs.QUOTE_STRING_MODE,  // Matches quoted strings
+      hljs.NUMBER_MODE,  // Matches numbers
+      {
+        className: 'meta',
+        begin: /@@@@@/,  // Matches custom delimiters or markers
+        relevance: 10
+      }
+    ]
+  };
+});
+
+
 
 
 let route = useRoute();
@@ -73,6 +144,23 @@ const foundExam = exams.find(ex => ex.id === id);
 if (foundExam) {
   exam.value = foundExam;
 }
+
+const checkQuestion = (question: Question) => {
+  const questionIndex = selectedQuestions.value.findIndex(q => q.Question === question.Question);
+  if (questionIndex === -1) return; // If question not found, return
+
+  const userAnswers = isSingleAnswer(question)
+      ? [selectedAnswer.value[questionIndex]]
+      : selectedAnswers.value[questionIndex].map((answer, optionIndex) => answer ? optionIndex + 1 : -1).filter(optionIndex => optionIndex !== -1);
+
+  const correctAnswers = question.CorrectAnswer.split(',').map(Number);
+
+  if (arraysEqual(userAnswers, correctAnswers)) {
+    alert("Question is correct")
+  } else {
+    alert("Question is incorrect")
+  }
+};
 
 // Selecionar um número aleatório de perguntas e embaralhar
 const selectedQuestions = ref<Question[]>([]);
@@ -98,6 +186,8 @@ const selectedAnswer = ref<number[]>(new Array(selectedQuestions.value.length).f
 const examCompleted = ref(false);
 const passed = ref(false);
 
+let finalScore = ref(0.0)
+
 const submitExam = () => {
   let correctCount = 0;
   selectedQuestions.value.forEach((question, index) => {
@@ -111,6 +201,8 @@ const submitExam = () => {
 
   const score = (correctCount / selectedQuestions.value.length) * 100;
   console.log(`Score: ${score}%`);
+
+  finalScore.value = score
 
   passed.value = score >= exam.value.min_required;
   examCompleted.value = true;

@@ -7,6 +7,9 @@ export interface Option {
 export interface Question {
     Question: string;
     QuestionText: string;
+    Code?: boolean,
+    Lang?: string,
+    Content?: string,
     Options: Option[];
     CorrectAnswer: string;
 }

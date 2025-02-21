@@ -2,7 +2,7 @@
   {
     "name": "SAP Commerce",
     "id": "sap_commerce",
-    "min_required": 49,
+    "min_required":49,
     "max_questions": 80,
     "questions": [
       {
@@ -234,15 +234,14 @@
       },
       {
         "Question": "21",
-        "QuestionText": "Which tools can you use to manage your stores, currencies, and languages?(2 correct)",
+        "QuestionText": "What can you do with SmartEdit?(2 correct)",
         "Options": [
-          "1.) SmartEdit",
-          "2.) Product Cockpit",
-          "3.) Backoffice",
-          "4.) WCMS Cockpit",
-          "5.) HMC"
+          "1.) Modify navigation nodes",
+          "2.) Create and edit search profiles",
+          "3.) Clone web pages",
+          "4.) Edit product information"
         ],
-        "CorrectAnswer": "3,5"
+        "CorrectAnswer": "1,4"
       },
       {
         "Question": "22",
@@ -305,15 +304,15 @@
       },
       {
         "Question": "27",
-        "QuestionText": "Which processes are supported by SAP Commerce Order Management? (3 correct)",
+        "QuestionText": "Which of the following are out-of-the-box features of the GDPR support in SAP\nCommerce?(3 correct)\n",
         "Options": [
-          "1.) Order fulfillment",
-          "2.) Order routing",
-          "3.) Return handling",
-          "4.) Inventory management",
-          "5.) Customer segmentation"
+          "1.) Order tracking",
+          "2.) Consent management",
+          "3.) Breach notification",
+          "4.) Personal data reporting",
+          "5.) Data retention/deletion"
         ],
-        "CorrectAnswer": "1,2,3"
+        "CorrectAnswer": "2,4,5"
       },
       {
         "Question": "28",
@@ -411,15 +410,14 @@
       },
       {
         "Question": "36",
-        "QuestionText": "Which data can be managed via the Backoffice Product Content Management Module? (3 correct)",
+        "QuestionText": "What is a variant product?",
         "Options": [
-          "1.) Product categories",
-          "2.) Product descriptions",
-          "3.) Product prices",
-          "4.) Product stock levels",
-          "5.) Product images"
+          "1.) A product template configurable via SAP Commerce, bundling module",
+          "2.) A product representing one purchasable version of a base product.",
+          "3.) A product representing multiple purchasable versions of a base product.",
+          "4.) A product template configurable via SAP Configure, Price, and Quote."
         ],
-        "CorrectAnswer": "1,2,5"
+        "CorrectAnswer": "2"
       },
       {
         "Question": "37",
@@ -1433,7 +1431,10 @@
       },
       {
         "Question": "126",
-        "QuestionText": "How many category items will the following ImpEx create? $prodCat=electronicsPr $version=Staged fli. $catVersion=catalogVersion(catalog(id [defauIt=$prodCat]),version[default=$version]) INSERT_UPDATE Category;code[unique=true];$catVersion[unique=true] ;test_category;eIectronicsProductCatalog ;test_category;apparelProductCatalog:$version ;test_category;:Online ;test_category;",
+        "QuestionText": "How many category items will the following ImpEx create?",
+        "Code": true,
+        "Lang": "impex",
+        "Content":"$prodCat=electronicsPr\n$version=Staged fli.\n$catVersion=catalogVersion(catalog(id [default=$prodCat]),version[default=$version])\nINSERT_UPDATE Category;code[unique=true];$catVersion[unique=true]\n;test_category;eIectronicsProductCatalog \n;test_category;apparelProductCatalog:$version \n;test_category;:Online \n;test_category;",
         "Options": [
           "1.) 1",
           "2.) 3",
@@ -1467,7 +1468,10 @@
       },
       {
         "Question": "129",
-        "QuestionText": "Assuming that property impex.legacy.scripting is set to false and 'Enable code execution' is checked, what are the results of the following ImpEx script? INSERT_UPDATE Title;code[unique=true] #0/ogroovy0/o beforeEach: line.clear(); ;foo; ;bar; ;baz;",
+        "QuestionText": "Assuming that property impex.legacy.scripting is set to false and 'Enable code execution' is checked, what are the results of the following ImpEx script?",
+        "Code": true,
+        "Lang": "impex",
+        "Content": "INSERT_UPDATE Title;code[unique=true]\n#0/ogroovy0/o beforeEach: line.clear();\n;foo\n;bar\n;baz",
         "Options": [
           "1.) No entries will be updated or inserted.",
           "2.) Only the Title with code that equals \"baz\" will be updated or inserted.",
@@ -1637,7 +1641,10 @@
       },
       {
         "Question": "144",
-        "QuestionText": "You have these example item types defined in myext-items.xml: What additional steps are needed to support the identification attribute?",
+        "QuestionText": "You have these example item types defined in myext-items.xml: What additional steps are\nneeded to support the identification attribute?  What additional steps are needed to support the identification attribute? Define a oneto-many relation between Student and Passport using a relation tag with parameter\nlocaIized=\"true\". Add a maptype tag for localized:Passport with parameters\nargumenttype=\"Language\" and returntype=\"Passport\". Run an ant updatesystem\ncommand. A passportlp table will be generated to store the localized property values.\nDefine a localized Passport attribute for the Student type in\nmyext/resources/localization/myext- locales_XY. properties.\n",
+        "Code": true,
+        "Lang": "xml",
+        "Content": "<?xml version=\"l.O\"nencoding=\"IS0-8859-1\"?>\n<itemtypes>\n    <itemtype code=\" Passport\" autocreate=\"true\" ngenerate=\"true\">\n        <deployment typecode=\"8995\" table=\"passport\"/>\n        <!--   ...atributes-->\n    </itemtype>\n    <itemtype code=\"Student\" extends=\"Customer\" autocreate=\"true\" ngenerate=\"true\">\n        <attribute type=\"localized:Passport\" nqualifier=\"identification\">\n            <persistence type=\"property\"/>\n        </attribute>\n    </itemtype>\n</itemtypes>",
         "Options": [
           "1.) Define a one-to-many relation between Student and Passport using a relation tag with parameter localized=\"true\". Add a maptype tag for localized:Passport with parameters argumenttype=\"Language\" and returntype=\"Passport\". Run an ant updatesystem command. A passportlp table will be generated to store the localized property values. Define a localized Passport attribute for the Student type in myext/resources/localization/myext-locales_XY.properties.",
           "2.) Add a maptype tag for localized:Passport with parameters argumenttype=\"Language\" and returntype=\"Passport\".",
@@ -1961,7 +1968,11 @@
       },
       {
         "Question": "173",
-        "QuestionText": "You have created your products and price rows using the approach displayed in the following ImpEx file: $catalog-id=Default $catalog-version=Staged INSERT_UPDATE $catalogversion=catalogversion(catalog(id),version)[unique=true,default=$catalog-id:$catalog-version] Product;code[unique=true];$catalogversion;name[lang=en];unit(code);approvalStatus(code ); ;productl;; productl;pieces;approved; ;product2;;product2;pieces;approved; #in total 1000 product data lines INSERT_UPDATE PriceRow;productld[unique=true];price;unit(code);currency(isocode) ;product1;100;pieces;EUR;product 2;200;pieces;EUR #in total 1000 price row data lines. After you import this file and synchronize the catalogs (Staged to Online), how many items are stored in the database?",
+
+        "QuestionText": "You have created your products and price rows using the approach displayed in the following ImpEx. After you import this file and synchronize the catalogs (Staged to Online), how many items are stored in the database?",
+        "Code": true,
+        "Lang": "impex",
+        "Content": "$catalog-id=Default\n$catalog-version=Staged\n$catalogversion=catalogversion(catalog(id),version)[unique=true,default=$catalog-id:$catalog-version]\nINSERT_UPDATE Product;code[unique=true];$catalog-version;name[lang=en];unit(code);approvalStatus(code ); \n;productl;; productl;pieces;approved;\n;product2;;product2;pieces;approved; \n#in total 1000 product data lines \nINSERT_UPDATE PriceRow;productId[unique=true];price;unit(code);currency(isocode) \n;product1;100;pieces;EUR\n;product 2;200;pieces;EUR\n#in total 1000 price row data lines",
         "Options": [
           "1.) 2000 products and 1000 price rows",
           "2.) 1000 products and 2000 price rows",
