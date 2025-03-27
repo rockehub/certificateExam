@@ -1,0 +1,23 @@
+In the context of SAP Commerce, the correct answers are **2.) Reliability, 3.) Security, and 5.) Portability**. These are all non-functional requirements because they describe *how* the system should behave, rather than *what* the system should do.  Let's break down each one:
+
+**2.) Reliability:** This refers to the consistency and dependability of the system.  A reliable SAP Commerce system should be available when needed, process transactions correctly without errors, and recover gracefully from failures.  It's not about a specific feature, but about the overall quality of the system's operation.
+
+* **Practical Example:**  "The SAP Commerce platform must have an uptime of 99.9%." This doesn't define a new feature; it specifies a quality attribute of an existing feature (e.g., product catalog browsing).  Another example:  "The system must recover from a database failure within 15 minutes."
+
+**3.) Security:** This encompasses all aspects of protecting the system and its data from unauthorized access, use, disclosure, disruption, modification, or destruction.  It covers authentication, authorization, data encryption, and other security measures.  Again, it's not about a specific function but about how the system protects its functionality.
+
+* **Practical Example:** "The SAP Commerce platform must comply with PCI DSS standards for processing credit card transactions."  Or: "All user data must be encrypted both in transit and at rest." These define security standards, not specific business features.
+
+**5.) Portability:** This refers to the ability of the system to be easily moved or adapted to different environments (hardware platforms, operating systems, databases, etc.).  This is crucial for flexibility and scalability.
+
+* **Practical Example:** "The SAP Commerce platform must be deployable on both AWS and Azure cloud environments without significant code modification."  Or: "The system must support both Oracle and MySQL databases." These specify system compatibility requirements, not functional features.
+
+
+**Why the other options are incorrect:**
+
+**1.) Team Management:** This is a project management or organizational requirement, not a requirement of the SAP Commerce system itself.  It relates to how the *development team* operates, not the *system's* functionality.
+
+**4.) Administration:** This is a functional requirement, albeit a broad one.  While administration is needed for the system to function,  it describes a *specific set of features* (user management, configuration options, reporting tools, etc.), not a quality characteristic like reliability or security.
+
+
+In summary, non-functional requirements are essential for ensuring the system meets the needs of its users and the business.  They define the quality, performance, and usability aspects that are critical to the system's success, even if they don't directly add a new feature.  In the SAP Commerce context, considering these non-functional aspects is crucial for a robust, reliable, and secure e-commerce platform.

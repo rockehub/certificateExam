@@ -1,0 +1,46 @@
+In the context of an apparel store using SAP Commerce and Solr for search and faceting, the best additional attributes for Solr faceting, beyond color and price range, are **Brand** (Option 2).
+
+Let's break down why:
+
+* **Why Brand is a good choice:**  Customers frequently shop by brand.  Knowing the brand of an apparel item is a key factor in purchasing decisions.  Adding "Brand" as a facet allows customers to quickly filter products by their preferred brands (e.g., Nike, Adidas, Levi's), significantly improving the shopping experience and potentially increasing conversion rates.  It directly relates to product categorization and customer preferences.
+
+* **Why other options are inappropriate:**
+
+    * **Option 1: Summary:**  A summary is descriptive text and isn't suitable for faceting. Facets are used for filtering, and a summary is for providing a brief overview of a product. It's not a categorical attribute for filtering.
+
+    * **Option 3: Megapixels:** Megapixels are relevant for products with cameras or screens, not apparel. This attribute is completely irrelevant to clothing items.
+
+    * **Option 4: Approval status:**  This is an internal attribute related to product management and not relevant for customer-facing search and filtering. Customers don't care about the approval status of a product; they care about its characteristics.
+
+
+**Practical Example:**
+
+Let's say your apparel store uses Solr for its product search.  Currently, customers can filter products by color (e.g., blue, red, green) and price range (e.g., $0-$25, $25-$50, $50+).
+
+By adding "Brand" as a facet, the search results page would now also display a facet panel like this:
+
+**Filter by:**
+
+* **Color:**
+    * Blue (15)
+    * Red (22)
+    * Green (8)
+    * ...
+
+* **Price:**
+    * $0-$25 (30)
+    * $25-$50 (45)
+    * $50+ (15)
+    * ...
+
+* **Brand:**
+    * Nike (20)
+    * Adidas (18)
+    * Levi's (12)
+    * ...
+
+
+The numbers in parentheses indicate the number of products matching that specific facet value.  A customer can now quickly narrow down their search by selecting specific brands along with color and price ranges, leading to a more efficient and satisfying shopping experience.
+
+
+In SAP Commerce, implementing this would involve configuring the relevant product attributes in the back-office, ensuring that the "Brand" attribute is indexed in Solr, and then configuring the search result display to show the new facet.  This typically involves leveraging the built-in search functionalities and potentially some custom configuration depending on the specific implementation.

@@ -1,0 +1,26 @@
+The correct answers are **1.) Service Layer, 3.) Backoffice Framework, and 4.) Commerce Facades**.  Here's why:
+
+* **1. Service Layer:** This is the foundational layer of the SAP Commerce Cloud platform. It's responsible for providing the core business logic and functionalities of the e-commerce system.  It exposes services (APIs) that other components, like the storefront and backoffice, can use to interact with the data and processes of the system.  Think of it as the engine room – it handles everything from managing products and orders to handling payments and promotions.
+
+* **3. Backoffice Framework:** This is the administrative interface for managing the e-commerce system.  It allows administrators to configure products, manage orders, set up promotions, and perform many other administrative tasks.  Without the backoffice framework, managing the e-commerce site would be extremely difficult, if not impossible.  It's the control panel for the entire system.
+
+* **4. Commerce Facades:** These act as an interface between the storefront (the customer-facing website) and the service layer. They provide a structured and well-defined way for the storefront to access the business logic and data provided by the service layer.  They simplify the communication between the front-end and back-end, making development and maintenance easier.  Essentially, they are the translators between the customer's actions on the website and the underlying system's responses.
+
+**Why the other options are incorrect:**
+
+* **2. SmartEdit:** SmartEdit is a *tool* within the SAP Commerce Cloud platform.  It's a visual editor that allows marketers to update content on the storefront without needing coding skills.  While crucial for content management, it's not a core component of the platform itself in the same way the service layer, backoffice, and facades are.
+
+* **5. WCMS Cockpit:** This refers to the Web Content Management System cockpit, which is again a *tool* or interface, specifically for managing content within the WCMS (Web Content Management System) functionality.  Similar to SmartEdit, it’s a part of the larger system but not a fundamental core component of the SAP Commerce platform.
+
+
+**Practical Example:**
+
+Imagine a customer adding a product to their shopping cart on an SAP Commerce Cloud-powered website.
+
+1. **Storefront:** The customer interacts with the storefront (website).
+2. **Commerce Facades:** The storefront uses the commerce facades to communicate the "add to cart" action to the system.
+3. **Service Layer:** The service layer processes the request, updates the shopping cart data in the database, and manages inventory levels.
+4. **Backoffice Framework:** An administrator uses the backoffice to review orders, manage inventory, and configure shipping options, perhaps noticing low stock on the added item and triggering a restock order.
+5. **(Optional) SmartEdit & WCMS Cockpit:**  The marketing team might use SmartEdit to update product images or the WCMS Cockpit to update promotional banners displayed near the added product on the storefront.
+
+In this scenario, the service layer, backoffice framework, and commerce facades are essential components involved in the basic functioning of the e-commerce site. SmartEdit and the WCMS cockpit are valuable tools, but not core platform components.

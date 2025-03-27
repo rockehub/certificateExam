@@ -1,0 +1,1970 @@
+{
+  "name": "SAP Commerce 2",
+  "id": "sap_commerce_2",
+  "min_required": 49,
+  "max_questions": 80,
+  "questions": [
+    {
+      "Question": "1",
+      "QuestionText": "What can you configure on the Endpoint Configuration page in Cloud Portal?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. SSL Certificate"
+        },
+        {
+          "number": 2,
+          "question": "2. IP Filter Sets"
+        },
+        {
+          "id": 3,
+          "question": "3. Trusted Certificates"
+        },
+        {
+          "id": 4,
+          "question": "4. Redirect Sets"
+        },
+        {
+          "id": 5,
+          "question": "5. Host Alias Sets"
+        }
+      ],
+      "CorrectAnswer": "1, 2, 4"
+    },
+    {
+      "Question": "2",
+      "QuestionText": "In an extension named myext, you defined Pump, a subtype of the Product item type with a property named efficiency. You have also extended the productDTO bean to have an efficiency property. To copy the efficiency property to the productDTO, what do you need to do?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Write a PumpProductConverter class that extends AbstractPopulating Converter, and copies the efficiency property from the Pump item to the productDTO bean if the item is an instance of Pump. Configure an instance of this converter in myext-spring.xml."
+        },
+        {
+          "number": 2,
+          "question": "2. Make sure the definition of the Pump item type defines the efficiency attribute with persistence type property. When you run at all, the productConverter class generated in bootstrap/gensrc will copy the efficiency property to the productDTO."
+        },
+        {
+          "number": 3,
+          "question": "3. Create a PumpPopulator class that extends ProductPopulator and, if necessary, copies the efficiency property from the Pump item to the productDTO bean. In myext-spring.xml, redefine the productPopulator alias to point to an instance of PumpPopulator."
+        },
+        {
+          "number": 4,
+          "question": "4. Write a PumpAttribute Populator class that copies the efficiency property from the item to the DTO only if its method is passed an instance of Pump Model. Define a bean for this new class in myext-spring.xml, and use a modifyPopulatorList bean to add it to the productConverter's list of populators."
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "3",
+      "QuestionText": "What can you do in the Builds workspace in Cloud Portal?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Delete a build that is no longer needed"
+        },
+        {
+          "number": 2,
+          "question": "2. View the history of the past deployments of a selected build"
+        },
+        {
+          "number": 3,
+          "question": "3. Deploy a successful build to a certain environment"
+        },
+        {
+          "number": 4,
+          "question": "4. Rebuild a successful build to do a performance test"
+        }
+      ],
+      "CorrectAnswer": "2, 3"
+    },
+    {
+      "Question": "4",
+      "QuestionText": "What is the effect of the redeclare attribute within an itemtype definition?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. It can be used to change the type of an attribute."
+        },
+        {
+          "number": 2,
+          "question": "2. It can be used to change the class of an itemtype."
+        },
+        {
+          "number": 3,
+          "question": "3. It can be used to change the name of an attribute."
+        },
+        {
+          "number": 4,
+          "question": "4. It can be used to change the modifier of an attribute."
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "5",
+      "QuestionText": "You are implementing two new independent extensions, extensions, extension A and extension B, both of which extend and overwrite a bean of the core platform. How can you make sure the bean from extension A doesn't override the one from extension B?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Use the beans' parent attribute in extension B to specify the core bean."
+        },
+        {
+          "number": 2,
+          "question": "2. Add only one of the extensions into localextensions.xml at the same time."
+        },
+        {
+          "number": 3,
+          "question": "3. The beans are loaded in alphabetical order; therefore, extension B takes precedence."
+        },
+        {
+          "number": 4,
+          "question": "4. Define a Apendency wherein extension B requires extension A"
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "6",
+      "QuestionText": "When a customer places an order using the default order management process defined in the Y accelerator fulfilment process extension, when does the fulfillment process send the notification that the order has been placed?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. After the order has been fraud checked"
+        },
+        {
+          "number": 2,
+          "question": "2. After the order has been completely sourced"
+        },
+        {
+          "number": 3,
+          "question": "3. At the first stage of the fulfillment process"
+        },
+        {
+          "number": 4,
+          "question": "4. After the payment has been processed"
+        }
+      ],
+      "CorrectAnswer": "1"
+    },
+    {
+      "Question": "7",
+      "QuestionText": "You want to add a new feature using a classification system. What should you pay attention to?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Use feature descriptor values if the values of the new feature are limited to a selection."
+        },
+        {
+          "number": 2,
+          "question": "2. Create an empty classification unit even if the new feature doesn't have a unit."
+        },
+        {
+          "number": 3,
+          "question": "3. Use a feature descriptor to represent the name of the new feature and assign it to the product."
+        },
+        {
+          "number": 4,
+          "question": "4. Create a classifying category with an attribute assignment model and assign it to the product."
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "8",
+      "QuestionText": "Why are rule-aware objects (RAOs) used in the rule engine?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. To store the configuration of the rule engine"
+        },
+        {
+          "number": 2,
+          "question": "2. To provide the data as facts in rule conditions and actions"
+        },
+        {
+          "number": 3,
+          "question": "3. To persist the results of the rule evaluation"
+        },
+        {
+          "number": 4,
+          "question": "4. To eliminate unnecessary data provided by complex objects"
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "9",
+      "QuestionText": "To define the data that gets extracted into the Solr index for searching, what do you need to provide?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. A flexible search query for an incremental update"
+        },
+        {
+          "number": 2,
+          "question": "2. A solrconfig XML file"
+        },
+        {
+          "number": 3,
+          "question": "3. An ImpEx script for a full load"
+        },
+        {
+          "number": 4,
+          "question": "4. A flexible search query for a full load"
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "10",
+      "QuestionText": "How is the primary key (PK) for an SAP Commerce Cloud item created?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. It is automatically generated and assigned."
+        },
+        {
+          "number": 2,
+          "question": "2. It is generated from a counter and the type code of the item."
+        },
+        {
+          "number": 3,
+          "question": "3. It is generated from the item's unique business key(s)."
+        },
+        {
+          "number": 4,
+          "question": "4. It is provided by the user in the Create wizard or as a column value in ImpEx."
+        }
+      ],
+      "CorrectAnswer": "1, 2"
+    },
+    {
+      "Question": "11",
+      "QuestionText": "What are AddOns specifically designed to allow an SAP Commerce developer to do?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Extend the Accelerator storefront."
+        },
+        {
+          "number": 2,
+          "question": "2. Extend the Backoffice."
+        },
+        {
+          "number": 3,
+          "question": "3. Provide additional RESTful web services for OCC."
+        },
+        {
+          "number": 4,
+          "question": "4. Provide a new web application."
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "12",
+      "QuestionText": "Which of the following are valid types of environments in SAP Commerce Cloud in the public cloud?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Staging"
+        },
+        {
+          "number": 2,
+          "question": "2. Production"
+        },
+        {
+          "number": 3,
+          "question": "3. Pre-Production"
+        },
+        {
+          "number": 4,
+          "question": "4. Test"
+        },
+        {
+          "number": 5,
+          "question": "5. Development"
+        }
+      ],
+      "CorrectAnswer": "1, 2, 5"
+    },
+    {
+      "Question": "13",
+      "QuestionText": "Which of the following are best practices for adding a new parameter to an existing method of CommerceCartService?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Overload the existing method of CommerceCartService by adding the new parameter."
+        },
+        {
+          "number": 2,
+          "question": "2. Add a new property to CommerceCartParameter in a beans.xml file."
+        },
+        {
+          "number": 3,
+          "question": "3. Extend the default strategy called by the method to handle the new parameter."
+        },
+        {
+          "number": 4,
+          "question": "4. Extend the default implementation of the method to handle the new parameter."
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "14",
+      "QuestionText": "How are relations modeled in the database?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. One-to-many relations are stored in the links table."
+        },
+        {
+          "number": 2,
+          "question": "2. One-to-many relations are binary objects."
+        },
+        {
+          "number": 3,
+          "question": "3. One-to-many relations are stored in a column."
+        },
+        {
+          "number": 4,
+          "question": "4. Many-to-many relations are deployed as a table."
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "15",
+      "QuestionText": "You are creating a business process (mybusinessprocess) that requires an action (actionB) to pass an info String value to another action (actionE) occurring later in the process. What do you need to do to make this possible?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Create a myBusiness Process item type that extends Business Process and adds an info String property. Use an instance of this type to start the process in your Java code with business ProcessService.startProcess(new myBusiness Process Model)."
+        },
+        {
+          "number": 2,
+          "question": "2. Create a myBusiness Process item type that extends Business Process and adds an info String property. Specify myBusiness Process Model as the processClass argument to the process"
+        },
+        {
+          "number": 3,
+          "question": "3. Create an event myEvent that extends the AbstractProcessEvent and adds an info String property. Register the target action as a listener for this event. Fire the event with eventService.publishEvent (myEvent)."
+        },
+        {
+          "number": 4,
+          "question": "4. In the mybusinessprocess.xml definition file, define an info event and configure actionB as the event's originator and actionE as its target. Trigger the event in the class implementing actionB using businessProcessService.triggerEvent(info)."
+        }
+      ],
+      "CorrectAnswer": "1, 2"
+    },
+    {
+      "Question": "16",
+      "QuestionText": "You are creating an extension with a web module. What do you need to ensure?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. An extension with a web module can only be extended with an addon."
+        },
+        {
+          "number": 2,
+          "question": "2. An extension with a web module must have a web folder."
+        },
+        {
+          "number": 3,
+          "question": "3. An extension with a web module must always have a core module."
+        },
+        {
+          "number": 4,
+          "question": "4. The web root must be set in the web module directive in the extensioninfo.xml file"
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "17",
+      "QuestionText": "When using Monitoring Support in the Integration API Module, what should you pay attention to?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. You can monitor the inbound integration requests using the Meta API."
+        },
+        {
+          "number": 2,
+          "question": "2. In Outbound monitoring, if the source of the OutboundRequest is not from outbound sync or webhooks, it is set as UNKNOWN."
+        },
+        {
+          "number": 3,
+          "question": "3. If you want to disable the monitoring, you need to change the dedicated properties in local.properties and restart the commerce cloud server."
+        },
+        {
+          "number": 4,
+          "question": "4. If the number of batches in a bulk request exceeds the limit allowed, then the system records one Inbound Request with the payload."
+        }
+      ],
+      "CorrectAnswer": "1, 2"
+    },
+    {
+      "Question": "18",
+      "QuestionText": "In Integration API Module, which of the following API verbs are controlled by access rights?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Update - POST"
+        },
+        {
+          "number": 2,
+          "question": "2. Create - POST"
+        },
+        {
+          "number": 3,
+          "question": "3. Create - PATCH"
+        },
+        {
+          "number": 4,
+          "question": "4. Update - POST, PATCH"
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "19",
+      "QuestionText": "What must you always specify when you are creating a new Adaptive Search Profile?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Category"
+        },
+        {
+          "number": 2,
+          "question": "2. Index configuration"
+        },
+        {
+          "number": 3,
+          "question": "3. Index type"
+        },
+        {
+          "number": 4,
+          "question": "4. User"
+        },
+        {
+          "number": 5,
+          "question": "5. Catalog version"
+        }
+      ],
+      "CorrectAnswer": "2, 3, 5"
+    },
+    {
+      "Question": "20",
+      "QuestionText": "You synchronize a media item stored in SAP Commerce Cloud from a staged version to an online version. What happens next?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Both staged and online media items now refer to the same image file in the file system."
+        },
+        {
+          "number": 2,
+          "question": "2. The staged and online media items now refer to two different image files in the file system."
+        },
+        {
+          "number": 3,
+          "question": "3. The values of the attributes are copied from the source item in the staged catalog to the target item in the online catalog."
+        },
+        {
+          "number": 4,
+          "question": "4. The media format in the staged version is also synchronized to the media format in the online version."
+        }
+      ],
+      "CorrectAnswer": "1, 3"
+    },
+    {
+      "Question": "21",
+      "QuestionText": "You are implementing a new custom promotion action that changes the delivery mode of an order. What steps are required to make sure that the effects of this action are reverted as soon as the condition that triggered it is NO longer fulfilled?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Implement the undo method in your custom rule action strategy"
+        },
+        {
+          "number": 2,
+          "question": "2. Define a new session attribute to store the original delivery mode"
+        },
+        {
+          "number": 3,
+          "question": "3. Implement your custom action item so that it can store the original delivery mode"
+        },
+        {
+          "number": 4,
+          "question": "4. Create a promotion that uses the inverse action if the condition is NOT fulfilled"
+        }
+      ],
+      "CorrectAnswer": "1, 3"
+    },
+    {
+      "Question": "22",
+      "QuestionText": "What can you do within the integration Ul Tool in Backoffice?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Create a search restriction to secure an integration object for only a certain integration user group."
+        },
+        {
+          "number": 2,
+          "question": "2. Set up access rights for integration objects."
+        },
+        {
+          "number": 3,
+          "question": "3. Force-delete an integration object even if it it is associated with an Inbound Channel Configuration (ICC)."
+        },
+        {
+          "number": 4,
+          "question": "4. Export the configuration types so that they can be imported into a target system."
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "23",
+      "QuestionText": "What are the advantages of using classification attributes?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Cached classification attributes provide better performance than fixed properties."
+        },
+        {
+          "number": 2,
+          "question": "2. Classification attributes are applied dynamically in response to customer actions."
+        },
+        {
+          "number": 3,
+          "question": "3. Business users can create or modify classification attribute definitions using the Backoffice."
+        },
+        {
+          "number": 4,
+          "question": "4. When modifying, Rebuilding and redeployment are NOT required."
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "24",
+      "QuestionText": "How can you define a new event?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Create a new EventTemplate in an ImpEx file."
+        },
+        {
+          "number": 2,
+          "question": "2. Create a new Item Type in an items.xml file."
+        },
+        {
+          "number": 3,
+          "question": "3. Extend a pre-defined event DTO in a custom beans.xml."
+        },
+        {
+          "number": 4,
+          "question": "4. Create a new DTO in a beans.xml file."
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "25",
+      "QuestionText": "Which of the following steps could be included in the process of installing an AddOn?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Run ant all."
+        },
+        {
+          "number": 2,
+          "question": "2. Configure storefront properties files."
+        },
+        {
+          "number": 3,
+          "question": "3. Run ant addoninstall."
+        },
+        {
+          "number": 4,
+          "question": "4. Run ant modulegen."
+        },
+        {
+          "number": 5,
+          "question": "5. Copy files from the storefront to the AddOn web source folder"
+        }
+      ],
+      "CorrectAnswer": "1, 2, 3"
+    },
+    {
+      "Question": "26",
+      "QuestionText": "Which interface would you inject into your class to allow you to trigger an indexing operation via API?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. IndexerStrategy"
+        },
+        {
+          "number": 2,
+          "question": "2. IndexerQueryContext"
+        },
+        {
+          "number": 3,
+          "question": "3. IndexerListener"
+        },
+        {
+          "number": 4,
+          "question": "4. IndexerService"
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "27",
+      "QuestionText": "Which component configurations does the ServiceLayer architecture promote?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Services orchestrate Strategies"
+        },
+        {
+          "number": 2,
+          "question": "2. Services orchestrate Converters"
+        },
+        {
+          "number": 3,
+          "question": "3. Facades orchestrate Converters"
+        },
+        {
+          "number": 4,
+          "question": "4. Facades orchestrate Strategies"
+        },
+        {
+          "number": 5,
+          "question": "5. Facades orchestrate Services"
+        }
+      ],
+      "CorrectAnswer": "2, 4, 5"
+    },
+    {
+      "Question": "28",
+      "QuestionText": "You are creating a new SolrIndexProperty as a facet and want to define it using facet ranges. What do you need to do to achieve that?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1. Manually create SolrValueRange items to define the range boundaries."
+        },
+        {
+          "number": 2,
+          "question": "2. Create a SolrValueRangeSet, add SolrValueRange items, and add to the SolrIndexProperty."
+        },
+        {
+          "number": 3,
+          "question": "3. Define the number of ranges in the SolrIndexProperty. Provide sample data that is used to generate the SolrValueRange items."
+        },
+        {
+          "number": 4,
+          "question": "4. Define the cadence of the ranges in the SolrindexProperty. Provide the sample data that is used to generate the SolrValueRangeSet."
+        },
+        {
+          "number": 5,
+          "question": "5. Create SolrValueRange items to define the range boundaries. Add them to the SolrindexProperty"
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "29",
+      "QuestionText": "Which of the following items are configured via a direct relation to a BaseStore?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  A list of Content Catalogs providing the pages, slots, and other CMSItems shown to Customers"
+        },
+        {
+          "number": 2,
+          "question": "2.  A list of Product Catalogs providing the product info shown to Customers"
+        },
+        {
+          "number": 3,
+          "question": "3.  A list of customers associated with the BaseStore."
+        },
+        {
+          "number": 4,
+          "question": "4.  A list of warehouses that support the delivery"
+        },
+        {
+          "number": 5,
+          "question": "5.  A list of points of service that represent local branches"
+        }
+      ],
+      "CorrectAnswer": "2, 5"
+    },
+    {
+      "Question": "30",
+      "QuestionText": "What causes item data to be invalidated in the SAP Commerce Cloud entity cache?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Receiving an invalidation event for the item via cluster messaging"
+        },
+        {
+          "number": 2,
+          "question": "2.  Calling the modelService.create() method passing a Model class"
+        },
+        {
+          "number": 3,
+          "question": "3.  Calling a setter method on a Model class"
+        },
+        {
+          "number": 4,
+          "question": "4.  Calling the modelService.save( ) method passing an item model"
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "31",
+      "QuestionText": "Which of the following can you configure in a widget definition (definition.xml) file?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  The available non-virtual sockets"
+        },
+        {
+          "number": 2,
+          "question": "2.  The available virtual sockets"
+        },
+        {
+          "number": 3,
+          "question": "3.  The view file"
+        },
+        {
+          "number": 4,
+          "question": "4.  The default values for widget settings"
+        },
+        {
+          "number": 5,
+          "question": "5.  The business logic of the widget via a bean shell script"
+        }
+      ],
+      "CorrectAnswer": "2, 3, 4"
+    },
+    {
+      "Question": "32",
+      "QuestionText": "Which of the following relations are defined in the data model for personalization (based on SmartEdit)?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  A one-to-many relation between CxExpressionTrigger and CxSegment."
+        },
+        {
+          "number": 2,
+          "question": "2.  A one-to-many relation between CxCustomization and CxVariation."
+        },
+        {
+          "number": 3,
+          "question": "3.  A many-to-many relation between CxVariation and CxAbstractAction."
+        },
+        {
+          "number": 4,
+          "question": "4.  A many-to-many relation between CxSegmentTrigger and CxSegment"
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "33",
+      "QuestionText": "To install and configure the Solr server in cloud mode, which sequence of steps should you use?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Disable the autostart for the default instance. Enable the autostart for the cloud instance. Set the cloud instance mode to true."
+        },
+        {
+          "number": 2,
+          "question": "2.  Disable the autostart for the cloud instance. Enable the autostart for the default instance. Set the default instance mode to cloud."
+        },
+        {
+          "number": 3,
+          "question": "3.  Disable the autostart for the default instance. Enable the autostart for the cloud instance. Set the cloud instance mode to cloud."
+        },
+        {
+          "number": 4,
+          "question": "4.  Disable the autostart for the cloud instance. Enable the autostart for the default instance. Set the cloud instance mode to true."
+        }
+      ],
+      "CorrectAnswer": "3"
+    },
+    {
+      "Question": "34",
+      "QuestionText": "When are consignments created for an order in the default order management implementation?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  When an administrator approves the order"
+        },
+        {
+          "number": 2,
+          "question": "2.  After the order is placed, but before it is sourced successfully"
+        },
+        {
+          "number": 3,
+          "question": "3.  When the user adds items to the cart"
+        },
+        {
+          "number": 4,
+          "question": "4.  After the order is placed and after it has been sourced successfully"
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "35",
+      "QuestionText": "Which of the following configurations can be done to a ContentSlot?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Assign it to a maximum of one page using a ContentSlotForPage item."
+        },
+        {
+          "number": 2,
+          "question": "2.  Add a list of CMSComponents to it."
+        },
+        {
+          "number": 3,
+          "question": "3.  Assign it to one or more pages using ContentSlotForPage items."
+        },
+        {
+          "number": 4,
+          "question": "4.  Define valid CMS Components for it by modifying the ElementsForSlot relation."
+        }
+      ],
+      "CorrectAnswer": "2, 3"
+    },
+    {
+      "Question": "36",
+      "QuestionText": "What is the purpose of the dynamic forms in the Backoffice?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  To provide a dynamic extension of type definitions in the SAP Commerce platform"
+        },
+        {
+          "number": 2,
+          "question": "2.  To provide dynamic client-side validation of web forms"
+        },
+        {
+          "number": 3,
+          "question": "3.  To provide a dynamic layout of the wizards at runtime using drag and drop"
+        },
+        {
+          "number": 4,
+          "question": "4.  To enable dynamic behaviors in the user interface of Backoffice applications"
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "37",
+      "QuestionText": "Your system contains a search restriction with the following parameters: Type: Product User: anonymous. Restriction: 1=0. There is a product \"Candle\" in the online catalog and a variant product \"PinkCandle\" in the online catalog. The system renders the Product Detail Page for Pink Candle using the following flexible search query: \"SELECT {pk} FROM {VariantProduct} WHERE {code}=\"PinkCandle\". What happens next?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  The flexible search query returns a null value."
+        },
+        {
+          "number": 2,
+          "question": "2.  The flexible search query returns \u201cPinkCandle\u201d."
+        },
+        {
+          "number": 3,
+          "question": "3.  The flexible search query returns an SQL exception."
+        },
+        {
+          "number": 4,
+          "question": "4.  The flexible search query returns an empty list."
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "38",
+      "QuestionText": "How can you create asynchronous events in the SAP Commerce Cloud platform?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Implement the ClusterAwareEvent interface."
+        },
+        {
+          "number": 2,
+          "question": "2.  Extend the AbstractEvent class."
+        },
+        {
+          "number": 3,
+          "question": "3.  Implement the TransactionAwareEvent interface."
+        },
+        {
+          "number": 4,
+          "question": "4.  Change the platformClusterEventSender Spring bean configuration."
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "39",
+      "QuestionText": "Where are enumerations stored?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Dynamic enumerations are stored in the active session."
+        },
+        {
+          "number": 2,
+          "question": "2.  Non-dynamic enumerations are stored as SpEL lists in Spring."
+        },
+        {
+          "number": 3,
+          "question": "3.  Dynamic enumerations are stored in the database."
+        },
+        {
+          "number": 4,
+          "question": "4.  Non-dynamic enumerations are stored as enumeration classes."
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "40",
+      "QuestionText": "How many category items will the following ImpEx create? $prodCat=electronicsProductCatalog $version=Staged $catVersion=catalogVersion(catalog(id[default=$prodCat]),version[default=$version]) INSERT_UPDATE Category;code[unique=true];$catVersion[unique=true] ;test_category;electronicsProductCatalog ;test_category;apparelProductCatalog:$version ;test_category;:Online ;test_category;",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  1"
+        },
+        {
+          "number": 2,
+          "question": "2.  3"
+        },
+        {
+          "number": 3,
+          "question": "3.  4"
+        },
+        {
+          "number": 4,
+          "question": "4.  2"
+        }
+      ],
+      "CorrectAnswer": "2"
+    },
+    {
+      "Question": "41",
+      "QuestionText": "What happens when you use a deployment tag in the items.xml file?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  All instances of the enclosing type are stored in the specified database table."
+        },
+        {
+          "number": 2,
+          "question": "2.  Only non-inherited properties of the enclosing type are stored in the deployment table."
+        },
+        {
+          "number": 3,
+          "question": "3.  The deployment typecode is used as part of the primary key (PK) of that type's items."
+        },
+        {
+          "number": 4,
+          "question": "4.  The name of the deployment table is generated automatically."
+        }
+      ],
+      "CorrectAnswer": "1, 3"
+    },
+    {
+      "Question": "42",
+      "QuestionText": "In an Accelerator-based storefront, which of the following would allow you to display a custom CMS Component?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Create a JSP named [componentTypeCode].jsp that pulls data from a [ComponentTypeCode]Data object."
+        },
+        {
+          "number": 2,
+          "question": "2.  Configure a custom controller bean and redefine the DefaultCMSComponentController alias to point to it."
+        },
+        {
+          "number": 3,
+          "question": "3.  Configure a renderer in the cmsComponentRendererRegistry that doesn\u2019t need to use a data object or a view."
+        },
+        {
+          "number": 4,
+          "question": "4.  Create a controller for this component and register it in the cmsComponentControllerRegistry"
+        }
+      ],
+      "CorrectAnswer": "1, 3"
+    },
+    {
+      "Question": "43",
+      "QuestionText": "Which services are included in the basecommerce extension to address customer services functionality?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  OrderCancelService"
+        },
+        {
+          "number": 2,
+          "question": "2.  ReturnService"
+        },
+        {
+          "number": 3,
+          "question": "3.  CustomerReviewService"
+        },
+        {
+          "number": 4,
+          "question": "4.  CustomerAccountService"
+        },
+        {
+          "number": 5,
+          "question": "5.  RefundService"
+        }
+      ],
+      "CorrectAnswer": "1, 2, 5"
+    },
+    {
+      "Question": "44",
+      "QuestionText": "You updated a price row for a particular product using the Backoffice Product Cockpit and also made sure the cronjob for synchronizing the involved product catalog was executed successfully. When you visit the category page containing the specific product, you discover that its new price value is NOT properly displayed. How can you fix this issue?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Synchronize the category page in the Backoffice Administration Cockpit"
+        },
+        {
+          "number": 2,
+          "question": "2.  Run a Solr indexer operation in the Backoffice Administration Cockpit"
+        },
+        {
+          "number": 3,
+          "question": "3.  Synchronize the involved product in the Backoffice Product Cockpit directly"
+        },
+        {
+          "number": 4,
+          "question": "4.  Re-import the price using ImpEx"
+        }
+      ],
+      "CorrectAnswer": "2"
+    },
+    {
+      "Question": "45",
+      "QuestionText": "You are asked to define a new business process. What steps do you perform?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Define the process in BPMN format."
+        },
+        {
+          "number": 2,
+          "question": "2.  Define the actions as Spring beans."
+        },
+        {
+          "number": 3,
+          "question": "3.  Create actions in Java code."
+        },
+        {
+          "number": 4,
+          "question": "4.  Define actions as new item types."
+        },
+        {
+          "number": 5,
+          "question": "5.  Define the process in XML format."
+        }
+      ],
+      "CorrectAnswer": "2, 5"
+    },
+    {
+      "Question": "46",
+      "QuestionText": "You restart the platform without running \"ant all\". Which of the following changes take effect?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Addition of a Spring bean definition"
+        },
+        {
+          "number": 2,
+          "question": "2.  Removal of an extension from the localextensions.xml file"
+        },
+        {
+          "number": 3,
+          "question": "3.  Definition of a new item type in the items.xml file for an extension"
+        },
+        {
+          "number": 4,
+          "question": "4.  Changes to database properties in the local.properties file"
+        }
+      ],
+      "CorrectAnswer": "1, 4"
+    },
+    {
+      "Question": "47",
+      "QuestionText": "Which configuration options are available on a cache region?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Size"
+        },
+        {
+          "number": 2,
+          "question": "2.  Persistence mode"
+        },
+        {
+          "number": 3,
+          "question": "3.  Statistics enabled"
+        },
+        {
+          "number": 4,
+          "question": "4.  Clustering enabled"
+        },
+        {
+          "number": 5,
+          "question": "5.  Eviction policy"
+        }
+      ],
+      "CorrectAnswer": "1, 3, 5"
+    },
+    {
+      "Question": "48",
+      "QuestionText": "Assuming that property impex.legacy.scripting is set to false and \u2018Enable code execution\u2019 is checked, what are the results of the following ImpEx script? INSERT_UPDATE Title;code[unique=true] #%groovy% beforeEach: line.clear(); ;foo; ;bar; ;baz;",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  No entries will be updated or inserted."
+        },
+        {
+          "number": 2,
+          "question": "2.  Only the Title with code that equals \"baz\" will be updated or inserted."
+        },
+        {
+          "number": 3,
+          "question": "3.  All data rows will be cleared of unnecessary space."
+        },
+        {
+          "number": 4,
+          "question": "4.  All \"foo\", \"bar\", and \"baz\" codes will be updated or inserted."
+        }
+      ],
+      "CorrectAnswer": "1"
+    },
+    {
+      "Question": "49",
+      "QuestionText": "You need to add a new Cockpit to the Backoffice to implement new features for a business user role. Which tasks are required?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Create or reuse an add-on, and install it into the storefront."
+        },
+        {
+          "number": 2,
+          "question": "2.  Create a new multiplexer widget for the borderlayout widget."
+        },
+        {
+          "number": 3,
+          "question": "3.  Create or reuse a Backoffice extension with the proper meta information."
+        },
+        {
+          "number": 4,
+          "question": "4.  Add a new layout widget in config.xml."
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "50",
+      "QuestionText": "You have these example item types defined in myext-items.xml: < ?xml version=\"1.0\" encoding=\"ISO-8859-1\"? > < items > < itemtype code=\"Passport\" autocreate=\"true\" generate=\"true\" > < deployment typecode=\"8995\" table=\"passport\" /> < attributes > ... < /attributes > < /itemtype > < itemtype code=\"Student\" extends=\"Customer\" autocreate=\"true\" generate=\"true\" > < attributes > < attribute type=\"localized:Passport\" qualifier=\"identification\" > < persistence type=\"property\" /> < /attribute > < /attributes > < /itemtype >  What additional steps are needed to support the identification attribute?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Define a one-to-many relation between Student and Passport using a relation tag with parameter localized=\"true\"."
+        },
+        {
+          "number": 2,
+          "question": "2.  Add a maptype tag for localized:Passport with parameters argumenttype=\"Language\" and returntype=\"Passport\". Run an ant updatesystem command."
+        },
+        {
+          "number": 3,
+          "question": "3.  A passportlp table will be generated to store the localized property values."
+        },
+        {
+          "number": 4,
+          "question": "4.  Define a localized Passport attribute for the Student type in myext/resources/localization/myext-locales_XY.properties."
+        }
+      ],
+      "CorrectAnswer": "3"
+    },
+    {
+      "Question": "51",
+      "QuestionText": "In SmartEdit, what can you do with variations defined for a customization?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Assign the customer a custom search profile if a variation is in effect."
+        },
+        {
+          "number": 2,
+          "question": "2.  Apply a variation to customers who belong to a combination of segments."
+        },
+        {
+          "number": 3,
+          "question": "3.  Show different content in a slot if a variation is in effect."
+        },
+        {
+          "number": 4,
+          "question": "4.  More than one variation in a customization can be triggered at the same time."
+        },
+        {
+          "number": 5,
+          "question": "5.  Give the customer a coupon if a variation is in effect."
+        }
+      ],
+      "CorrectAnswer": "1, 3, 4"
+    },
+    {
+      "Question": "52",
+      "QuestionText": "How can you start a business process in SAP Commerce Cloud?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Use the hot folder functionality by creating a file in the configured hot file."
+        },
+        {
+          "number": 2,
+          "question": "2.  Use the Backoffice Business Process section."
+        },
+        {
+          "number": 3,
+          "question": "3.  Invoke the appropriate method of the BusinessProcessService from a script in the hybris Administration Console (hAC) scripting console."
+        },
+        {
+          "number": 4,
+          "question": "4.  Invoke the appropriate method of the BusinessProcessService from Java code"
+        }
+      ],
+      "CorrectAnswer": "2, 3"
+    },
+    {
+      "Question": "53",
+      "QuestionText": "How does SAP Commerce cloud, composable storefront compare to the SAP Commerce Cloud Accelerators?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  They have the same feature parity, but Spartacus is more upgradable."
+        },
+        {
+          "number": 2,
+          "question": "2.  Accelerators are JSP-based while Spartacus is JavaScript-based."
+        },
+        {
+          "number": 3,
+          "question": "3.  They are both using OCC API to connect to the commerce platform."
+        },
+        {
+          "number": 4,
+          "question": "4.  They are both extensible according to project requirement."
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    },
+    {
+      "Question": "54",
+      "QuestionText": "You have created your products and price rows using the approach displayed in the following ImpEx file: $catalog-id=Default $catalogversion=Staged $catalogversion=catalogversion(catalog(id),version) [unique=true,default=$catalog -id:$catalog-version] INSERT_UPDATE Product;code[unique=true];$catalogversion;name[lang=en];unit(code);approvalStatus(code); ;pro duct1;;product1;pieces;approved; ;product2;;product2;pieces;approved; #in total 1000 product data lines INSERT_UPDATE PriceRow;productId[unique=true];price;unit(code);currency(isocode) ;product1;100;pieces;EUR ;pr oduct2;200;pieces;EUR #in total 1000 price row data lines. After you import this file and synchronize the catalogs (Staged to Online), how many items are stored in the database?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  2000 products and 1000 price rows"
+        },
+        {
+          "number": 2,
+          "question": "2.  1000 products and 2000 price rows"
+        },
+        {
+          "number": 3,
+          "question": "3.  2000 products and 2000 price rows"
+        },
+        {
+          "number": 4,
+          "question": "4.  1000 products and 1000 price rows"
+        }
+      ],
+      "CorrectAnswer": "1"
+    },
+    {
+      "Question": "55",
+      "QuestionText": "What attributes can you set for a SearchRestriction?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  restrictedType"
+        },
+        {
+          "number": 2,
+          "question": "2.  currentUser"
+        },
+        {
+          "number": 3,
+          "question": "3.  principal"
+        },
+        {
+          "number": 4,
+          "question": "4.  argumentType"
+        }
+      ],
+      "CorrectAnswer": "1, 3"
+    },
+    {
+      "Question": "56",
+      "QuestionText": "What should you pay attention to when connecting two widgets?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  The output socket\u2019s type does not have to be the same as the input socket\u2019s type."
+        },
+        {
+          "number": 2,
+          "question": "2.  The input socket\u2019s type should be the same as the output socket\u2019s type."
+        },
+        {
+          "number": 3,
+          "question": "3.  The output socket's type must be the same as the input socket type."
+        },
+        {
+          "number": 4,
+          "question": "4.  The input socket's type must be a sub type of a composed item type."
+        }
+      ],
+      "CorrectAnswer": "3"
+    },
+    {
+      "Question": "57",
+      "QuestionText": "Which of the core storefront features does Spartacus support?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Customer Interests"
+        },
+        {
+          "number": 2,
+          "question": "2.  Wish List"
+        },
+        {
+          "number": 3,
+          "question": "3.  B2B Scheduled Replenishment"
+        },
+        {
+          "number": 4,
+          "question": "4.  Newsletter Subscription"
+        },
+        {
+          "number": 5,
+          "question": "5.  Configurable Promotions"
+        }
+      ],
+      "CorrectAnswer": "1, 2, 5"
+    },
+    {
+      "Question": "58",
+      "QuestionText": "How can CronJobs be started or aborted?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  CronJobs can be started manually using flexible search."
+        },
+        {
+          "number": 2,
+          "question": "2.  CronJobs can be aborted automatically if a configurable time threshold is exceeded."
+        },
+        {
+          "number": 3,
+          "question": "3.  CronJobs can be started manually via the Backoffice administration perspective."
+        },
+        {
+          "number": 4,
+          "question": "4.  CronJobs can be aborted only if implemented as abortable."
+        },
+        {
+          "number": 5,
+          "question": "5.  CronJobs can be started manually via the command line by running \"ant runcronjob\"."
+        }
+      ],
+      "CorrectAnswer": "3, 4, 5"
+    },
+    {
+      "Question": "59",
+      "QuestionText": "Which features does the Cloud Hot Folders module support?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Direct configuration of Hot Folders in the Cloud Portal"
+        },
+        {
+          "number": 2,
+          "question": "2.  Media using external URLs in uploaded ImpEx"
+        },
+        {
+          "number": 3,
+          "question": "3.  Zip archives with Impex, media and CSV files"
+        },
+        {
+          "number": 4,
+          "question": "4.  Data export into Azure Blob storage."
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "60",
+      "QuestionText": "What can a *-backoffice-widgets.xml contain in the Backoffice framework?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Spring beans of backoffice web context"
+        },
+        {
+          "number": 2,
+          "question": "2.  Context configuration object definition"
+        },
+        {
+          "number": 3,
+          "question": "3.  Virtual socket definition"
+        },
+        {
+          "number": 4,
+          "question": "4.  Widget connection"
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "61",
+      "QuestionText": "During development, how do you ensure that the modified resources of an installed addon get copied into the storefront?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Set up the resourceFilter."
+        },
+        {
+          "number": 2,
+          "question": "2.  Make sure the addonFilter is enable"
+        },
+        {
+          "number": 3,
+          "question": "3.  Run an ant all command."
+        },
+        {
+          "number": 4,
+          "question": "4.  Run an ant deploy command."
+        }
+      ],
+      "CorrectAnswer": "2, 3"
+    },
+    {
+      "Question": "62",
+      "QuestionText": "What Solr index operation uses the indexedProperties field on the SolrExtIndexerCronJob?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  FULL"
+        },
+        {
+          "number": 2,
+          "question": "2.  UPDATE"
+        },
+        {
+          "number": 3,
+          "question": "3.  DELETE"
+        },
+        {
+          "number": 4,
+          "question": "4.  PARTIAL_UPDATE"
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "63",
+      "QuestionText": "What are best practices when using models?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Create models using Java\u2019s \u2018new\u2019 keyword"
+        },
+        {
+          "number": 2,
+          "question": "2.  Use modelService.get() to obtain an item referenced by another using its PK."
+        },
+        {
+          "number": 3,
+          "question": "3.  Save the model using the modelService after the model is modified."
+        },
+        {
+          "number": 4,
+          "question": "4.  Create models using modelService.create( )."
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "64",
+      "QuestionText": "When you define an aspect in your manifest.json file, what types of information should you provide?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  properties"
+        },
+        {
+          "number": 2,
+          "question": "2.  addons"
+        },
+        {
+          "number": 3,
+          "question": "3.  webapps"
+        },
+        {
+          "number": 4,
+          "question": "4.  extensions"
+        }
+      ],
+      "CorrectAnswer": "3, 4"
+    },
+    {
+      "Question": "65",
+      "QuestionText": "Which order-splitting strategies are provided in the basecommerce extension?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Split by warehouse"
+        },
+        {
+          "number": 2,
+          "question": "2.  Split by stock availability"
+        },
+        {
+          "number": 3,
+          "question": "3.  Split by named delivery date"
+        },
+        {
+          "number": 4,
+          "question": "4.  Split by order date"
+        },
+        {
+          "number": 5,
+          "question": "5.  Split by payment method"
+        }
+      ],
+      "CorrectAnswer": "1, 2, 3"
+    },
+    {
+      "Question": "66",
+      "QuestionText": "In personalization (based on SmartEdit), you want to configure when the experience calculation is triggered for registered customers without requiring any customization. What are the available options?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Trigger the experience calculation for certain URL patterns."
+        },
+        {
+          "number": 2,
+          "question": "2.  Trigger the experience calculation after a defined number of requests."
+        },
+        {
+          "number": 3,
+          "question": "3.  Trigger the experience calculation when the customer logs in."
+        },
+        {
+          "number": 4,
+          "question": "4.  Trigger the experience calculation when the customer adds a product to the cart."
+        },
+        {
+          "number": 5,
+          "question": "5.  Trigger the experience calculation when the customer is promoted to a reward-level status."
+        }
+      ],
+      "CorrectAnswer": "1, 2, 3"
+    },
+    {
+      "Question": "67",
+      "QuestionText": "What is SmartEdit\u2019s Navigation Management page useful for?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  It can define more than one navigation hierarchy, each accessed by a different component on the page."
+        },
+        {
+          "number": 2,
+          "question": "2.  It allows you to manipulate a hierarchy of CMSNavigationNode items, each of which may contain a CMSNavigationEntry."
+        },
+        {
+          "number": 3,
+          "question": "3.  It allows you to manipulate a parent-child hierarchy of CMSLinkComponent objects."
+        },
+        {
+          "number": 4,
+          "question": "4.  It is used to configure automatic mapping of the Product Catalog\u2019s category hierarchy to the navigation bar displayed on site pages."
+        }
+      ],
+      "CorrectAnswer": "1, 2"
+    },
+    {
+      "Question": "68",
+      "QuestionText": "You are running a transaction that creates an item and updates it twice. If the transaction is committed successfully, how many AfterSaveEvent items will the ServiceLayer create?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  1"
+        },
+        {
+          "number": 2,
+          "question": "2.  0"
+        },
+        {
+          "number": 3,
+          "question": "3.  3"
+        },
+        {
+          "number": 4,
+          "question": "4.  2"
+        }
+      ],
+      "CorrectAnswer": "1"
+    },
+    {
+      "Question": "69",
+      "QuestionText": "You need to create a new custom promotion based on customer reviews for a product. You create a customPromotion extension with a new Rule Aware Object to keep customer reviews. In which file will you define this new Rule Aware Object?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  In the customPromotion-backoffice-config.xml file"
+        },
+        {
+          "number": 2,
+          "question": "2.  In the customPromotion-spring.xml file"
+        },
+        {
+          "number": 3,
+          "question": "3.  In the customPromotion-beans.xml file"
+        },
+        {
+          "number": 4,
+          "question": "4.  In the customPromotion-items.xml file"
+        }
+      ],
+      "CorrectAnswer": "3"
+    },
+    {
+      "Question": "70",
+      "QuestionText": "Which of the following is a mechanism used by WCMS to position components on a page?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  The Page item has a position map that links each component to the component in the page that the item should be displayed in."
+        },
+        {
+          "number": 2,
+          "question": "2.  The ContentSlot item\u2019s code property is used to determine which slot in the page that the item should be displayed in."
+        },
+        {
+          "number": 3,
+          "question": "3.  The component\u2019s CurrentPosition attribute is used to determine which component within the page the item should be displayed in."
+        },
+        {
+          "number": 4,
+          "question": "4.  The position attribute in the ContentSlotForTemplate item is used to identify the slot in the page that the item should be displayed in."
+        }
+      ],
+      "CorrectAnswer": "4"
+    },
+    {
+      "Question": "71",
+      "QuestionText": "You need to create a CronJob for an automated task that will be performed every day at midnight. Which steps would you follow?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Register the JobPerformable bean in your extension's Spring configuration file."
+        },
+        {
+          "number": 2,
+          "question": "2.  Define the Cronjob logic in a class that implements the JobPerformable interface."
+        },
+        {
+          "number": 3,
+          "question": "3.  Perform a system update for essential data."
+        },
+        {
+          "number": 4,
+          "question": "4.  Perform a system update for sample data."
+        },
+        {
+          "number": 5,
+          "question": "5.  Create a CronJob item and a trigger for midnight using ImpEx or Backoffice."
+        }
+      ],
+      "CorrectAnswer": "1, 2, 5"
+    },
+    {
+      "Question": "72",
+      "QuestionText": "When you are defining properties in manifest.json, which of the following attributes are you allowed to use?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  value"
+        },
+        {
+          "number": 2,
+          "question": "2.  name"
+        },
+        {
+          "number": 3,
+          "question": "3.  environment"
+        },
+        {
+          "number": 4,
+          "question": "4.  key"
+        },
+        {
+          "number": 5,
+          "question": "5.  persona"
+        }
+      ],
+      "CorrectAnswer": "1, 4, 5"
+    },
+    {
+      "Question": "73",
+      "QuestionText": "What are the advantages of using keyword redirection within Search and Navigation?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Customers can be redirected to a URL specified by the vendor."
+        },
+        {
+          "number": 2,
+          "question": "2.  Keyword redirects can be easily configured using the Backoffice administration perspective."
+        },
+        {
+          "number": 3,
+          "question": "3.  Keywords make Solr searches more efficient."
+        },
+        {
+          "number": 4,
+          "question": "4.  Keywords specify synonyms that redirect to standard catalog terms."
+        }
+      ],
+      "CorrectAnswer": "1, 2"
+    },
+    {
+      "Question": "74",
+      "QuestionText": "What do you set up to create visibility rules for specific product items for a user group?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  A type access right on the Product type for the user group"
+        },
+        {
+          "number": 2,
+          "question": "2.  A search restriction on the UserGroup type"
+        },
+        {
+          "number": 3,
+          "question": "3.  A search restriction on the Product type for the user group"
+        },
+        {
+          "number": 4,
+          "question": "4.  A type access right on the UserGroup type"
+        }
+      ],
+      "CorrectAnswer": "3"
+    },
+    {
+      "Question": "75",
+      "QuestionText": "The miniature car replicas your company sells on its site are now available in a choice of colors, each at a different price point. You wish your product page to allow your customers to select the color before adding the replica to the cart. To complicate things, your boss won\u2019t let you restart your production servers to add this functionality. What entities would you have to create to achieve this?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  A ConfigurationCategory, an AbstractConfiguratorSetting for color, a ConfiguratorType, and an OrderEntryProductInfo for each color a given replica is available in."
+        },
+        {
+          "number": 2,
+          "question": "2.  A VariantCategory for color, a VariantValueCategory for each color, and a GenericVariantProduct for each color a given replica is available in."
+        },
+        {
+          "number": 3,
+          "question": "3.  A ClassficationCategory, a ClassificationAttribute for color, a ClassificationAttributeUnit, a ClassificationAttributeValue for each color a given replica is available in, and a ClassAttributeAssignmentModel instance to tie them together."
+        },
+        {
+          "number": 4,
+          "question": "4.  A ComposedType, that extends the VariantProduct type to add a color attribute, and an instance of this type for each color a given replica is available in."
+        }
+      ],
+      "CorrectAnswer": "3"
+    },
+    {
+      "Question": "76",
+      "QuestionText": "What type of class should you implement when you need to change the trigger for recalculating the user experience results?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  A populator"
+        },
+        {
+          "number": 2,
+          "question": "2.  An interceptor"
+        },
+        {
+          "number": 3,
+          "question": "3.  A voter"
+        },
+        {
+          "number": 4,
+          "question": "4.  A controller"
+        }
+      ],
+      "CorrectAnswer": "1"
+    },
+    {
+      "Question": "77",
+      "QuestionText": "What does the Cloud Portal application enable you to do?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Set up and deploy SAP Commerce Cloud in the public cloud."
+        },
+        {
+          "number": 2,
+          "question": "2.  Manage the configurations of your cloud hot folders."
+        },
+        {
+          "number": 3,
+          "question": "3.  Create and configure endpoints tied to configured aspects."
+        },
+        {
+          "number": 4,
+          "question": "4.  Review the page load times of your environments."
+        },
+        {
+          "number": 5,
+          "question": "5.  Generate new passwords for admin and anonymous users."
+        }
+      ],
+      "CorrectAnswer": "1, 2, 3"
+    },
+    {
+      "Question": "78",
+      "QuestionText": "Your solution has been live for a significant period of time. Now you need to update project data across multiple environments, but this update should only be executed once. What is the recommended approach for updating the project data?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Create a class that extends AbstractPatchesSystemSetup and configure any data patches, which can run an import of your ImpEx files during an update."
+        },
+        {
+          "number": 2,
+          "question": "2.  Extract a SQL script of all the changes in a single environment, which a DBA can then run directly against the database for all remaining environments."
+        },
+        {
+          "number": 3,
+          "question": "3.  Create a class that extends AbstractSystemSetup and use the @SystemSetup annotation with TYPE.PROJECT, which can run an import of your ImpEx files during an update."
+        },
+        {
+          "number": 4,
+          "question": "4.  With each deployment, manually import the ImpEx files via the hybris Admin Console or via the ant importimpex target."
+        }
+      ],
+      "CorrectAnswer": "3"
+    },
+    {
+      "Question": "79",
+      "QuestionText": "What is the recommended way to deploy Solr in a production environment?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Embedded with the SAP Commerce Cloud server"
+        },
+        {
+          "number": 2,
+          "question": "2.  As one leading server and multiple subordinate servers"
+        },
+        {
+          "number": 3,
+          "question": "3.  As one standalone server"
+        },
+        {
+          "number": 4,
+          "question": "4.  As a Solr Cloud"
+        }
+      ],
+      "CorrectAnswer": "2, 3"
+    },
+    {
+      "Question": "80",
+      "QuestionText": "What should you pay attention to when you are working with webhook?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  A webhook requires an integration object as notification payload and consumed destination as the webhook\u2026"
+        },
+        {
+          "number": 2,
+          "question": "2.  A webhook uses the optional filter attribute to control which consumed destination will received notifications"
+        },
+        {
+          "number": 3,
+          "question": "3.  A webhook can be configured to send notifications when an item is created, updated or deleted."
+        },
+        {
+          "number": 4,
+          "question": "4.  A webhook guarantees the At Least Once(ALO) principal and concurrent events are not completely discarded."
+        }
+      ],
+      "CorrectAnswer": "1, 3"
+    },
+    {
+      "Question": "81",
+      "QuestionText": "You want to display a custom CMS component in an Accelerator-based storefront. What can be configured or implemented regarding this CMS component?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  Redefine the default CMSComponentController alias"
+        },
+        {
+          "number": 2,
+          "question": "2.  Create a JSP named(componentTypeCode) jsp"
+        },
+        {
+          "number": 3,
+          "question": "3.  Implement a renderer in the cmsComponentRenderer Registery"
+        },
+        {
+          "number": 4,
+          "question": "4.  Create a controller in the cmsComponentControllerRegistry"
+        }
+      ],
+      "CorrectAnswer": "2, 3"
+    },
+    {
+      "Question": "82",
+      "QuestionText": "When using monitoring support in the integration API Module, What should you pay attention to?",
+      "Options": [
+        {
+          "number": 1,
+          "question": "1.  As, it\u2019s not possible to disable the monitoring on a running server, you need to change the dedicated properties in the local properties"
+        },
+        {
+          "number": 2,
+          "question": "2.  You can monitor the inbound integration requests using the Meta API."
+        },
+        {
+          "number": 3,
+          "question": "3.  If the number of batches in a bulk requests exceeds the time allowed, then the system records one inbound request with the payload."
+        },
+        {
+          "number": 4,
+          "question": "4.  In outbound monitoring, if the source of the outbound request is not from outbound sync or webhooks, it is set as UNKNOW"
+        }
+      ],
+      "CorrectAnswer": "2, 4"
+    }
+  ]
+}

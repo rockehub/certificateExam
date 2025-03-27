@@ -1,0 +1,23 @@
+The correct answers are **1, 2, and 4**. Let's break down why:
+
+**1. Price Quote Requests:** The B2B Accelerator specifically enhances the ability for B2B customers to request price quotes for complex orders or large volumes.  This isn't a core feature of standard SAP Commerce, but a significant addition tailored to the B2B context where negotiated pricing is common.  The system manages the quote request process, allowing for modifications, approvals, and ultimately conversion to an order.  This is different from simply displaying a price; it's a formalized request-response cycle.
+
+**Practical Example:** A large enterprise customer needs 10,000 units of a product. They don't want to buy at the standard list price.  Using the B2B Accelerator's price quote request feature, they can submit a request specifying quantity and desired pricing.  A sales representative can review, negotiate, and create a formal quote.  The customer can then accept or reject the quote, leading to an order creation if accepted.
+
+**2. Order Approval Processes:** B2B transactions often require multiple levels of approval before an order is finalized. The B2B Accelerator provides workflows and configuration options to define and manage these approval processes. This includes assigning approvers based on roles, order value, or other criteria. Standard SAP Commerce has basic approval capabilities, but the B2B Accelerator significantly extends this functionality with greater flexibility and control.
+
+**Practical Example:**  A company's purchasing policy requires that orders exceeding €10,000 need approval from the purchasing manager and the finance department. The B2B Accelerator can be configured to automatically route orders above this threshold to those respective approvers.  The order remains in a pending state until both approvals are received.
+
+**4. PunchOut Support:** PunchOut is a crucial feature for integrating SAP Commerce with procurement systems (like Ariba or Coupa). It allows a buyer to launch a purchasing process directly from their procurement system into the SAP Commerce storefront. Once the order is complete in the storefront, the information is sent back to the procurement system for further processing.  This seamless integration is primarily a feature aimed at improving the efficiency of B2B purchasing within existing enterprise workflows.
+
+**Practical Example:** A buyer logs into their company's procurement system (Ariba).  They locate the item they need and click a PunchOut button. This automatically opens the SAP Commerce storefront, pre-populated with relevant buyer and company information.  The buyer adds items to their cart, completes the checkout, and the order information is sent back to Ariba for final approval and processing.
+
+
+**Why the other options are incorrect:**
+
+* **3. Bundling Promotions:** While bundling promotions are useful in B2B, they are not *specific* to the B2B accelerator.  This feature could exist in standard SAP Commerce as well.
+
+* **5. Product Searching:**  Product searching is a fundamental feature of any e-commerce platform, including standard SAP Commerce.  It's not a unique addition provided solely by the B2B accelerator.
+
+
+In summary, the B2B Accelerator builds upon the core functionality of SAP Commerce, adding features explicitly designed to address the unique requirements of business-to-business transactions, improving efficiency and workflow management.  The three selected options represent significant extensions tailored for the complexities of B2B purchasing.

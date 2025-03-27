@@ -1,0 +1,34 @@
+The correct answers are 1, 3, and 4: Tax calculation, Discount calculation, and Price calculation.  Let's break down why these three are performed by the SAP Commerce Price Factory and why the others aren't the primary responsibility:
+
+
+**1. Tax Calculation:** The Price Factory is responsible for determining the applicable tax rates based on the product, customer's location (shipping address), and potentially other factors like tax categories. It calculates the tax amount and adds it to the base price to arrive at the price including tax.  This is a crucial part of the overall pricing process.
+
+
+**3. Discount Calculation:**  The Price Factory applies discounts to the base price.  This includes various types of discounts:  product-specific discounts, customer-specific discounts (e.g., based on loyalty programs), quantity discounts, and discounts based on promotions.  The Price Factory determines which discounts are applicable and calculates the resulting discounted price.
+
+
+**4. Price Calculation:**  This is the core function. The Price Factory takes the base price of a product and applies all relevant calculations, including discounts and taxes, to arrive at the final price presented to the customer.  This is the culmination of all the pricing logic.
+
+
+**Why options 2 and 5 are incorrect (or at least not the *primary* responsibility):**
+
+**2. Coupon Calculation:** While coupons *can* influence the final price, and the Price Factory uses the results of coupon calculations, it's not the primary place where coupon logic lives.  The coupon's validity and discount value are typically determined *before* the Price Factory receives them. The Price Factory receives the discount *value* from the coupon engine and then applies it.  The *calculation* of what discount the coupon grants is done elsewhere.
+
+**5. Promotion Calculation:** Similar to coupons, promotions are managed and evaluated separately. The Price Factory receives the *results* of promotion calculations (e.g., a discount percentage or a fixed amount discount). It then integrates these results into its price calculation process. The Price Factory doesn't define the *rules* of the promotions themselves.
+
+
+**Practical Example:**
+
+Let's say a customer in California wants to buy a T-shirt priced at $20.  Here's how the Price Factory would handle the calculation:
+
+1. **Price Calculation (Base Price):** The Price Factory starts with the base price of $20.
+
+2. **Discount Calculation:**  Let's assume there's a 10% discount applied to all T-shirts. The Price Factory calculates a discount of $2 ($20 * 0.10).
+
+3. **Price Calculation (After Discount):** The discounted price becomes $18 ($20 - $2).
+
+4. **Tax Calculation:** California has a sales tax rate of, say, 7.25%. The Price Factory calculates the tax: $1.305 ($18 * 0.0725).
+
+5. **Price Calculation (Final Price):** Finally, the Price Factory adds the tax to the discounted price, resulting in a final price of $19.31 ($18 + $1.305).
+
+This final price of $19.31 is what the customer sees.  The Price Factory orchestrated the entire calculation, but it relied on input from other parts of the system (e.g., the discount engine, the tax engine) for the individual components.  It's the orchestration and integration that makes it the central pricing component.

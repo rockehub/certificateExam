@@ -1,0 +1,31 @@
+The correct answers are **Option 1: Receiving an invalidation event for the item via cluster messaging** and **Option 4: Calling the modelService.save() method passing an item model**.  Let's break down why:
+
+**Option 1: Receiving an invalidation event for the item via cluster messaging:**
+
+SAP Commerce Cloud uses a distributed cache (often using Infinispan) to store product and other item data.  This cache is crucial for performance.  When an item's data is modified *anywhere* in the system (e.g., on a different server in a clustered environment, or through external systems), an invalidation event is broadcast across the cluster. This ensures that all nodes have a consistent view of the data.  Upon receiving this event, the cache entry for the affected item is invalidated. The next time a request is made for that item, it's re-fetched from the persistence layer (database).
+
+**Option 4: Calling the modelService.save() method passing an item model:**
+
+The `modelService.save()` method persists changes to an item to the database.  After a successful save, the cache entry for the updated item must be invalidated to ensure data consistency. SAP Commerce's cache invalidation mechanism automatically handles this by detecting that the item has been modified in the persistence layer.  This ensures that subsequent requests receive the updated data.
+
+**Why Options 2 and 3 are incorrect:**
+
+* **Option 2: Calling the modelService.create() method passing a Model class:** While `modelService.create()` adds a new item, the invalidation happens implicitly *after* the item is successfully persisted (typically via a subsequent `modelService.save()` call or similar persistence mechanism). The `create` method itself doesn't directly invalidate the cache; the persistence action following it does.
+
+* **Option 3: Calling a setter method on a Model class:**  Calling a setter method only modifies the in-memory representation of the item. It doesn't automatically invalidate the cache.  The cache invalidation only happens when the changes are persisted to the database (e.g., through a subsequent `modelService.save()` call).
+
+
+**Practical Example:**
+
+Imagine a scenario with a clustered SAP Commerce setup.  A product manager updates the price of a product (let's say, a "Blue Widget") using the backoffice on Server A.
+
+1. **Persistence & Invalidation:**  The backoffice uses `modelService.save()` to update the product's price in the database.  This triggers an invalidation event that is sent via cluster messaging.
+
+2. **Cache Invalidation on Other Servers:** Server B and other servers in the cluster receive the invalidation event.  Their caches now recognize that the "Blue Widget" entry is stale.
+
+3. **Subsequent Request:** A customer views the "Blue Widget" on Server B. Because the cache entry is invalidated, Server B fetches the latest product data from the database, reflecting the price change made on Server A.  The updated price is displayed to the customer.
+
+If only the setter method (Option 3) had been used without a subsequent save, the cached price on Server B would remain unchanged, resulting in data inconsistency.
+
+
+In summary, the combination of cluster messaging (for distributed invalidation) and the persistence mechanism (`modelService.save()`) are essential for maintaining data consistency across the SAP Commerce Cloud cache in a distributed environment.  Simply modifying an object in memory isn't sufficient to trigger cache invalidation.

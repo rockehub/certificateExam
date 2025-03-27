@@ -1,0 +1,5594 @@
+[
+    {
+        "Question": "1",
+        "QuestionText": "A Credit Limit defines the maximum amount of credit assigned to a B2B unit, and if an order exceeds the credit limit, the account manager of the B2B Unit needs to approve it. What should you pay attention to when you are managing a credit limit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A date range must be defined, either as a range with start and end date (e.g. 01.Jan-30.June) or periodic (e.g. weekly), or both (weekly from 01.Jan-30.June)"
+            },
+            {
+                "number": 2,
+                "question": "2.) An alert threshold (as a percentage value, e.g. 80% or absolute value in currency, e.g. 4,000 USD) must be defined"
+            },
+            {
+                "number": 3,
+                "question": "3.) A threshold value must be defined in a given currency, (5,000 USD, for example)."
+            },
+            {
+                "number": 4,
+                "question": "4.) One or more B2B units can be assigned to the same credit limit (e.g. Store East and Store West use the same weekly credit limit)"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "2",
+        "QuestionText": "A customer wants to create promotional coupons for a marketing campaign. The coupons should be valid only for one use. How can you implement this in SAP Commerce?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Generate a multi-code coupon in the BackOffice Administration Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Generate a multi-code coupon in the BackOffice Customer Support Cockpit"
+            },
+            {
+                "number": 3,
+                "question": "3.) Generate a single-code coupon in the BackOffice Administration Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Generate a single-code coupon in the BackOffice Customer Support Cockpit"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "3",
+        "QuestionText": "A customer wants to extend the functionality of the SAP Commerce Accelerator without touching its core code base. What solution do you recommend to the customer?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Recipe"
+            },
+            {
+                "number": 2,
+                "question": "2.) AddOn"
+            },
+            {
+                "number": 3,
+                "question": "3.) Localextensions.xml"
+            },
+            {
+                "number": 4,
+                "question": "4.) Java library"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "4",
+        "QuestionText": "According to the SAP Application Lifecycle Framework for Commerce, when should you work on effort estimation?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) During the Initiation phase"
+            },
+            {
+                "number": 2,
+                "question": "2.) During the Engineering phase"
+            },
+            {
+                "number": 3,
+                "question": "3.) Post-project"
+            },
+            {
+                "number": 4,
+                "question": "4.) During deployment"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "5",
+        "QuestionText": "As a backend user, what can you do in Backoffice out of the box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Give feedback to the company's IT/admin team regarding Backoffice issues."
+            },
+            {
+                "number": 2,
+                "question": "2.) Choose a different pre-defined theme or create a custom theme"
+            },
+            {
+                "number": 3,
+                "question": "3.) Change your password"
+            },
+            {
+                "number": 4,
+                "question": "4.) Switch to another user role, if available"
+            },
+            {
+                "number": 5,
+                "question": "5.) Change the language of the backoffice UI"
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "6",
+        "QuestionText": "For which use case is a product variant appropriate?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) The product manager defines a localized variation of a product for each country-specific Web site"
+            },
+            {
+                "number": 2,
+                "question": "2.) The customer selects each component of a bundle from a list of available products"
+            },
+            {
+                "number": 3,
+                "question": "3.) The product manager defines new product attributes based on the product's location in the category hierarchy"
+            },
+            {
+                "number": 4,
+                "question": "4.) The customer selects the fabric of a product being added to the cart"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "7",
+        "QuestionText": "How can you configure personalized versions of a webstore for two different user groups using personalization based on SmartEdit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Create one customization and one target with two sets of storefront changes"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create two customizations that use the same target group but separate sets of storefront changes"
+            },
+            {
+                "number": 3,
+                "question": "3.) Create one customization with two target groups and two sets of storefront changes"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create two customizations, each with its own target group and storefront changes"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "8",
+        "QuestionText": "How can you create new CMS components in SmartEdit in order to display them in the storefront? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Create a new component on a content page"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create a new component on a page by providing the layout parameters and the viewport"
+            },
+            {
+                "number": 3,
+                "question": "3.) Create a new component on a page content slot"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create a new component on a page template content slot"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "9",
+        "QuestionText": "How can you create new CMS components in SmartEdit to display them in the storefront? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Add a shared component to a page template"
+            },
+            {
+                "number": 2,
+                "question": "2.) Add a new component to a page template content slot"
+            },
+            {
+                "number": 3,
+                "question": "3.) Add a new component to a page content slot"
+            },
+            {
+                "number": 4,
+                "question": "4.) Add a new slot to a page, then add a new component to that slot"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "10",
+        "QuestionText": "How do you add a property to a set of products? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Create a sub type of the product item type and include the new required property"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create a new classification category and feature, and assign it to a catalog category"
+            },
+            {
+                "number": 3,
+                "question": "3.) Create a new catalog version and include all products with the new required property"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create a new facet and include the new required property"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "11",
+        "QuestionText": "How does Personalization mode in SmartEdit visualize multiple customizations simultaneously? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SmartEdit labels the customized components as 'A', 'B' and so on, referring to different segments"
+            },
+            {
+                "number": 2,
+                "question": "2.) SmartEdit shows only those components that are different as a result of customization"
+            },
+            {
+                "number": 3,
+                "question": "3.) SmartEdit draws color-coded boxes around the customizations for each segment"
+            },
+            {
+                "number": 4,
+                "question": "4.) SmartEdit shows customized components in a lightbox, with other components deemphasized"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "12",
+        "QuestionText": "How does SAP Commerce arrange its product and category data?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) All categories must have at least one supercategory"
+            },
+            {
+                "number": 2,
+                "question": "2.) A product is duplicated when it is associated with a new category"
+            },
+            {
+                "number": 3,
+                "question": "3.) Categories can contain other categories and/or products"
+            },
+            {
+                "number": 4,
+                "question": "4.) Each product must be associated with only one category"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "13",
+        "QuestionText": "How does SAP Commerce Cloud handle shopping carts? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Carts can be saved directly as saved carts on the storefront"
+            },
+            {
+                "number": 2,
+                "question": "2.) Carts are persisted automatically only for customers who are logged in to the backend."
+            },
+            {
+                "number": 3,
+                "question": "3.) Carts can be exported and imported using the Comma-Separated Values (CSV) format"
+            },
+            {
+                "number": 4,
+                "question": "4.) Customer can have multiple saved carts and merge them by restoring them one by one"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "14",
+        "QuestionText": "How does the concept of categorization work in SAP Commerce? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A category can have multiple parent categories"
+            },
+            {
+                "number": 2,
+                "question": "2.) A product can belong to multiple categories"
+            },
+            {
+                "number": 3,
+                "question": "3.) A category can contain a set of product attributes"
+            },
+            {
+                "number": 4,
+                "question": "4.) A category is a logical group of products with the same attributes"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "15",
+        "QuestionText": "If a user belongs to group A, then they can buy one product in any category at 50% off. What catalog versions are available out of the box for each catalog in SAP Commerce?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Multiple staged catalog versions and multiple online catalog versions"
+            },
+            {
+                "number": 2,
+                "question": "2.) One staged catalog version and one online catalog version"
+            },
+            {
+                "number": 3,
+                "question": "3.) One staged catalog version and multiple online catalog versions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Multiple staged catalog versions and one online catalog version"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "16",
+        "QuestionText": "In Media Management of SAP Commerce Cloud, media format is an important concept. What is it typically used for? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A media format contains a reference to the physical file, according to which the media is converted."
+            },
+            {
+                "number": 2,
+                "question": "2.) A media asset is displayed with the exact size information, which is stored in the media format."
+            },
+            {
+                "number": 3,
+                "question": "3.) A media format can store information needed to perform conversion on the assigned media."
+            },
+            {
+                "number": 4,
+                "question": "4.) A media asset is displayed regardless of the size information, which is stored in the media format."
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "17",
+        "QuestionText": "In Order Management Services module, what are the functionalities of Sourcing Allocation? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Sourcing Service offers functionality to determine the number of consignments and create the corresponding consignments"
+            },
+            {
+                "number": 2,
+                "question": "2.) Sourcing Service provides a fitness evaluation to perform calculations to determine the optimal sourcing locations or consignment configurations to source orders"
+            },
+            {
+                "number": 3,
+                "question": "3.) Allocation Service allows reallocation of items from a consignment to another warehouse"
+            },
+            {
+                "number": 4,
+                "question": "4.) Allocation Service can modify the sourcing result from the Sourcing Service"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "18",
+        "QuestionText": "In SAP Commerce Cloud, the following 4 price rows are defined: priceRowA: userA - 5 dollars, priceRowB: userPriceListB - 10 dollars, priceRowC: productPriceGroupC - 8 dollars, priceRowD: 20 dollars (anything is 20 dollars). Which price row will apply if userA (assigned to the userPricelistB) is buying a product assigned to the productPriceGroupC?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) priceRowB"
+            },
+            {
+                "number": 2,
+                "question": "2.) priceRowD"
+            },
+            {
+                "number": 3,
+                "question": "3.) priceRowA"
+            },
+            {
+                "number": 4,
+                "question": "4.) priceRowC"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "19",
+        "QuestionText": "In SAP Commerce, if multiple PriceRows match a price request, which PriceRow has priority?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) The PriceRow with NO specific product or customer"
+            },
+            {
+                "number": 2,
+                "question": "2.) The PriceRow for a specific product group and customer group"
+            },
+            {
+                "number": 3,
+                "question": "3.) The PriceRow with NO specific product but with specific customer"
+            },
+            {
+                "number": 4,
+                "question": "4.) The PriceRow for a specific product and specific customer"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "20",
+        "QuestionText": "In SAP Commerce, order management, what does the sourcing service provide out-of-the-box? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Three sourcing strategies"
+            },
+            {
+                "number": 2,
+                "question": "2.) A fitness evaluation to determine the optimal sourcing locations"
+            },
+            {
+                "number": 3,
+                "question": "3.) Two sourcing strategies"
+            },
+            {
+                "number": 4,
+                "question": "4.) Three factors for sourcing configuration"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "21",
+        "QuestionText": "In SAP Commerce, where can you configure Availability to Promise?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) In the BackOffice Order Fulfillment Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) In the BackOffice Administration Cockpit"
+            },
+            {
+                "number": 3,
+                "question": "3.) In the BackOffice Adaptive Search Perspective"
+            },
+            {
+                "number": 4,
+                "question": "4.) In the BackOffice Customer Support Cockpit"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "22",
+        "QuestionText": "In SmartEdit, which of the following objects can you perform synchronization on? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A page"
+            },
+            {
+                "number": 2,
+                "question": "2.) A CMS restriction"
+            },
+            {
+                "number": 3,
+                "question": "3.) A content slot"
+            },
+            {
+                "number": 4,
+                "question": "4.) A CMS Component"
+            },
+            {
+                "number": 5,
+                "question": "5.) A page template"
+            }
+        ],
+        "CorrectAnswer": "1,3,4"
+    },
+    {
+        "Question": "23",
+        "QuestionText": "In the context of Fraud Detection, which of the following Symptoms are supported out of the box in SAP Commerce Cloud? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) First Time Order Symptom"
+            },
+            {
+                "number": 2,
+                "question": "2.) Unusual Behaviour Symptom"
+            },
+            {
+                "number": 3,
+                "question": "3.) Different Addresses Symptom"
+            },
+            {
+                "number": 4,
+                "question": "4.) Proper Authorization Symptom"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "24",
+        "QuestionText": "In the standard SAP Commerce accelerators, what are the CMS navigation nodes used for? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) To provide hierarchical structure in the navigation bar"
+            },
+            {
+                "number": 2,
+                "question": "2.) To configure links used in the navigation bar"
+            },
+            {
+                "number": 3,
+                "question": "3.) To filter product attributes"
+            },
+            {
+                "number": 4,
+                "question": "4.) To configure the checkout navigation page flow"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "25",
+        "QuestionText": "In which project phase do you make a go/no-go decision for the Build phase? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Exploration"
+            },
+            {
+                "number": 2,
+                "question": "2.) Deployment"
+            },
+            {
+                "number": 3,
+                "question": "3.) Foundation"
+            },
+            {
+                "number": 4,
+                "question": "4.) Engineering"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "26",
+        "QuestionText": "In which User interface do you create a new variant of an existing base product? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) BackOffice Administration Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Hybris Administration Console"
+            },
+            {
+                "number": 3,
+                "question": "3.) BackOffice Product Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) SmartEdit"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "27",
+        "QuestionText": "Intelligent Selling Services for SAP Commerce Cloud (also known as ISS) allows you to show the most relevant products to visitors at the right point in their shopping journey using product recommendations. Which of the following ISS product recommendations are based on deep learning or machine learning? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Recently viewed products"
+            },
+            {
+                "number": 2,
+                "question": "2.) Complementary products"
+            },
+            {
+                "number": 3,
+                "question": "3.) Trending products"
+            },
+            {
+                "number": 4,
+                "question": "4.) Personalized products"
+            },
+            {
+                "number": 5,
+                "question": "5.) Related products"
+            }
+        ],
+        "CorrectAnswer": "1,3,5"
+    },
+    {
+        "Question": "28",
+        "QuestionText": "Multi-Code coupons are generated based on a coupon code generation configuration. What does a coupon code generation configuration contain? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Coupon code prefix"
+            },
+            {
+                "number": 2,
+                "question": "2.) Number of coupon codes"
+            },
+            {
+                "number": 3,
+                "question": "3.) Coupon part length"
+            },
+            {
+                "number": 4,
+                "question": "4.) Coupon part count"
+            },
+            {
+                "number": 5,
+                "question": "5.) Code separator"
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "29",
+        "QuestionText": "Out-of-the-box, what changes can occur when a bundle component is added to a customer's cart in the telco accelerator? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A customer becomes eligible for one or more promotions"
+            },
+            {
+                "number": 2,
+                "question": "2.) New product categories appear on the storefront"
+            },
+            {
+                "number": 3,
+                "question": "3.) The prices of other bundle components change"
+            },
+            {
+                "number": 4,
+                "question": "4.) The bundle product image is updated"
+            },
+            {
+                "number": 5,
+                "question": "5.) Other bundle components become available"
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "30",
+        "QuestionText": "SAP Commerce Cloud includes Bundles Perspective in the Backoffice Product Cockpit. What can a merchant use this to do? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Disallow certain product combinations in a bundle"
+            },
+            {
+                "number": 2,
+                "question": "2.) Set up a total discounted price for all products in a bundle"
+            },
+            {
+                "number": 3,
+                "question": "3.) Set up special prices for products in a bundle"
+            },
+            {
+                "number": 4,
+                "question": "4.) Set the maximum number of products in a bundle"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "31",
+        "QuestionText": "SAP Commerce Cloud includes the integration API module as one of the most important interfaces for data integration. What should you consider when you are planning to use the integration API module? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) You can configure the integration objects and they will become effective after a simplified redeployment of the server."
+            },
+            {
+                "number": 2,
+                "question": "2.) You can define the integration objects and their payloads for easy mapping in an OData application"
+            },
+            {
+                "number": 3,
+                "question": "3.) You can define the integration objects and their payloads for easy mapping in a SOAP application."
+            },
+            {
+                "number": 4,
+                "question": "4.) You can configure the integration objects in run time without restarting or recompiling the server"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "32",
+        "QuestionText": "The SAP Commerce Cloud, Integration Extension pack provides out of the box support to integrate other SAP Solutions. Which of the following solutions are included? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SAP Central Finance"
+            },
+            {
+                "number": 2,
+                "question": "2.) SAP Ariba"
+            },
+            {
+                "number": 3,
+                "question": "3.) SAP S/4HANA Service"
+            },
+            {
+                "number": 4,
+                "question": "4.) SAP Variant Configuration and Pricing"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "33",
+        "QuestionText": "What actions can you perform using the Advanced Edit mode of SmartEdit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Convert shared content slots to non-shared content slots"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create base products and variants"
+            },
+            {
+                "number": 3,
+                "question": "3.) Move the homepage to trash"
+            },
+            {
+                "number": 4,
+                "question": "4.) Edit the content of shared slots"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "34",
+        "QuestionText": "What are CMS navigation nodes used for? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) To provide a hierarchical structure among B2B business units and cost centers"
+            },
+            {
+                "number": 2,
+                "question": "2.) To provide links used in the checkout navigation page flow"
+            },
+            {
+                "number": 3,
+                "question": "3.) To configure links used in the navigation bar"
+            },
+            {
+                "number": 4,
+                "question": "4.) To configure links used in the My Account menu"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "35",
+        "QuestionText": "What are features specific to the SAP Commerce, financial services accelerator?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Order management"
+            },
+            {
+                "number": 2,
+                "question": "2.) PunchOut functionality"
+            },
+            {
+                "number": 3,
+                "question": "3.) Add to cart functionality"
+            },
+            {
+                "number": 4,
+                "question": "4.) Find Agent functionality"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "36",
+        "QuestionText": "What are key features of entitlement and metering for SAP Commerce? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Ability to grant entitlements at checkout"
+            },
+            {
+                "number": 2,
+                "question": "2.) Ability to automatically connect external entitlement platforms"
+            },
+            {
+                "number": 3,
+                "question": "3.) Ability to view entitlements in the WCMS Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Ability to assign multiple metered or non-metered entitlements to a product"
+            },
+            {
+                "number": 5,
+                "question": "5.) Ability to measure usage and limit access when a threshold is reached"
+            }
+        ],
+        "CorrectAnswer": "1,4,5"
+    },
+    {
+        "Question": "37",
+        "QuestionText": "What are key features of the SAP Commerce Rule Engine? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) It provides a BackOffice interface to trigger the rule execution"
+            },
+            {
+                "number": 2,
+                "question": "2.) It provides a BackOffice interface to create new conditions"
+            },
+            {
+                "number": 3,
+                "question": "3.) It provides a centralized repository of rules"
+            },
+            {
+                "number": 4,
+                "question": "4.) It provides separation of data and logic"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "38",
+        "QuestionText": "What are the advantages of designing your catalog with one master catalog and multiple downstream catalogs? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Search engine indexing can be done more efficiently"
+            },
+            {
+                "number": 2,
+                "question": "2.) Performance is optimized for a large number of regions"
+            },
+            {
+                "number": 3,
+                "question": "3.) Promotions can be defined for a specific region"
+            },
+            {
+                "number": 4,
+                "question": "4.) Different regions can have different category hierarchies"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "39",
+        "QuestionText": "What are the advantages of using SAP Commerce Cloud in the Public Cloud? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Security and compliance, for example disaster recovery and backup and more"
+            },
+            {
+                "number": 2,
+                "question": "2.) Regular upgrades of the underlying SAP Commerce Cloud core"
+            },
+            {
+                "number": 3,
+                "question": "3.) Support services from our 24/7 support teams"
+            },
+            {
+                "number": 4,
+                "question": "4.) Compatibility with older version of SAP Commerce, such as 6.X"
+            },
+            {
+                "number": 5,
+                "question": "5.) Flexibility of installing any third party software application"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "40",
+        "QuestionText": "What are the differences between boost rules and promoting items? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Boost rules are defined globally while promoted items are category aware."
+            },
+            {
+                "number": 2,
+                "question": "2.) Promoting an item prioritizes it more than the boost rules do"
+            },
+            {
+                "number": 3,
+                "question": "3.) Boost rules are attribute-focused while promoted items are product-focused."
+            },
+            {
+                "number": 4,
+                "question": "4.) Boosting an item prioritizes it more than promoting an item does"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "41",
+        "QuestionText": "What are the key tasks of a Business-to-Business (B2B) administrator? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Define structure of the customer organization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Approve negotiated prices of commerce quotes"
+            },
+            {
+                "number": 3,
+                "question": "3.) Approve orders that exceed cost center limit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Manage shipping addresses"
+            },
+            {
+                "number": 5,
+                "question": "5.) Manage cost centers and budgets"
+            }
+        ],
+        "CorrectAnswer": "1,4,5"
+    },
+    {
+        "Question": "42",
+        "QuestionText": "What are the limits of a temporary license? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) It can be used for production purposes within the specified time limit"
+            },
+            {
+                "number": 2,
+                "question": "2.) It is provided for 60 days."
+            },
+            {
+                "number": 3,
+                "question": "3.) It can be used for test and development purposes."
+            },
+            {
+                "number": 4,
+                "question": "4.) It is provided for 30 days"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "43",
+        "QuestionText": "What can a customer support agent use the Assisted Service Module to do? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) View the customer's cart using the 360 degree customer view"
+            },
+            {
+                "number": 2,
+                "question": "2.) Approve an order flagged as possible fraud"
+            },
+            {
+                "number": 3,
+                "question": "3.) Create a new customer account on the customer's behalf"
+            },
+            {
+                "number": 4,
+                "question": "4.) Search for a customer's account or session"
+            },
+            {
+                "number": 5,
+                "question": "5.) Create and assign a coupon good for the duration of the ASM session"
+            }
+        ],
+        "CorrectAnswer": "1,3,4"
+    },
+    {
+        "Question": "44",
+        "QuestionText": "What can end-users do when working with workflows? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Share a workflow task on Social Media"
+            },
+            {
+                "number": 2,
+                "question": "2.) Track a workflow"
+            },
+            {
+                "number": 3,
+                "question": "3.) Confirm a task is complete"
+            },
+            {
+                "number": 4,
+                "question": "4.) Add a completion date manually"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "45",
+        "QuestionText": "What can you do in the BackOffice Admin Cockpit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) View all constraints in the system"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create a constraint method"
+            },
+            {
+                "number": 3,
+                "question": "3.) Reload constraints into the validation engine"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create a new constraint type"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "46",
+        "QuestionText": "What can you do in the Basic Edit mode of Smart Edit? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Save or recall a version"
+            },
+            {
+                "number": 2,
+                "question": "2.) Synchronize a content catalog"
+            },
+            {
+                "number": 3,
+                "question": "3.) Add or edit component restrictions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Move components within a page"
+            },
+            {
+                "number": 5,
+                "question": "5.) Add components to a page"
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "47",
+        "QuestionText": "What can you do with SmartEdit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Modify navigation nodes"
+            },
+            {
+                "number": 2,
+                "question": "2.) Edit product information"
+            },
+            {
+                "number": 3,
+                "question": "3.) Create and edit search profiles"
+            },
+            {
+                "number": 4,
+                "question": "4.) Clone web pages"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "48",
+        "QuestionText": "What can you do with the Collaboration Center in Backoffice? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Create a new workflow template"
+            },
+            {
+                "number": 2,
+                "question": "2.) Work on a specific task assigned by a workflow"
+            },
+            {
+                "number": 3,
+                "question": "3.) Monitor a workflow by seeing the finished and current steps"
+            },
+            {
+                "number": 4,
+                "question": "4.) Start a workflow by dropping items into the collaboration center"
+            },
+            {
+                "number": 5,
+                "question": "5.) Assign the user to the Visible for Principal group"
+            }
+        ],
+        "CorrectAnswer": "2,3,4"
+    },
+    {
+        "Question": "49",
+        "QuestionText": "What can you do with the Preview Mode in SmartEdit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Display the staged version content catalog in different languages, dates and time"
+            },
+            {
+                "number": 2,
+                "question": "2.) Synchronize the catalog with the online version"
+            },
+            {
+                "number": 3,
+                "question": "3.) Navigate to the page to be personalized"
+            },
+            {
+                "number": 4,
+                "question": "4.) Edit some basic properties of a page if you have special permissions"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "50",
+        "QuestionText": "What catalog versions are provided out-of-the-box for each catalog in SAP Commerce?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) One staged catalog version and multiple online catalog versions"
+            },
+            {
+                "number": 2,
+                "question": "2.) One staged catalog version and one online catalog version"
+            },
+            {
+                "number": 3,
+                "question": "3.) Multiple staged catalog versions and multiple online catalog versions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Multiple staged catalog versions and one online catalog version"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "51",
+        "QuestionText": "What checkout features does SAP Commerce Cloud support out of the box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Regular step-by-step checkout used by either customers or ASM agents"
+            },
+            {
+                "number": 2,
+                "question": "2.) Express checkout with previously saved values from the customer account"
+            },
+            {
+                "number": 3,
+                "question": "3.) A temporary user account is created and mapped to the session cart during Guest Checkout"
+            },
+            {
+                "number": 4,
+                "question": "4.) Customizable checkout steps configurable in Assisted Services Mode (ASM)"
+            },
+            {
+                "number": 5,
+                "question": "5.) Additional validation options in the Backoffice Administration Cockpit"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "52",
+        "QuestionText": "What do you need to know about search profiles? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Search profiles are catalog aware and can be merged together"
+            },
+            {
+                "number": 2,
+                "question": "2.) Search profiles can be configured in SmartEdit"
+            },
+            {
+                "number": 3,
+                "question": "3.) A search profile can contain only one boost rule"
+            },
+            {
+                "number": 4,
+                "question": "4.) A single search profile can have different configurations"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "53",
+        "QuestionText": "What document does a business analyst produce during the initiation phase?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Foundation workshop agenda"
+            },
+            {
+                "number": 2,
+                "question": "2.) End-user documentation"
+            },
+            {
+                "number": 3,
+                "question": "3.) High-level requirement list"
+            },
+            {
+                "number": 4,
+                "question": "4.) Quality assurance documentation"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "54",
+        "QuestionText": "What does adding a customization allow you to do in SmartEdit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalize the appearance of a page based on user segments"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create and manage Web site content on the fly"
+            },
+            {
+                "number": 3,
+                "question": "3.) Activate a discount for a specific user segment"
+            },
+            {
+                "number": 4,
+                "question": "4.) Update Web site content without having to rely on the IT department"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "55",
+        "QuestionText": "What does SAP backend integrations provide out-of-the-box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Integration with SAP Marketing Cloud"
+            },
+            {
+                "number": 2,
+                "question": "2.) SAP ERP integration scenarios"
+            },
+            {
+                "number": 3,
+                "question": "3.) SAP Customer Activity Repository (CAR) integration"
+            },
+            {
+                "number": 4,
+                "question": "4.) An additional package for the integration with SAP CRM"
+            },
+            {
+                "number": 5,
+                "question": "5.) SAP S/4HANA integration scenarios"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "56",
+        "QuestionText": "What does SAP Commerce provide for developing payment functionality? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A two-layered architecture framework to support flexible implementation"
+            },
+            {
+                "number": 2,
+                "question": "2.) An architecture framework with services, methods, and adapters"
+            },
+            {
+                "number": 3,
+                "question": "3.) Interfaces to support customer-made adapters to communicate with other payment service providers"
+            },
+            {
+                "number": 4,
+                "question": "4.) An out-of-the-box payment adapter gateway with PayPal"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "57",
+        "QuestionText": "What does SAP Commerce use out-of-the-box to import product data? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Data Hub"
+            },
+            {
+                "number": 2,
+                "question": "2.) SAP Integration APIs"
+            },
+            {
+                "number": 3,
+                "question": "3.) ImpEx"
+            },
+            {
+                "number": 4,
+                "question": "4.) SmartEdit"
+            },
+            {
+                "number": 5,
+                "question": "5.) SAP Process Integration"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "58",
+        "QuestionText": "What does the Assisted Service Module enable a customer sales and service agent to do? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) View or edit the customer's cart using the 360 degree customer view"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create a new customer account on the customer's behalf"
+            },
+            {
+                "number": 3,
+                "question": "3.) Override the rules of a promotion on behalf the customer"
+            },
+            {
+                "number": 4,
+                "question": "4.) Search for a customer's account or session"
+            },
+            {
+                "number": 5,
+                "question": "5.) Create a voucher on behalf of the customer"
+            }
+        ],
+        "CorrectAnswer": "1,2,4"
+    },
+    {
+        "Question": "59",
+        "QuestionText": "What does the Cart & Checkout module provide out-of-the-box? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Centralized hub for integration with Fraud Service Providers"
+            },
+            {
+                "number": 2,
+                "question": "2.) Interfaces to interact with warehouse management systems"
+            },
+            {
+                "number": 3,
+                "question": "3.) Ability to pick, pack, label, and confirm shipments through the BackOffice Order Fulfilment Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Sourcing and Allocation"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "60",
+        "QuestionText": "What does the Fraud Detection Module provide out of the box? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A storefront interface for customers to see the reason that their order is judged as fraudulent"
+            },
+            {
+                "number": 2,
+                "question": "2.) Essential fraud checks conducted by the internal fraud service"
+            },
+            {
+                "number": 3,
+                "question": "3.) A sample or mockup implementation based on fraud symptom detection"
+            },
+            {
+                "number": 4,
+                "question": "4.) If an order is identified as fraud with the first threshold, it is rejected automatically and marked as cancelled"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "61",
+        "QuestionText": "What does the order fulfilment process do? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Loads XML format definitions based on standard Business Process Model and Notation (BPMN)"
+            },
+            {
+                "number": 2,
+                "question": "2.) Manages and controls an order through all stages in the system once it has been placed"
+            },
+            {
+                "number": 3,
+                "question": "3.) Creates a support ticket on behalf of a customer"
+            },
+            {
+                "number": 4,
+                "question": "4.) Pre-processes orders and splits them into consignments if necessary"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "62",
+        "QuestionText": "What happens when you recover a saved version of a page in SmartEdit? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) You will be prompted to save your work as a new version."
+            },
+            {
+                "number": 2,
+                "question": "2.) You will be able to edit the recovered version."
+            },
+            {
+                "number": 3,
+                "question": "3.) You will NOT be able to edit the recovered version."
+            },
+            {
+                "number": 4,
+                "question": "4.) Your unsaved work will be saved as a new version automatically."
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "63",
+        "QuestionText": "What is a media format typically used for in media management in SAP Commerce Cloud? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) To enable the assigned media to be selected when dealing with responsive banner components"
+            },
+            {
+                "number": 2,
+                "question": "2.) To convert a base media to another media"
+            },
+            {
+                "number": 3,
+                "question": "3.) To describe the format of the assigned media, such as .jpeg or .png"
+            },
+            {
+                "number": 4,
+                "question": "4.) To refer to the type of the assigned media, such as image, video, or text"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "64",
+        "QuestionText": "What is a variant product?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A product representing one purchasable version of a base product"
+            },
+            {
+                "number": 2,
+                "question": "2.) A product template configurable via SAP Configure, Price, and Quote"
+            },
+            {
+                "number": 3,
+                "question": "3.) A product template configurable via SAP Commerce, bundling module"
+            },
+            {
+                "number": 4,
+                "question": "4.) A product representing multiple purchasable versions of a base product"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "65",
+        "QuestionText": "What is an SAP AddOn?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A commerce extension that provides optional functionality, such as behavioural targeting, vouchers, Solr faceted search, or subscriptions"
+            },
+            {
+                "number": 2,
+                "question": "2.) A set of Java libraries, distributed as a JAR file, used to call external service providers, such as payment, tax, or fraud service providers."
+            },
+            {
+                "number": 3,
+                "question": "3.) A type of extension that allows you to extend SAP Commerce accelerator functionality, such as sharing on a social network"
+            },
+            {
+                "number": 4,
+                "question": "4.) A type of extension running on a separate framework that provides specialized backend functionality and connects with SAP through RESTful Web services"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "66",
+        "QuestionText": "What is available out-of-the-box to support multiple languages for the SAP Commerce accelerators? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Localization of product summary attribute"
+            },
+            {
+                "number": 2,
+                "question": "2.) Localization of user name attribute"
+            },
+            {
+                "number": 3,
+                "question": "3.) Localization of CMS Link URL attribute"
+            },
+            {
+                "number": 4,
+                "question": "4.) Localization of product description attribute"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "67",
+        "QuestionText": "What is the Application Management according to the SAP Application Lifecycle Framework for Commerce? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A continuous work stream running the entire duration of a release, aiming to organize preparation"
+            },
+            {
+                "number": 2,
+                "question": "2.) A continuous work stream that starts with the first deployment to production environment, aiming to provide support and live-operations management"
+            },
+            {
+                "number": 3,
+                "question": "3.) A continuous work stream that starts with the first initiation phase, aiming to provide ongoing smaller development work that can be done outside of a project"
+            },
+            {
+                "number": 4,
+                "question": "4.) A continuous work stream aimed to support, operate, and maintain the live solution once it's been deployed to a live production environment and is being used by end-users"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "68",
+        "QuestionText": "What is the difference between boost rules and promoting items? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Boost rules are defined globally while promoted items are category aware."
+            },
+            {
+                "number": 2,
+                "question": "2.) Promoting an item prioritizes it more than the boost rules do."
+            },
+            {
+                "number": 3,
+                "question": "3.) Boost rules are attribute-focused while promoted items are product-focused."
+            },
+            {
+                "number": 4,
+                "question": "4.) Boosting an item prioritizes it more than promoting an item does."
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "69",
+        "QuestionText": "What SEO features does SAP Commerce offer? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Automatically generated meta descriptions and keywords"
+            },
+            {
+                "number": 2,
+                "question": "2.) Automatically generated XML sitemaps"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automatically generated HTML sitemaps"
+            },
+            {
+                "number": 4,
+                "question": "4.) Fields in PCM for meta descriptions and keywords"
+            },
+            {
+                "number": 5,
+                "question": "5.) Configurable URL construction rules"
+            }
+        ],
+        "CorrectAnswer": "2,4,5"
+    },
+    {
+        "Question": "70",
+        "QuestionText": "When creating a new PriceRow, what information can you specify? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Channel"
+            },
+            {
+                "number": 2,
+                "question": "2.) Date range"
+            },
+            {
+                "number": 3,
+                "question": "3.) Country"
+            },
+            {
+                "number": 4,
+                "question": "4.) Scale"
+            },
+            {
+                "number": 5,
+                "question": "5.) Website"
+            }
+        ],
+        "CorrectAnswer": "1,2,4"
+    },
+    {
+        "Question": "71",
+        "QuestionText": "Where can you configure sourcing in the Order Management Services Module in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) In the Assisted Service Module"
+            },
+            {
+                "number": 2,
+                "question": "2.) In the Backoffice Administration Cockpit"
+            },
+            {
+                "number": 3,
+                "question": "3.) In local properties or project properties of your custom extensions"
+            },
+            {
+                "number": 4,
+                "question": "4.) In the Backoffice Order Fulfillment Cockpit"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "72",
+        "QuestionText": "Which are out-of-the-box features of the SAP Commerce, B2C accelerator? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Buy online and pick up in store (BOPIS)"
+            },
+            {
+                "number": 2,
+                "question": "2.) Bundling of products and services"
+            },
+            {
+                "number": 3,
+                "question": "3.) Express checkout"
+            },
+            {
+                "number": 4,
+                "question": "4.) Pre-paid system"
+            },
+            {
+                "number": 5,
+                "question": "5.) Social network integration"
+            }
+        ],
+        "CorrectAnswer": "1,3,5"
+    },
+    {
+        "Question": "73",
+        "QuestionText": "Which areas in the user interface can you use to create a customer complaint ticket? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Backoffice Collaboration Center"
+            },
+            {
+                "number": 2,
+                "question": "2.) Backoffice Customer Support Cockpit"
+            },
+            {
+                "number": 3,
+                "question": "3.) On the storefront using the Assisted Service Module"
+            },
+            {
+                "number": 4,
+                "question": "4.) Feedback Icon at the top right of the Backoffice page"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "74",
+        "QuestionText": "Which calculations are performed by the SAP Commerce price factory? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Promotion calculation"
+            },
+            {
+                "number": 2,
+                "question": "2.) Discount calculation"
+            },
+            {
+                "number": 3,
+                "question": "3.) Coupon calculation"
+            },
+            {
+                "number": 4,
+                "question": "4.) Price calculation"
+            },
+            {
+                "number": 5,
+                "question": "5.) Tax calculation"
+            }
+        ],
+        "CorrectAnswer": "2,4,5"
+    },
+    {
+        "Question": "75",
+        "QuestionText": "Which checkout scenarios are supported out-of-the-box in the SAP Commerce, B2C accelerator? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Guest checkout"
+            },
+            {
+                "number": 2,
+                "question": "2.) One-click checkout"
+            },
+            {
+                "number": 3,
+                "question": "3.) Guided selling checkout"
+            },
+            {
+                "number": 4,
+                "question": "4.) Express checkout"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "76",
+        "QuestionText": "Which features are exclusively supported by the Business-to-Business (B2B) Commerce Module? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Punch Out support"
+            },
+            {
+                "number": 2,
+                "question": "2.) Future stock availability"
+            },
+            {
+                "number": 3,
+                "question": "3.) Product search"
+            },
+            {
+                "number": 4,
+                "question": "4.) Order approval processes"
+            },
+            {
+                "number": 5,
+                "question": "5.) Bundling promotions"
+            }
+        ],
+        "CorrectAnswer": "1,2,4"
+    },
+    {
+        "Question": "77",
+        "QuestionText": "Which features are provided by the Backoffice Visual Workflow Template Designer? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Arrange the position of nodes/edges for visualizing workflow templates and instances"
+            },
+            {
+                "number": 2,
+                "question": "2.) Abort running workflows"
+            },
+            {
+                "number": 3,
+                "question": "3.) Drag & Drop items to trigger workflows with workflow templates"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create new workflow templates"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "78",
+        "QuestionText": "Which features are specific to the SAP Commerce, B2B accelerator? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Price quote requests"
+            },
+            {
+                "number": 2,
+                "question": "2.) Bundling promotions"
+            },
+            {
+                "number": 3,
+                "question": "3.) Product searching"
+            },
+            {
+                "number": 4,
+                "question": "4.) PunchOut support"
+            },
+            {
+                "number": 5,
+                "question": "5.) Order approval processes"
+            }
+        ],
+        "CorrectAnswer": "1,4,5"
+    },
+    {
+        "Question": "79",
+        "QuestionText": "Which features are specific to the SAP Commerce, telco and media accelerator? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Subscriptions"
+            },
+            {
+                "number": 2,
+                "question": "2.) Fraud detection engine"
+            },
+            {
+                "number": 3,
+                "question": "3.) Bundling of products and services"
+            },
+            {
+                "number": 4,
+                "question": "4.) Find agent"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "80",
+        "QuestionText": "Which features are supported out of the box by the Cloud Hot Folders module? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Automatic creation of a hot folder in Microsoft Azure Blob Storage"
+            },
+            {
+                "number": 2,
+                "question": "2.) Support of both CSV and ImpEx file formats"
+            },
+            {
+                "number": 3,
+                "question": "3.) End-to-end processes monitoring in Backoffice"
+            },
+            {
+                "number": 4,
+                "question": "4.) Easy access to storage connection credentials stored in configuration properties"
+            },
+            {
+                "number": 5,
+                "question": "5.) Synchronous integration mechanism to safely import batches of data"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "81",
+        "QuestionText": "Which integrations are supported out-of-the-box by SAP Commerce? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SAP Synchronous Order Management"
+            },
+            {
+                "number": 2,
+                "question": "2.) SAP Product Lifecycle Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) LDAP Integration"
+            },
+            {
+                "number": 4,
+                "question": "4.) SAP Address Validation"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "82",
+        "QuestionText": "Which of the following activities does the SAP order fulfilment process support? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Managing and controlling an order through all stages in the system once it has been placed"
+            },
+            {
+                "number": 2,
+                "question": "2.) Pre-processing orders and splits them into consignments if necessary"
+            },
+            {
+                "number": 3,
+                "question": "3.) Creating a support ticket on behalf of a customer"
+            },
+            {
+                "number": 4,
+                "question": "4.) Managing cancellations and returns"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "83",
+        "QuestionText": "Which of the following are out of the box features of the standard Business-to-Consumer (B2C) functionality in SAP Commerce Cloud? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Buy online and pick up in store"
+            },
+            {
+                "number": 2,
+                "question": "2.) Quick Orders"
+            },
+            {
+                "number": 3,
+                "question": "3.) Social network integration"
+            },
+            {
+                "number": 4,
+                "question": "4.) Pre paid system"
+            },
+            {
+                "number": 5,
+                "question": "5.) Quote Negotiation"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "84",
+        "QuestionText": "Which of the following are out-of-the-box features of the GDPR support in SAP Commerce? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Order tracking"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personal data reporting"
+            },
+            {
+                "number": 3,
+                "question": "3.) Breach notification"
+            },
+            {
+                "number": 4,
+                "question": "4.) Consent management"
+            },
+            {
+                "number": 5,
+                "question": "5.) Data retention/deletion"
+            }
+        ],
+        "CorrectAnswer": "2,4,5"
+    },
+    {
+        "Question": "85",
+        "QuestionText": "Which of the following can be viewed and edited out of the box in Omni Commerce Connect v2 (also known as OCC)? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Promotions"
+            },
+            {
+                "number": 2,
+                "question": "2.) Products"
+            },
+            {
+                "number": 3,
+                "question": "3.) Tickets"
+            },
+            {
+                "number": 4,
+                "question": "4.) Product interests"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "86",
+        "QuestionText": "Which of the following data can be integrated with SAP Commerce via SAP Integrations out-of-the-box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Promotion data"
+            },
+            {
+                "number": 2,
+                "question": "2.) Search profile data"
+            },
+            {
+                "number": 3,
+                "question": "3.) Order data"
+            },
+            {
+                "number": 4,
+                "question": "4.) Price data"
+            },
+            {
+                "number": 5,
+                "question": "5.) Stock data"
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "87",
+        "QuestionText": "Which of the following databases are supported when developing SAP Commerce on a local machine? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) PostgreSQL"
+            },
+            {
+                "number": 2,
+                "question": "2.) Microsoft Access"
+            },
+            {
+                "number": 3,
+                "question": "3.) MySQL"
+            },
+            {
+                "number": 4,
+                "question": "4.) Microsoft SQL Server"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "88",
+        "QuestionText": "Which of the following is a recommended use case for product variants?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) The product manager picks valid values for the voltage attribute inherited by products in the Household Appliances category"
+            },
+            {
+                "number": 2,
+                "question": "2.) The product manager defines a localized product variation for each country-specific website."
+            },
+            {
+                "number": 3,
+                "question": "3.) The customer picks from a selection of fabrics when adding a jacket to the cart"
+            },
+            {
+                "number": 4,
+                "question": "4.) The customer picks a size for each of the four drives in a disk array."
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "89",
+        "QuestionText": "Which of the following might be involved in using multi-dimensional product variants to model an affiliation to five sports teams to a line of men's jerseys on your site?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Define a Team Affiliation variant classification attribute in the Backoffice"
+            },
+            {
+                "number": 2,
+                "question": "2.) Define a Team Affiliation variant product attribute in your custom extension's items.xml file"
+            },
+            {
+                "number": 3,
+                "question": "3.) Create a Team Affiliation bundle of product variants in the Product Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create a Team Affiliation instance of VariantCategory in the Backoffice"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "90",
+        "QuestionText": "Which of the following promotions are supported out of the box by the promotion engine without technical customization? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Buy over 500 dollars, get any product in category A at 20% off"
+            },
+            {
+                "number": 2,
+                "question": "2.) If a user buys 100 dollars worth of category A products, then they get a free gift of a specified product"
+            },
+            {
+                "number": 3,
+                "question": "3.) Redeem coupon A, get product B for free."
+            },
+            {
+                "number": 4,
+                "question": "4.) When a user buys 100 dollars worth of category X products and 100 Dollars worth of category Y products, then they get 50% off category Z products"
+            }
+        ],
+        "CorrectAnswer": "1,2,4"
+    },
+    {
+        "Question": "91",
+        "QuestionText": "Which of the following SAP Commerce Cloud features support Global Data Protection Regulation (GDPR) out of the box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personal data reporting"
+            },
+            {
+                "number": 2,
+                "question": "2.) Consent management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data retention or deletion"
+            },
+            {
+                "number": 4,
+                "question": "4.) Breach notification"
+            },
+            {
+                "number": 5,
+                "question": "5.) Order tracking"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "92",
+        "QuestionText": "Which of the following solutions can be used to integrate third-party systems with SAP Commerce? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Administration console (hac) of SAP Commerce"
+            },
+            {
+                "number": 2,
+                "question": "2.) BackOffice Product Content Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) RESTful services"
+            },
+            {
+                "number": 4,
+                "question": "4.) Datahub"
+            },
+            {
+                "number": 5,
+                "question": "5.) SAP Integration APIs"
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "93",
+        "QuestionText": "Which out of the box features do Commerce Customizations provide? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalized promotions"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalized prices"
+            },
+            {
+                "number": 3,
+                "question": "3.) Personalized search results"
+            },
+            {
+                "number": 4,
+                "question": "4.) Personalized product bundles"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "94",
+        "QuestionText": "Which out of the box features of SAP Commerce Cloud can you use to import product data? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Integration API Module"
+            },
+            {
+                "number": 2,
+                "question": "2.) Intelligent Selling Services for SAP Commerce Cloud"
+            },
+            {
+                "number": 3,
+                "question": "3.) Cloud Hot Folders"
+            },
+            {
+                "number": 4,
+                "question": "4.) SAP BTP, Kyma runtime"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "95",
+        "QuestionText": "Which out-of-the-box features do Commerce Customizations provide? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalized prices"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalized product bundles"
+            },
+            {
+                "number": 3,
+                "question": "3.) Personalized promotions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Personalized search results"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "96",
+        "QuestionText": "Which out-of-the-box functionalities does the subscription modules provide? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Product bundling"
+            },
+            {
+                "number": 2,
+                "question": "2.) Price tiering for metered products"
+            },
+            {
+                "number": 3,
+                "question": "3.) Subscription management through the WCMS Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Configurable recurring product pricing"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "97",
+        "QuestionText": "Which restriction types are available out of the box for page components? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Usergroup Restriction"
+            },
+            {
+                "number": 2,
+                "question": "2.) Category Restriction"
+            },
+            {
+                "number": 3,
+                "question": "3.) Time Restriction"
+            },
+            {
+                "number": 4,
+                "question": "4.) Regex Restriction"
+            },
+            {
+                "number": 5,
+                "question": "5.) Country Restriction"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "98",
+        "QuestionText": "Which restriction types are available out-of-the-box for page components? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Time Restrictions"
+            },
+            {
+                "number": 2,
+                "question": "2.) Category Restrictions"
+            },
+            {
+                "number": 3,
+                "question": "3.) Usergroup Restrictions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Country Restrictions"
+            },
+            {
+                "number": 5,
+                "question": "5.) IP Address Restrictions"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "99",
+        "QuestionText": "Which SAP Commerce items do you use to model a Business to Business (B2B) company? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Units"
+            },
+            {
+                "number": 2,
+                "question": "2.) Divisions"
+            },
+            {
+                "number": 3,
+                "question": "3.) Cost centers"
+            },
+            {
+                "number": 4,
+                "question": "4.) Budgets"
+            },
+            {
+                "number": 5,
+                "question": "5.) Departments"
+            }
+        ],
+        "CorrectAnswer": "1,3,4"
+    },
+    {
+        "Question": "100",
+        "QuestionText": "Which SAP solutions can be integrated with SAP Commerce Cloud, Integration Extension Pack? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SAP Qualtrics"
+            },
+            {
+                "number": 2,
+                "question": "2.) SAP Materials Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) SAP Customer Data Cloud"
+            },
+            {
+                "number": 4,
+                "question": "4.) SAP Emarsys"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "101",
+        "QuestionText": "Which SAP solutions can be integrated with SAP Commerce out-of-the-box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SAP Revenue Cloud"
+            },
+            {
+                "number": 2,
+                "question": "2.) SAP Marketing Cloud"
+            },
+            {
+                "number": 3,
+                "question": "3.) SAP Sales and Distribution"
+            },
+            {
+                "number": 4,
+                "question": "4.) SAP Materials Management"
+            },
+            {
+                "number": 5,
+                "question": "5.) SAP Customer Engagement Center"
+            }
+        ],
+        "CorrectAnswer": "1,2,5"
+    },
+    {
+        "Question": "102",
+        "QuestionText": "Which tasks does a business analyst perform during the Foundation phase? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Create requirements"
+            },
+            {
+                "number": 2,
+                "question": "2.) Resource planning"
+            },
+            {
+                "number": 3,
+                "question": "3.) Communication planning"
+            },
+            {
+                "number": 4,
+                "question": "4.) Risk Identification"
+            },
+            {
+                "number": 5,
+                "question": "5.) Assign key tasks"
+            }
+        ],
+        "CorrectAnswer": "2,3,4"
+    },
+    {
+        "Question": "103",
+        "QuestionText": "Which user interfaces can be used to change prices? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) BackOffice Administration Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) SmartEdit"
+            },
+            {
+                "number": 3,
+                "question": "3.) BackOffice Product Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) BackOffice Customer Support Cockpit"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "104",
+        "QuestionText": "Which user interfaces can you use to enter a customer complaint ticket? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalization mode in SmartEdit"
+            },
+            {
+                "number": 2,
+                "question": "2.) BackOffice Customer Support Cockpit"
+            },
+            {
+                "number": 3,
+                "question": "3.) On the storefront using the Assisted Service Module"
+            },
+            {
+                "number": 4,
+                "question": "4.) BackOffice Order Fulfilment Cockpit"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "105",
+        "QuestionText": "Who is the typical user of the type system?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Product manager"
+            },
+            {
+                "number": 2,
+                "question": "2.) A developer"
+            },
+            {
+                "number": 3,
+                "question": "3.) Purchasing manager"
+            },
+            {
+                "number": 4,
+                "question": "4.) Marketing manager"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "106",
+        "QuestionText": "Who would typically modify the type system?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) System Administrator"
+            },
+            {
+                "number": 2,
+                "question": "2.) Database Administrator"
+            },
+            {
+                "number": 3,
+                "question": "3.) Software Developer"
+            },
+            {
+                "number": 4,
+                "question": "4.) Product Detail Manager"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "107",
+        "QuestionText": "Why do you create multiple search profiles? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) To personalize search box configuration"
+            },
+            {
+                "number": 2,
+                "question": "2.) To personalize Search Engine Optimization (SEO) settings for different parts of a website"
+            },
+            {
+                "number": 3,
+                "question": "3.) To personalize facets for different categories"
+            },
+            {
+                "number": 4,
+                "question": "4.) To personalize search results for different target groups"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "108",
+        "QuestionText": "Why might you use an ImpEx script? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) To set up user groups and access rights"
+            },
+            {
+                "number": 2,
+                "question": "2.) To install Add-ons"
+            },
+            {
+                "number": 3,
+                "question": "3.) To make changes to the items.xml file"
+            },
+            {
+                "number": 4,
+                "question": "4.) To import a specific set of product data using a cron job"
+            },
+            {
+                "number": 5,
+                "question": "5.) To migrate data from a testing environment to a quality assurance environment"
+            }
+        ],
+        "CorrectAnswer": "1,4,5"
+    },
+    {
+        "Question": "109",
+        "QuestionText": "Why would you use a classification category? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) To organize products that belong to a catalog version"
+            },
+            {
+                "number": 2,
+                "question": "2.) To group products that require custom properties"
+            },
+            {
+                "number": 3,
+                "question": "3.) To hold custom properties"
+            },
+            {
+                "number": 4,
+                "question": "4.) To link custom properties to products or catalog categories"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "110",
+        "QuestionText": "You are administering the validation framework. What can you use the Backoffice Administration Cockpit for? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Create a new constraint type"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create a constraint method"
+            },
+            {
+                "number": 3,
+                "question": "3.) View all constraints in the system"
+            },
+            {
+                "number": 4,
+                "question": "4.) Reload the validation engine"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "111",
+        "QuestionText": "You are asked to propose an automated high-performance solution for updating the products on a retail store's web site. You are also told that the product portfolio is only updated at the beginning of the month. What would you propose for this requirement?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Workflows"
+            },
+            {
+                "number": 2,
+                "question": "2.) RESTful web services"
+            },
+            {
+                "number": 3,
+                "question": "3.) Cronjobs"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "112",
+        "QuestionText": "You are configuring sourcing in the Order Management Services module of SAP Commerce Cloud. What weight factors can you configure? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Distance"
+            },
+            {
+                "number": 2,
+                "question": "2.) Allocation"
+            },
+            {
+                "number": 3,
+                "question": "3.) Delivery Time"
+            },
+            {
+                "number": 4,
+                "question": "4.) Status"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "113",
+        "QuestionText": "You are considering selling bundled products on your web shop. Which of the following functions are supported by SAP commerce out of the box (OOTB)? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Substituting a product with an equivalent product in a bundle when the order is placed"
+            },
+            {
+                "number": 2,
+                "question": "2.) A special cart function that displays and arranges bundles with their components on the cart pages"
+            },
+            {
+                "number": 3,
+                "question": "3.) A Bundle Carousel, which is a special CMS Component, to display bundles on the product details page"
+            },
+            {
+                "number": 4,
+                "question": "4.) A Bundles link under My Account that allows customers to configure bundles"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "114",
+        "QuestionText": "You are creating a base store for your online shop. Which of the following principles should you consider during the set-up? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) One base store can be associated with more than one content catalog"
+            },
+            {
+                "number": 2,
+                "question": "2.) One base store can be associated with only one point of service"
+            },
+            {
+                "number": 3,
+                "question": "3.) One base store can be associated with more than one CMS site"
+            },
+            {
+                "number": 4,
+                "question": "4.) One base store can be associated with more than one product catalog"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "115",
+        "QuestionText": "You are creating a customization in SmartEdit. What can you use this for? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Update Web site content without having to rely on the IT department"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalize the appearance of a page based on user segments"
+            },
+            {
+                "number": 3,
+                "question": "3.) Activate a promotion for a specific user segment"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create and manage Web site content on the fly"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "116",
+        "QuestionText": "You are creating a new PriceRow. What information can you specify? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Website"
+            },
+            {
+                "number": 2,
+                "question": "2.) Channel"
+            },
+            {
+                "number": 3,
+                "question": "3.) Date range"
+            },
+            {
+                "number": 4,
+                "question": "4.) Country"
+            },
+            {
+                "number": 5,
+                "question": "5.) Scale"
+            }
+        ],
+        "CorrectAnswer": "2,3,5"
+    },
+    {
+        "Question": "117",
+        "QuestionText": "You are creating a new promotion for a SAP Commerce storefront based on the promotion engine. What will the promotion engine evaluate when validating the promotion? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) The promotion rule's actions"
+            },
+            {
+                "number": 2,
+                "question": "2.) The promotion rule's rule group"
+            },
+            {
+                "number": 3,
+                "question": "3.) The promotion rule's message"
+            },
+            {
+                "number": 4,
+                "question": "4.) The promotion rule's conditions"
+            },
+            {
+                "number": 5,
+                "question": "5.) The promotion rule's exclusivity"
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "118",
+        "QuestionText": "You are going to develop a storefront using SAP Commerce Cloud, composable storefront. What should you pay attention to? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) The SAP Commerce Cloud, composable storefront client-side app needs to explicitly invoke appropriate SAP Commerce Cloud facades."
+            },
+            {
+                "number": 2,
+                "question": "2.) Configure the SAP Commerce Cloud, composable storefront client side app to process JSP content"
+            },
+            {
+                "number": 3,
+                "question": "3.) The SAP Commerce Cloud, composable storefront client-side app can communicate with SAP Commerce Cloud using the Commerce REST API."
+            },
+            {
+                "number": 4,
+                "question": "4.) Leverage the existing WCMS structure on the server side."
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "119",
+        "QuestionText": "You are integrating data into SAP Commerce Cloud using SAP Integrations. What should you consider? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) In asynchronous communication, data remains independently stored in SAP Commerce."
+            },
+            {
+                "number": 2,
+                "question": "2.) The system supports asynchronous or synchronous communication, but not both together in the same deployment."
+            },
+            {
+                "number": 3,
+                "question": "3.) In synchronous communication, the SAP backend system is the leading system in the entire process."
+            },
+            {
+                "number": 4,
+                "question": "4.) In order to use asynchronous communication, the Order Management Service module is required."
+            },
+            {
+                "number": 5,
+                "question": "5.) In synchronous communication, data is not persisted in SAP Commerce."
+            }
+        ],
+        "CorrectAnswer": "1,3,5"
+    },
+    {
+        "Question": "120",
+        "QuestionText": "You are planning to develop a web shop using your existing procurement system with the Punch Out feature. Which of the following functions of this feature are supported out of the box? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Buyers can save the cart as a requisition in the buyer's procurement system awaiting approval."
+            },
+            {
+                "number": 2,
+                "question": "2.) Buyers can place the order with the pricing information from the existing procurement system instead of from the supplier site."
+            },
+            {
+                "number": 3,
+                "question": "3.) cXML communication behind-the-scenes is supported."
+            },
+            {
+                "number": 4,
+                "question": "4.) Only communication with SAP Ariba is supported"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "121",
+        "QuestionText": "You are setting up B2B permissions for evaluation during the order approval process (on the buyer side). Which of the following scenarios are covered by the B2B permission types that are available out of the box in SAP Commerce Cloud? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) A user exceeds the maximum currency amount per order (B2BOrderThresholdPermission)."
+            },
+            {
+                "number": 2,
+                "question": "2.) A user exceeds their Cost Center's budget(s) (B2BBudgetExceededPermission)."
+            },
+            {
+                "number": 3,
+                "question": "3.) A user applies for Cost Center access authorization (B2BAuthorizedCostCenterPermission)."
+            },
+            {
+                "number": 4,
+                "question": "4.) A user exceeds the maximum number of orders per day, week, and so on (B2BOrderNumberTimespanPermission)"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "122",
+        "QuestionText": "You are using Microsoft Excel to export product data directly from the Backoffice Product Cockpit. Which of the following options are available to you? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) You can deselect any attribute in the list of the to be exported attributes."
+            },
+            {
+                "number": 2,
+                "question": "2.) You can select the attributes one-by-one and add them into the list of the to be exported attributes."
+            },
+            {
+                "number": 3,
+                "question": "3.) Common classification attributes (that belong to the selected products) can be exported directly."
+            },
+            {
+                "number": 4,
+                "question": "4.) Classification attributes that only belong to some selected products can also be exported, if they are selected"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "123",
+        "QuestionText": "You are using SAP Commerce Cloud in the Public Cloud to configure a project. Which of the following environments are available out of the box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Test"
+            },
+            {
+                "number": 2,
+                "question": "2.) Staging"
+            },
+            {
+                "number": 3,
+                "question": "3.) Preproduction"
+            },
+            {
+                "number": 4,
+                "question": "4.) Development"
+            },
+            {
+                "number": 5,
+                "question": "5.) Production"
+            }
+        ],
+        "CorrectAnswer": "2,4,5"
+    },
+    {
+        "Question": "124",
+        "QuestionText": "You are using the Integration API module. What can you use the Integration UI Tool in Backoffice for? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Manage the structure of the integration objects"
+            },
+            {
+                "number": 2,
+                "question": "2.) Change the EDMX data in the EDMX editor directly for simple integration requirement"
+            },
+            {
+                "number": 3,
+                "question": "3.) Reload the integration API engine to make the changes effective"
+            },
+            {
+                "number": 4,
+                "question": "4.) Monitor the inbound or outbound integration object requests"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "125",
+        "QuestionText": "You have been asked to import a large amount of data using ImpEx scripts. What would you do to improve performance when executing ImpEx? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Enable code execution to dynamically speed up the import"
+            },
+            {
+                "number": 2,
+                "question": "2.) Switch on ImpEx legacy mode"
+            },
+            {
+                "number": 3,
+                "question": "3.) Enable distributed ImpEx"
+            },
+            {
+                "number": 4,
+                "question": "4.) Consider data import sequence regarding dependency"
+            }
+        ],
+        "CorrectAnswer": "3,4"
+    },
+    {
+        "Question": "126",
+        "QuestionText": "You have been asked to import some data using ImpEx scripts that create user interface components on a storefront. What tool would you use to execute the ImpEx scripts?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SmartEdit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Product Cockpit"
+            },
+            {
+                "number": 3,
+                "question": "3.) Hybris Administration Console"
+            },
+            {
+                "number": 4,
+                "question": "4.) Order Fulfilment Cockpit"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "127",
+        "QuestionText": "You want to add changeable product attributes which are NOT used in the business logic. How would you do this?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) By customizing the standard type system"
+            },
+            {
+                "number": 2,
+                "question": "2.) By creating classifying categories and feature lists"
+            },
+            {
+                "number": 3,
+                "question": "3.) By extending the type system"
+            },
+            {
+                "number": 4,
+                "question": "4.) By creating product categories and feature lists"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "128",
+        "QuestionText": "You want to create a new search profile. Which functions are available out of the box? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Promote or exclude individual or multiple items"
+            },
+            {
+                "number": 2,
+                "question": "2.) Create and define facets"
+            },
+            {
+                "number": 3,
+                "question": "3.) Configure boost rules"
+            },
+            {
+                "number": 4,
+                "question": "4.) Create new index properties"
+            },
+            {
+                "number": 5,
+                "question": "5.) Create a boost rule for an individual item"
+            }
+        ],
+        "CorrectAnswer": "2,3,5"
+    },
+    {
+        "Question": "129",
+        "QuestionText": "You want to create a new web page. What are page templates used for? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) To specify the shared slots"
+            },
+            {
+                "number": 2,
+                "question": "2.) To specify the layout of a page"
+            },
+            {
+                "number": 3,
+                "question": "3.) To add restrictions to a page"
+            },
+            {
+                "number": 4,
+                "question": "4.) To create page components"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "130",
+        "QuestionText": "You want to display products in a carousel on your storefront that can only be viewed by members of a special user group. What SAP Commerce Cloud user interface do you use to do this? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Backoffice Product Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) SmartEdit Basic Edit perspective"
+            },
+            {
+                "number": 3,
+                "question": "3.) Backoffice Adaptive Search perspective"
+            },
+            {
+                "number": 4,
+                "question": "4.) SmartEdit Personalization perspective"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "131",
+        "QuestionText": "You want to ensure that only authorized back-end users can modify workflow templates in the Backoffice Administration Cockpit. What can you use to achieve this?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Assign the users to the 'visible for principals' list of the workflow templates"
+            },
+            {
+                "number": 2,
+                "question": "2.) Assign each user as an 'owner' of the workflow templates"
+            },
+            {
+                "number": 3,
+                "question": "3.) Use type-based access rights"
+            },
+            {
+                "number": 4,
+                "question": "4.) Apply restrictions or personalization rules"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "132",
+        "QuestionText": "You want to feature a page on your storefront that can only be viewed by a special user group. What SAP Commerce user interface do you use to do this?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) BackOffice Product Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) BackOffice Sales Organization Perspective"
+            },
+            {
+                "number": 3,
+                "question": "3.) BackOffice Adaptive Search Perspective"
+            },
+            {
+                "number": 4,
+                "question": "4.) SmartEdit"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "133",
+        "QuestionText": "You want to run a cronjob in SAP Commerce Cloud. Which of the following can you use to do this?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Backoffice Administration Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Script Support on Administration Console (hac)"
+            },
+            {
+                "number": 3,
+                "question": "3.) Apache Ant"
+            },
+            {
+                "number": 4,
+                "question": "4.) Apache Maven"
+            }
+        ],
+        "CorrectAnswer": "2,3,4"
+    },
+    {
+        "Question": "134",
+        "QuestionText": "You would like to create a new web page based on existing content using Smart Edit. How can you do this? (3 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Clone a component and edit it."
+            },
+            {
+                "number": 2,
+                "question": "2.) Create a page based on an existing page template."
+            },
+            {
+                "number": 3,
+                "question": "3.) Clone a page and edit its content."
+            },
+            {
+                "number": 4,
+                "question": "4.) Clone a website and edit it."
+            },
+            {
+                "number": 5,
+                "question": "5.) Clone a media item and edit its properties."
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "135",
+        "QuestionText": "Your apparel store currently offers color and price range facets. Which attributes would also be appropriate for Solr faceting? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Summary"
+            },
+            {
+                "number": 2,
+                "question": "2.) Brand"
+            },
+            {
+                "number": 3,
+                "question": "3.) Size"
+            },
+            {
+                "number": 4,
+                "question": "4.) Approval status"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "136",
+        "QuestionText": "Your customer wants to track end user activity on an SAP Commerce storefront. Which SAP solution integration fulfil this requirement? (2 correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SAP Marketing Cloud"
+            },
+            {
+                "number": 2,
+                "question": "2.) SAP Service Cloud"
+            },
+            {
+                "number": 3,
+                "question": "3.) SAP Customer Data Cloud"
+            },
+            {
+                "number": 4,
+                "question": "4.) SAP Jam Communities"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "137",
+        "QuestionText": "What is a key feature of SmartEdit in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time inventory management"
+            },
+            {
+                "number": 2,
+                "question": "2.) Drag-and-drop interface for content management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Advanced data encryption"
+            },
+            {
+                "number": 4,
+                "question": "4.) Automated email marketing"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "138",
+        "QuestionText": "In SAP Commerce Cloud, which technique is employed for optimizing search and navigation performance during high traffic periods?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Pre-fetching data"
+            },
+            {
+                "number": 2,
+                "question": "2.) Dynamic indexing"
+            },
+            {
+                "number": 3,
+                "question": "3.) Adaptive search"
+            },
+            {
+                "number": 4,
+                "question": "4.) Load balancing"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "139",
+        "QuestionText": "For GDPR compliance in SAP Commerce Cloud, which feature ensures the right to be forgotten?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Data anonymization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Consent management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data encryption"
+            },
+            {
+                "number": 4,
+                "question": "4.) Access control"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "140",
+        "QuestionText": "Which functionality in SAP Commerce Cloud allows for dynamic pricing adjustments based on customer-specific agreements?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Price Row System"
+            },
+            {
+                "number": 2,
+                "question": "2.) Promotion Engine"
+            },
+            {
+                "number": 3,
+                "question": "3.) B2B Unit"
+            },
+            {
+                "number": 4,
+                "question": "4.) CMS Cockpit"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "141",
+        "QuestionText": "You would like to modify a website based on existing content using SmartEdit. How can you do this? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Clone a web site and edit it."
+            },
+            {
+                "number": 2,
+                "question": "2.) Clone a media item and edit its properties."
+            },
+            {
+                "number": 3,
+                "question": "3.) Clone a page and edit its content."
+            },
+            {
+                "number": 4,
+                "question": "4.) Clone a component and edit it."
+            },
+            {
+                "number": 5,
+                "question": "5.) Create a page based on an existing page template."
+            }
+        ],
+        "CorrectAnswer": "3,4,5"
+    },
+    {
+        "Question": "142",
+        "QuestionText": "Which aspect of product content management is crucial for handling complex product variants in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Digital asset management"
+            },
+            {
+                "number": 2,
+                "question": "2.) Media conversion"
+            },
+            {
+                "number": 3,
+                "question": "3.) Classification systems"
+            },
+            {
+                "number": 4,
+                "question": "4.) Synchronizing catalogs"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "143",
+        "QuestionText": "There are 2 graphical user interfaces for customer support: Assisted Service Mode (ASM) and Customer Support Cockpit in Backoffice. What additional features does the Customer Support Cockpit offer that are NOT available in the ASM? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Reply to customer tickets"
+            },
+            {
+                "number": 2,
+                "question": "2.) View GDPR reports"
+            },
+            {
+                "number": 3,
+                "question": "3.) Create a new customer account"
+            },
+            {
+                "number": 4,
+                "question": "4.) Cancel orders"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "144",
+        "QuestionText": "What is the main function of the SAP Commerce Cloud Integration Extension Pack?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) User interface customization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Providing comprehensive external integration capabilities"
+            },
+            {
+                "number": 3,
+                "question": "3.) Product catalog management"
+            },
+            {
+                "number": 4,
+                "question": "4.) Generating sales reports"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "145",
+        "QuestionText": "What is a primary advantage of the Composable Storefront (Spartacus) in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Enhanced back-office functionality"
+            },
+            {
+                "number": 2,
+                "question": "2.) Front-end flexibility and decoupling from the back end"
+            },
+            {
+                "number": 3,
+                "question": "3.) Integrated customer support system"
+            },
+            {
+                "number": 4,
+                "question": "4.) Built-in B2B commerce capabilities"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "146",
+        "QuestionText": "In SAP Commerce Cloud, how is the Composable Storefront different from traditional web content management systems?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) It's solely API-driven."
+            },
+            {
+                "number": 2,
+                "question": "2.) It uses a proprietary data model."
+            },
+            {
+                "number": 3,
+                "question": "3.) It's based on server-side rendering."
+            },
+            {
+                "number": 4,
+                "question": "4.) It supports only B2B models."
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "147",
+        "QuestionText": "What is a unique feature of SAP Commerce Cloud's Order Management Services module?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time stock level synchronization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Automated customer feedback collection"
+            },
+            {
+                "number": 3,
+                "question": "3.) Blockchain-based transaction tracking"
+            },
+            {
+                "number": 4,
+                "question": "4.) AI-driven sales forecasting"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "148",
+        "QuestionText": "Which module in SAP Commerce Cloud is specifically designed for managing web content?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SmartEdit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Backoffice"
+            },
+            {
+                "number": 3,
+                "question": "3.) CronJob"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "149",
+        "QuestionText": "What happens when you roll back to a saved version of a page in SmartEdit? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) You will have to save your current work otherwise it will be lost."
+            },
+            {
+                "number": 2,
+                "question": "2.) Your unsaved work will be saved as a new version automatically."
+            },
+            {
+                "number": 3,
+                "question": "3.) You will be able to edit the version you have recovered."
+            },
+            {
+                "number": 4,
+                "question": "4.) You will not be able to edit the recovered version."
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "150",
+        "QuestionText": "Which of the following are key functions of catalog management in SAP Commerce Cloud? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time inventory tracking"
+            },
+            {
+                "number": 2,
+                "question": "2.) Organizing products into collections"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automated pricing updates"
+            },
+            {
+                "number": 4,
+                "question": "4.) Email marketing integration"
+            },
+            {
+                "number": 5,
+                "question": "5.) SEO optimization"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "151",
+        "QuestionText": "Which of the following is a standard internal tool used for integration in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SmartEdit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Integration API"
+            },
+            {
+                "number": 3,
+                "question": "3.) Personalization Module"
+            },
+            {
+                "number": 4,
+                "question": "4.) Customer Support Cockpit"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "152",
+        "QuestionText": "Which feature in SAP Commerce Cloud is essential for complying with GDPR requirements?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Adaptive Search"
+            },
+            {
+                "number": 2,
+                "question": "2.) User and Security Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Cron Jobs"
+            },
+            {
+                "number": 4,
+                "question": "4.) Promotion Engine"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "153",
+        "QuestionText": "ImpEx is used in SAP Commerce Cloud primarily for what purpose?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Workflow Management"
+            },
+            {
+                "number": 2,
+                "question": "2.) Data Import and Export"
+            },
+            {
+                "number": 3,
+                "question": "3.) User Authentication"
+            },
+            {
+                "number": 4,
+                "question": "4.) Generating Reports"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "154",
+        "QuestionText": "Which tool is primarily used for internal integrations within SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) ImpEx"
+            },
+            {
+                "number": 2,
+                "question": "2.) HAC (Hybris Admin Console)"
+            },
+            {
+                "number": 3,
+                "question": "3.) SmartEdit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Integration API"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "155",
+        "QuestionText": "What is the primary function of Cron Jobs in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) User Interface Design"
+            },
+            {
+                "number": 2,
+                "question": "2.) Scheduled Task Execution"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data Encryption"
+            },
+            {
+                "number": 4,
+                "question": "4.) Real-Time Analytics"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "156",
+        "QuestionText": "Which feature is primarily used in SAP Commerce Cloud for product categorization and classification?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Media management"
+            },
+            {
+                "number": 2,
+                "question": "2.) Catalog management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Workflow management"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "157",
+        "QuestionText": "A company sells a laptop in various configurations (e.g., different processors, RAM, storage). Which feature in SAP Commerce Cloud should they use to manage these options efficiently?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalization module"
+            },
+            {
+                "number": 2,
+                "question": "2.) Product variants"
+            },
+            {
+                "number": 3,
+                "question": "3.) ImpEx data import"
+            },
+            {
+                "number": 4,
+                "question": "4.) Adaptive search"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "158",
+        "QuestionText": "Scenario: A multinational company plans to launch a new product line globally. They need to ensure the products are displayed with region-specific pricing and promotions. Which SAP Commerce Cloud features should they use? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) ImpEx for regional data import"
+            },
+            {
+                "number": 2,
+                "question": "2.) Adaptive Search for customized product displays"
+            },
+            {
+                "number": 3,
+                "question": "3.) Promotion Engine for region-specific promotions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Localization workflows for pricing"
+            },
+            {
+                "number": 5,
+                "question": "5.) SmartEdit for content management"
+            }
+        ],
+        "CorrectAnswer": "1,3,4"
+    },
+    {
+        "Question": "159",
+        "QuestionText": "A company wants to enhance its product content management to support multi-language descriptions and localized pricing. What SAP Commerce Cloud capabilities should they use? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Localization workflows"
+            },
+            {
+                "number": 2,
+                "question": "2.) Catalog versioning"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data modeling with ImpEx"
+            },
+            {
+                "number": 4,
+                "question": "4.) Personalization engines"
+            },
+            {
+                "number": 5,
+                "question": "5.) Price row system for localized pricing"
+            }
+        ],
+        "CorrectAnswer": "1,2,5"
+    },
+    {
+        "Question": "160",
+        "QuestionText": "What is a key characteristic of the SAP Commerce Cloud's B2B PunchOut module?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Integration with ERP systems"
+            },
+            {
+                "number": 2,
+                "question": "2.) Customizable workflow management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Support for OCI and cXML standards"
+            },
+            {
+                "number": 4,
+                "question": "4.) Advanced analytics capabilities"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "161",
+        "QuestionText": "What are the features of the SAP BTP, Kyma runtime? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Connection with SAP Commerce Cloud can be managed directly in Backoffice"
+            },
+            {
+                "number": 2,
+                "question": "2.) You can implement lambda in SAP Commerce Cloud to call microservices of the SAP BTP, Kyma runtime"
+            },
+            {
+                "number": 3,
+                "question": "3.) Customization and enhancement of SAP Commerce features can be implemented using SAP Commerce Extensions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Event-based communication with SAP Commerce Cloud is supported"
+            }
+        ],
+        "CorrectAnswer": "1,4"
+    },
+    {
+        "Question": "162",
+        "QuestionText": "In the SAP Commerce Cloud, what is the main purpose of the customer support cockpit?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Designing storefront layouts"
+            },
+            {
+                "number": 2,
+                "question": "2.) Managing customer service interactions"
+            },
+            {
+                "number": 3,
+                "question": "3.) Handling product returns"
+            },
+            {
+                "number": 4,
+                "question": "4.) Analyzing sales data"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "163",
+        "QuestionText": "A customer adds multiple items to their shopping cart but leaves the site without completing the purchase. Which feature in SAP Commerce Cloud can be used to remind them of their abandoned cart?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Cart Recovery Process"
+            },
+            {
+                "number": 2,
+                "question": "2.) Customer Support Ticketing"
+            },
+            {
+                "number": 3,
+                "question": "3.) B2B Commerce Approval Process"
+            },
+            {
+                "number": 4,
+                "question": "4.) Product Recommendations Engine"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "164",
+        "QuestionText": "What is the primary purpose of internal integration tools in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Enhancing website UI/UX"
+            },
+            {
+                "number": 2,
+                "question": "2.) Facilitating seamless data exchange within the platform"
+            },
+            {
+                "number": 3,
+                "question": "3.) Managing customer feedback"
+            },
+            {
+                "number": 4,
+                "question": "4.) Conducting market research"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "165",
+        "QuestionText": "In SAP Commerce Cloud, what is the primary purpose of product modeling?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Managing customer data"
+            },
+            {
+                "number": 2,
+                "question": "2.) Analyzing sales trends"
+            },
+            {
+                "number": 3,
+                "question": "3.) Defining the structure and attributes of products"
+            },
+            {
+                "number": 4,
+                "question": "4.) Automating marketing campaigns"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "166",
+        "QuestionText": "Which of the following are key benefits of SAP Commerce Cloud's architecture? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Scalability"
+            },
+            {
+                "number": 2,
+                "question": "2.) Real-time Analytics"
+            },
+            {
+                "number": 3,
+                "question": "3.) Integrated Email Marketing"
+            },
+            {
+                "number": 4,
+                "question": "4.) User Role Customization"
+            },
+            {
+                "number": 5,
+                "question": "5.) Enhanced Security"
+            }
+        ],
+        "CorrectAnswer": "1,2,5"
+    },
+    {
+        "Question": "167",
+        "QuestionText": "A retailer wants to display different homepage content to first-time and returning visitors. Which SmartEdit feature should they utilize?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalization module"
+            },
+            {
+                "number": 2,
+                "question": "2.) Adaptive search"
+            },
+            {
+                "number": 3,
+                "question": "3.) Workflow management"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx data import"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "168",
+        "QuestionText": "What is the main function of media management within SAP Commerce Cloud's product content management?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Conducting market research"
+            },
+            {
+                "number": 2,
+                "question": "2.) Managing digital assets associated with products"
+            },
+            {
+                "number": 3,
+                "question": "3.) Handling customer queries"
+            },
+            {
+                "number": 4,
+                "question": "4.) Overseeing shipping logistics"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "169",
+        "QuestionText": "Which feature does the Order Management Services module in SAP Commerce Cloud specifically offer?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time inventory tracking"
+            },
+            {
+                "number": 2,
+                "question": "2.) Email marketing integration"
+            },
+            {
+                "number": 3,
+                "question": "3.) Social media management"
+            },
+            {
+                "number": 4,
+                "question": "4.) SEO optimization"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "170",
+        "QuestionText": "In SAP Commerce Cloud, what is the main advantage of using Adaptive Search for B2B commerce?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time inventory updates"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalized search experiences"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automated order processing"
+            },
+            {
+                "number": 4,
+                "question": "4.) Enhanced security protocols"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "171",
+        "QuestionText": "What is a key feature of catalog management in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Tracking inventory levels"
+            },
+            {
+                "number": 2,
+                "question": "2.) Organizing products into manageable collections"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automated pricing updates"
+            },
+            {
+                "number": 4,
+                "question": "4.) Email marketing integration"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "172",
+        "QuestionText": "A company needs to quickly update promotional banners on their website for an upcoming sale. Which SmartEdit feature is most suitable for this task?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SEO optimization tools"
+            },
+            {
+                "number": 2,
+                "question": "2.) Drag-and-drop interface"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data modeling with ImpEx"
+            },
+            {
+                "number": 4,
+                "question": "4.) Cron job scheduling"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "173",
+        "QuestionText": "Scenario: A company is integrating SAP Commerce Cloud with their existing CRM and ERP systems to synchronize customer data and manage inventory more effectively. Which integration solutions should they prioritize? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Integration API"
+            },
+            {
+                "number": 2,
+                "question": "2.) Integration Extension Pack"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data Hub"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx for data import/export"
+            },
+            {
+                "number": 5,
+                "question": "5.) Cron Jobs for synchronization tasks"
+            }
+        ],
+        "CorrectAnswer": "1,2,4"
+    },
+    {
+        "Question": "174",
+        "QuestionText": "A company wants to integrate SAP Commerce Cloud with their existing ERP system. Which feature should they use for this integration?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Promotion Engine"
+            },
+            {
+                "number": 2,
+                "question": "2.) Integration Extension Pack"
+            },
+            {
+                "number": 3,
+                "question": "3.) Product Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) SmartEdit"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "175",
+        "QuestionText": "Which functionalities are provided by the Order Management Services module in SAP Commerce Cloud? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Inventory Tracking"
+            },
+            {
+                "number": 2,
+                "question": "2.) Customer Data Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Real-time Order Tracking"
+            },
+            {
+                "number": 4,
+                "question": "4.) Marketing Campaign Management"
+            },
+            {
+                "number": 5,
+                "question": "5.) Automated Order Fulfillment"
+            }
+        ],
+        "CorrectAnswer": "1,3,5"
+    },
+    {
+        "Question": "176",
+        "QuestionText": "What is the main use of ImpEx in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) User interface customization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Workflow management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data import and export"
+            },
+            {
+                "number": 4,
+                "question": "4.) Product catalog management"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "177",
+        "QuestionText": "In SAP Commerce Cloud, what feature enhances the search experience by allowing dynamic adjustment of search results based on user behavior?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Solr Search"
+            },
+            {
+                "number": 2,
+                "question": "2.) Adaptive Search"
+            },
+            {
+                "number": 3,
+                "question": "3.) SmartEdit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Backoffice Administration"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "178",
+        "QuestionText": "A company seeks to improve its order tracking and delivery updates for customers. Which SAP Commerce Cloud feature should they focus on to achieve this?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Workflow Management"
+            },
+            {
+                "number": 2,
+                "question": "2.) Order Management Services Module"
+            },
+            {
+                "number": 3,
+                "question": "3.) SmartEdit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Product Cockpit"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "179",
+        "QuestionText": "In SAP Commerce Cloud, which of the following are core functionalities of Adaptive Search? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time analytics"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalization of search results"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automated catalog updates"
+            },
+            {
+                "number": 4,
+                "question": "4.) Enhanced security protocols"
+            },
+            {
+                "number": 5,
+                "question": "5.) Faceted search capabilities"
+            }
+        ],
+        "CorrectAnswer": "2,4,5"
+    },
+    {
+        "Question": "180",
+        "QuestionText": "What is the main purpose of product modeling in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Managing customer data"
+            },
+            {
+                "number": 2,
+                "question": "2.) Creating and defining product structures and attributes"
+            },
+            {
+                "number": 3,
+                "question": "3.) Optimizing the checkout process"
+            },
+            {
+                "number": 4,
+                "question": "4.) Analyzing sales trends"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "181",
+        "QuestionText": "How does the GDPR support feature in SAP Commerce Cloud assist businesses in complying with data protection regulations?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) By automating data audits"
+            },
+            {
+                "number": 2,
+                "question": "2.) Through enhanced encryption methods"
+            },
+            {
+                "number": 3,
+                "question": "3.) By providing consent management tools"
+            },
+            {
+                "number": 4,
+                "question": "4.) Via real-time data breach notifications"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "182",
+        "QuestionText": "What is the primary purpose of Cron Jobs in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time data analytics"
+            },
+            {
+                "number": 2,
+                "question": "2.) Scheduling regular maintenance tasks"
+            },
+            {
+                "number": 3,
+                "question": "3.) Managing user permissions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Enhancing website UI/UX"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "183",
+        "QuestionText": "In SAP Commerce Cloud, which functionalities are essential for effective order management? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SEO optimization tools"
+            },
+            {
+                "number": 2,
+                "question": "2.) Order fulfillment and tracking"
+            },
+            {
+                "number": 3,
+                "question": "3.) Customer service ticketing system"
+            },
+            {
+                "number": 4,
+                "question": "4.) Social media integration"
+            }
+        ],
+        "CorrectAnswer": "2,3"
+    },
+    {
+        "Question": "184",
+        "QuestionText": "Which of the following best describes the role of adaptive search in the context of Search and Navigation in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) It dynamically adjusts search results based on user behavior and preferences."
+            },
+            {
+                "number": 2,
+                "question": "2.) It restricts search results to a predefined set of products."
+            },
+            {
+                "number": 3,
+                "question": "3.) It eliminates the need for search filters and facets."
+            },
+            {
+                "number": 4,
+                "question": "4.) It only displays the most popular products in search results."
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "185",
+        "QuestionText": "What is a key feature of the data structure in SmartEdit that enhances web content management?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time data analytics"
+            },
+            {
+                "number": 2,
+                "question": "2.) User role-based access"
+            },
+            {
+                "number": 3,
+                "question": "3.) Hierarchical content organization"
+            },
+            {
+                "number": 4,
+                "question": "4.) Integrated email marketing tools"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "186",
+        "QuestionText": "Which aspect is crucial in the data structure for effective web content management in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SEO Optimization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Hierarchical organization of content"
+            },
+            {
+                "number": 3,
+                "question": "3.) Social media integration"
+            },
+            {
+                "number": 4,
+                "question": "4.) Real-time sales analytics"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "187",
+        "QuestionText": "Scenario: An e-commerce site wants to optimize their landing page based on user behavior, displaying different content to new visitors, returning customers, and VIP clients. Which features of SAP Commerce Cloud are most appropriate? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalization module"
+            },
+            {
+                "number": 2,
+                "question": "2.) CMS Cockpit"
+            },
+            {
+                "number": 3,
+                "question": "3.) SmartEdit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Customer Support Cockpit"
+            },
+            {
+                "number": 5,
+                "question": "5.) Workflow Management"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "188",
+        "QuestionText": "Scenario: A company manages a large product catalog with various specifications and multimedia content. They need efficient ways to update and manage this complex data. Which features in SAP Commerce Cloud should they utilize? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Product Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Media Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Catalog Versioning"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx for bulk data handling"
+            },
+            {
+                "number": 5,
+                "question": "5.) Cron Jobs for automation"
+            }
+        ],
+        "CorrectAnswer": "1,2,4"
+    },
+    {
+        "Question": "189",
+        "QuestionText": "SAP Commerce Cloud includes basic Order Management (OM) related extensions and OMS module-related features. Which of the following features are provided by the basic order management (OM) related extensions? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Replenishment and Scheduling"
+            },
+            {
+                "number": 2,
+                "question": "2.) A hub for integration with Fraud Service Providers"
+            },
+            {
+                "number": 3,
+                "question": "3.) Ability to pick, pack, label, and confirm shipments through the Backoffice Order Fulfillment Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Sourcing and Allocation"
+            }
+        ],
+        "CorrectAnswer": "1,2"
+    },
+    {
+        "Question": "190",
+        "QuestionText": "What is the primary function of the CronJob service in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) User authentication"
+            },
+            {
+                "number": 2,
+                "question": "2.) Data backup"
+            },
+            {
+                "number": 3,
+                "question": "3.) Task scheduling"
+            },
+            {
+                "number": 4,
+                "question": "4.) Performance monitoring"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "191",
+        "QuestionText": "A company aims to improve its customer service by providing accurate and timely order updates. Which SAP Commerce Cloud features should they focus on? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Workflow Management"
+            },
+            {
+                "number": 2,
+                "question": "2.) Order Management Services Module"
+            },
+            {
+                "number": 3,
+                "question": "3.) SmartEdit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Personalization Module"
+            },
+            {
+                "number": 5,
+                "question": "5.) Assisted Service Mode"
+            }
+        ],
+        "CorrectAnswer": "2,5"
+    },
+    {
+        "Question": "192",
+        "QuestionText": "Which feature in SAP Commerce Cloud is essential for setting dynamic prices based on customer segment and purchase history?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Price Row System"
+            },
+            {
+                "number": 2,
+                "question": "2.) Promotion Engine"
+            },
+            {
+                "number": 3,
+                "question": "3.) Personalization Module"
+            },
+            {
+                "number": 4,
+                "question": "4.) Customer Support Cockpit"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "193",
+        "QuestionText": "Which functionality in SmartEdit allows for easy editing of storefront content directly on the page?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Drag-and-drop interface"
+            },
+            {
+                "number": 2,
+                "question": "2.) Advanced coding interface"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automated content generation"
+            },
+            {
+                "number": 4,
+                "question": "4.) Integrated SEO tools"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "194",
+        "QuestionText": "A business is evaluating SAP Commerce Cloud for its scalability and flexibility. Which aspect of its architecture should be highlighted?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) User Interface Customization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Cloud-Based Infrastructure"
+            },
+            {
+                "number": 3,
+                "question": "3.) ImpEx Data Management"
+            },
+            {
+                "number": 4,
+                "question": "4.) Workflow Management Tools"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "195",
+        "QuestionText": "Scenario: A company is integrating their online store with a new shipping service. They need to ensure seamless data exchange for tracking, inventory, and customer notifications. Which SAP Commerce Cloud features are essential for this integration? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Integration API"
+            },
+            {
+                "number": 2,
+                "question": "2.) Data Hub"
+            },
+            {
+                "number": 3,
+                "question": "3.) Cron Jobs"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx"
+            },
+            {
+                "number": 5,
+                "question": "5.) SmartEdit"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "196",
+        "QuestionText": "A customer is having difficulty completing an online purchase. Which SAP Commerce Cloud feature enables a customer service representative to guide the customer through the process?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Customer Support Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Assisted Service Mode (ASM)"
+            },
+            {
+                "number": 3,
+                "question": "3.) Promotion Engine"
+            },
+            {
+                "number": 4,
+                "question": "4.) Adaptive Search"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "197",
+        "QuestionText": "Which feature in SAP Commerce Cloud supports A/B testing for marketing campaigns?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) CMS Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) SmartEdit"
+            },
+            {
+                "number": 3,
+                "question": "3.) Backoffice Admin Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) HAC (Hybris Admin Console)"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "198",
+        "QuestionText": "In SAP Commerce Cloud, what is the primary purpose of using ImpEx?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Data import and export"
+            },
+            {
+                "number": 2,
+                "question": "2.) Workflow automation"
+            },
+            {
+                "number": 3,
+                "question": "3.) User management"
+            },
+            {
+                "number": 4,
+                "question": "4.) Real-time analytics"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "199",
+        "QuestionText": "For integrating SAP Commerce Cloud with external systems, what is the primary role of the Integration Extension Pack?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Enhancing UI components"
+            },
+            {
+                "number": 2,
+                "question": "2.) Managing user permissions"
+            },
+            {
+                "number": 3,
+                "question": "3.) Facilitating data exchange"
+            },
+            {
+                "number": 4,
+                "question": "4.) Providing additional security layers"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "200",
+        "QuestionText": "In a B2B context, which functionalities are crucial in SAP Commerce Cloud? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Bulk order processing"
+            },
+            {
+                "number": 2,
+                "question": "2.) SEO optimization"
+            },
+            {
+                "number": 3,
+                "question": "3.) User and permission management"
+            },
+            {
+                "number": 4,
+                "question": "4.) Punchout support"
+            }
+        ],
+        "CorrectAnswer": "1,3"
+    },
+    {
+        "Question": "201",
+        "QuestionText": "What is the main function of media management in the product content management of SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Managing digital assets associated with products"
+            },
+            {
+                "number": 2,
+                "question": "2.) Conducting market research"
+            },
+            {
+                "number": 3,
+                "question": "3.) Handling customer queries"
+            },
+            {
+                "number": 4,
+                "question": "4.) Overseeing shipping logistics"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "202",
+        "QuestionText": "Which aspect is crucial when considering external integration solutions for SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Search engine optimization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Data security and compliance"
+            },
+            {
+                "number": 3,
+                "question": "3.) Email marketing tools"
+            },
+            {
+                "number": 4,
+                "question": "4.) Social media integrations"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "203",
+        "QuestionText": "A business needs to synchronize customer data between SAP Commerce Cloud and a CRM system. Which integration approach is most suitable?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Using native CRM tools within SAP Commerce Cloud"
+            },
+            {
+                "number": 2,
+                "question": "2.) Utilizing the Integration Extension Pack"
+            },
+            {
+                "number": 3,
+                "question": "3.) Implementing manual data transfer"
+            },
+            {
+                "number": 4,
+                "question": "4.) Relying on third-party plugins"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "204",
+        "QuestionText": "A company sells a shirt in multiple colors and sizes. Which feature in SAP Commerce Cloud should they use to manage these different options efficiently?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalization module"
+            },
+            {
+                "number": 2,
+                "question": "2.) Product variants"
+            },
+            {
+                "number": 3,
+                "question": "3.) ImpEx data import"
+            },
+            {
+                "number": 4,
+                "question": "4.) Adaptive search"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "205",
+        "QuestionText": "Scenario: A company wants to integrate SAP Commerce Cloud with an external CRM system. Which features should they primarily use? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Promotion Engine"
+            },
+            {
+                "number": 2,
+                "question": "2.) Integration Extension Pack"
+            },
+            {
+                "number": 3,
+                "question": "3.) ImpEx Data Import"
+            },
+            {
+                "number": 4,
+                "question": "4.) Adaptive Search"
+            },
+            {
+                "number": 5,
+                "question": "5.) Workflow Management"
+            }
+        ],
+        "CorrectAnswer": "2,3,5"
+    },
+    {
+        "Question": "206",
+        "QuestionText": "An e-commerce business must ensure GDPR compliance while handling customer data across various regions. Which features in SAP Commerce Cloud should they prioritize for data security and compliance? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Personalization Module"
+            },
+            {
+                "number": 2,
+                "question": "2.) Data Privacy Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Customer Support Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) User and Security Management"
+            },
+            {
+                "number": 5,
+                "question": "5.) Workflow Management"
+            }
+        ],
+        "CorrectAnswer": "2,4,5"
+    },
+    {
+        "Question": "207",
+        "QuestionText": "What is a primary function of the basic order management extensions in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Managing digital marketing campaigns"
+            },
+            {
+                "number": 2,
+                "question": "2.) Facilitating the order fulfillment process"
+            },
+            {
+                "number": 3,
+                "question": "3.) Conducting customer surveys"
+            },
+            {
+                "number": 4,
+                "question": "4.) Automating product catalog updates"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "208",
+        "QuestionText": "In SAP Commerce Cloud, what is the main function of the Assisted Service Module (ASM)?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Facilitating customer self-service"
+            },
+            {
+                "number": 2,
+                "question": "2.) Enhancing B2B collaboration"
+            },
+            {
+                "number": 3,
+                "question": "3.) Providing customer support functionalities"
+            },
+            {
+                "number": 4,
+                "question": "4.) Streamlining order management processes"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "209",
+        "QuestionText": "A company uses SAP Commerce Cloud to manage product approval processes. Which feature should they use to ensure products are reviewed by multiple departments before going live?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Cron Jobs"
+            },
+            {
+                "number": 2,
+                "question": "2.) Workflow Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) ImpEx Scripts"
+            },
+            {
+                "number": 4,
+                "question": "4.) Validation Framework"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "210",
+        "QuestionText": "Which feature of SAP Commerce Cloud is essential for managing the lifecycle of digital assets?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) The Personalization Module"
+            },
+            {
+                "number": 2,
+                "question": "2.) Digital Asset Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) The Cronjob Service"
+            },
+            {
+                "number": 4,
+                "question": "4.) The ImpEx tool"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "211",
+        "QuestionText": "Scenario: A retailer is managing a diverse product catalog with multiple variants and complex categorization. They need efficient ways to update product details and manage digital assets. What features should they focus on? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Product Cockpit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Media Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Catalog Versioning"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx"
+            },
+            {
+                "number": 5,
+                "question": "5.) Cron Jobs"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "212",
+        "QuestionText": "What is a key feature of the basic order management extensions in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SEO Optimization"
+            },
+            {
+                "number": 2,
+                "question": "2.) Email Marketing Integration"
+            },
+            {
+                "number": 3,
+                "question": "3.) Facilitating Order Processing and Management"
+            },
+            {
+                "number": 4,
+                "question": "4.) Social Media Management"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "213",
+        "QuestionText": "Scenario: A fashion retailer aims to provide a personalized shopping experience by displaying different homepage layouts based on user preferences and past purchases. What SAP Commerce Cloud features are necessary to achieve this? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SmartEdit"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalization Module"
+            },
+            {
+                "number": 3,
+                "question": "3.) CMS Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Adaptive Search"
+            },
+            {
+                "number": 5,
+                "question": "5.) ImpEx"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "214",
+        "QuestionText": "What feature in SAP Commerce Cloud enhances user experience by providing optimized search results based on user behavior?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Solr Search"
+            },
+            {
+                "number": 2,
+                "question": "2.) Backoffice Administration"
+            },
+            {
+                "number": 3,
+                "question": "3.) SmartEdit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Adaptive Search"
+            }
+        ],
+        "CorrectAnswer": "4"
+    },
+    {
+        "Question": "215",
+        "QuestionText": "What is the primary advantage of using SAP Commerce Cloud’s Intelligent Selling Services?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Multi-channel marketing"
+            },
+            {
+                "number": 2,
+                "question": "2.) Predictive analytics for sales"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automated content generation"
+            },
+            {
+                "number": 4,
+                "question": "4.) Enhanced cybersecurity measures"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "216",
+        "QuestionText": "Scenario: A company needs to automate its product approval process. Which SAP Commerce Cloud feature should they utilize? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Cron Jobs"
+            },
+            {
+                "number": 2,
+                "question": "2.) Validation Framework"
+            },
+            {
+                "number": 3,
+                "question": "3.) ImpEx"
+            },
+            {
+                "number": 4,
+                "question": "4.) Workflow Management"
+            },
+            {
+                "number": 5,
+                "question": "5.) User Management"
+            }
+        ],
+        "CorrectAnswer": "2,4,5"
+    },
+    {
+        "Question": "217",
+        "QuestionText": "What are the primary advantages of using the Composable Storefront in SAP Commerce Cloud? (2 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Integrated customer support"
+            },
+            {
+                "number": 2,
+                "question": "2.) Front-end flexibility"
+            },
+            {
+                "number": 3,
+                "question": "3.) Enhanced back-end security"
+            },
+            {
+                "number": 4,
+                "question": "4.) Decoupling from back-end processes"
+            }
+        ],
+        "CorrectAnswer": "2,4"
+    },
+    {
+        "Question": "218",
+        "QuestionText": "Which of the following are key functionalities of external integration solutions in SAP Commerce Cloud? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Real-time analytics"
+            },
+            {
+                "number": 2,
+                "question": "2.) Data synchronization with third-party systems"
+            },
+            {
+                "number": 3,
+                "question": "3.) Automated email marketing"
+            },
+            {
+                "number": 4,
+                "question": "4.) Social media integration"
+            },
+            {
+                "number": 5,
+                "question": "5.) Enhanced security protocols"
+            }
+        ],
+        "CorrectAnswer": "1,2,5"
+    },
+    {
+        "Question": "219",
+        "QuestionText": "What is the main purpose of the customer support cockpit in SAP Commerce Cloud?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Designing Promotional Content"
+            },
+            {
+                "number": 2,
+                "question": "2.) Tracking Sales Data"
+            },
+            {
+                "number": 3,
+                "question": "3.) Managing Customer Service Interactions"
+            },
+            {
+                "number": 4,
+                "question": "4.) Handling Inventory Management"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "220",
+        "QuestionText": "What is the main purpose of the SAP Commerce Cloud Integration Extension Pack?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Enhancing the user interface"
+            },
+            {
+                "number": 2,
+                "question": "2.) Providing external integration capabilities"
+            },
+            {
+                "number": 3,
+                "question": "3.) Managing product catalogs"
+            },
+            {
+                "number": 4,
+                "question": "4.) Optimizing search and navigation"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "221",
+        "QuestionText": "In SAP Commerce Cloud, which features are typically used in a B2B scenario? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Bulk ordering capabilities"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalized product recommendations"
+            },
+            {
+                "number": 3,
+                "question": "3.) Cost-center management and budget control"
+            },
+            {
+                "number": 4,
+                "question": "4.) Dynamic pricing based on customer segment"
+            },
+            {
+                "number": 5,
+                "question": "5.) Interactive media content"
+            }
+        ],
+        "CorrectAnswer": "1,3,4"
+    },
+    {
+        "Question": "222",
+        "QuestionText": "Scenario: A retail company wants to display customized content based on user behavior and preferences. Which SAP Commerce Cloud feature should they utilize? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Workflow Management"
+            },
+            {
+                "number": 2,
+                "question": "2.) SmartEdit"
+            },
+            {
+                "number": 3,
+                "question": "3.) Personalization module"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx data import"
+            },
+            {
+                "number": 5,
+                "question": "5.) Adaptive search"
+            }
+        ],
+        "CorrectAnswer": "2,3,5"
+    },
+    {
+        "Question": "223",
+        "QuestionText": "In SAP Commerce Cloud, what is the primary use of Assisted Service Mode (ASM)?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Enhancing Website UI/UX"
+            },
+            {
+                "number": 2,
+                "question": "2.) Facilitating Direct Customer Assistance"
+            },
+            {
+                "number": 3,
+                "question": "3.) Managing Backoffice Operations"
+            },
+            {
+                "number": 4,
+                "question": "4.) Conducting Market Research"
+            }
+        ],
+        "CorrectAnswer": "2"
+    },
+    {
+        "Question": "224",
+        "QuestionText": "Which feature in SAP Commerce Cloud is most relevant for GDPR compliance?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Adaptive Search"
+            },
+            {
+                "number": 2,
+                "question": "2.) Workflow Management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Data Privacy Management"
+            },
+            {
+                "number": 4,
+                "question": "4.) Promotion Engine"
+            }
+        ],
+        "CorrectAnswer": "3"
+    },
+    {
+        "Question": "225",
+        "QuestionText": "Scenario: A business is facing challenges in managing high order volumes and providing effective customer support. They need to streamline their order management process and improve customer assistance. What features should they utilize? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Order Management Services Module"
+            },
+            {
+                "number": 2,
+                "question": "2.) Assisted Service Mode (ASM)"
+            },
+            {
+                "number": 3,
+                "question": "3.) Customer Support Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) SmartEdit"
+            },
+            {
+                "number": 5,
+                "question": "5.) Promotion Engine"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "226",
+        "QuestionText": "In SAP Commerce Cloud, which module allows the creation of targeted promotional campaigns with specific coupon codes?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Promotion Engine"
+            },
+            {
+                "number": 2,
+                "question": "2.) Adaptive Search"
+            },
+            {
+                "number": 3,
+                "question": "3.) CMS Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Backoffice Administration"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "227",
+        "QuestionText": "Scenario: A business is optimizing its online store for mobile users, focusing on easy navigation, fast load times, and personalized content. What features of SAP Commerce Cloud should be emphasized for this purpose? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) SmartEdit for mobile-responsive design"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalization Module for user-specific content"
+            },
+            {
+                "number": 3,
+                "question": "3.) Composable Storefront for flexibility"
+            },
+            {
+                "number": 4,
+                "question": "4.) ImpEx for data management"
+            },
+            {
+                "number": 5,
+                "question": "5.) Workflow Management for content updates"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "228",
+        "QuestionText": "In SAP Commerce Cloud, which features are integral to enhancing the efficiency of the Search and Navigation functionality? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Faceted search"
+            },
+            {
+                "number": 2,
+                "question": "2.) Auto-suggest functionality"
+            },
+            {
+                "number": 3,
+                "question": "3.) Customizable filters"
+            },
+            {
+                "number": 4,
+                "question": "4.) Static product listings"
+            },
+            {
+                "number": 5,
+                "question": "5.) Single-factor search algorithms"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    },
+    {
+        "Question": "229",
+        "QuestionText": "A B2B company needs to manage complex organizational structures and user permissions within SAP Commerce Cloud. What feature should they primarily use?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) B2B Organization Management"
+            },
+            {
+                "number": 2,
+                "question": "2.) Customer Support Ticketing"
+            },
+            {
+                "number": 3,
+                "question": "3.) CMS Cockpit"
+            },
+            {
+                "number": 4,
+                "question": "4.) Product Content Management"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "230",
+        "QuestionText": "A product manager needs to update the specifications and images for a range of products quickly. Which SAP Commerce Cloud feature is most suitable for this task?",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Product cockpit in Backoffice"
+            },
+            {
+                "number": 2,
+                "question": "2.) Workflow management"
+            },
+            {
+                "number": 3,
+                "question": "3.) Cron jobs"
+            },
+            {
+                "number": 4,
+                "question": "4.) Promotion engine"
+            }
+        ],
+        "CorrectAnswer": "1"
+    },
+    {
+        "Question": "231",
+        "QuestionText": "Scenario: A business is transitioning to a cloud-based infrastructure. What aspects of SAP Commerce Cloud's architecture should be emphasized? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Flexible and Scalable Infrastructure"
+            },
+            {
+                "number": 2,
+                "question": "2.) Advanced SEO Capabilities"
+            },
+            {
+                "number": 3,
+                "question": "3.) Enhanced Data Security"
+            },
+            {
+                "number": 4,
+                "question": "4.) Social Media Integration"
+            },
+            {
+                "number": 5,
+                "question": "5.) Customizable UI/UX"
+            }
+        ],
+        "CorrectAnswer": "1,3,5"
+    },
+    {
+        "Question": "232",
+        "QuestionText": "Scenario: A customer adds products to their cart but leaves the website. What features should SAP Commerce Cloud use to encourage them to complete the purchase? (3 Correct)",
+        "Options": [
+            {
+                "number": 1,
+                "question": "1.) Cart Recovery Email"
+            },
+            {
+                "number": 2,
+                "question": "2.) Personalized Recommendations"
+            },
+            {
+                "number": 3,
+                "question": "3.) Promotion Alerts"
+            },
+            {
+                "number": 4,
+                "question": "4.) Live Chat Support"
+            },
+            {
+                "number": 5,
+                "question": "5.) Adaptive Search Reminders"
+            }
+        ],
+        "CorrectAnswer": "1,2,3"
+    }
+]

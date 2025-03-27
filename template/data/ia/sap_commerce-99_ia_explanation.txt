@@ -1,0 +1,45 @@
+The correct answer is **Option 1: Categories can contain other categories and/or products.**  Let's break down why this is correct and why the other options are incorrect within the context of SAP Commerce (formerly known as hybris).
+
+**Option 1: Categories can contain other categories and/or products - Correct**
+
+SAP Commerce uses a hierarchical category structure. This means categories can be nested within each other to create a tree-like structure.  A parent category can contain both subcategories and individual products.  This allows for a flexible and granular organization of product data, mirroring real-world product categorization.  For example, a "Electronics" category might contain subcategories like "Televisions," "Laptops," and "Smartphones."  Each of those subcategories could then contain specific product models.
+
+**Option 2: All categories must have at least one super category - Incorrect**
+
+While many categories will have a parent category, it's not a requirement in SAP Commerce.  Root categories, those at the top level of the hierarchy, don't have a supercategory. For example, "Electronics," "Clothing," and "Home Goods" might be root categories.
+
+**Option 3: A product is duplicated when it is associated with a new category - Incorrect**
+
+A product is *not* duplicated when associated with multiple categories.  SAP Commerce uses a flexible many-to-many relationship between products and categories.  A single product can belong to multiple categories simultaneously. This reflects the reality that a product might fit into different classifications (e.g., a "waterproof smartwatch" could belong to both "Smartwatches" and "Outdoor Gear" categories). The product information itself is stored only once; the association with categories is managed through relationships.
+
+**Option 4: Each product must be associated with only one category - Incorrect**
+
+As explained above, this is contrary to how SAP Commerce handles product categorization.  The many-to-many relationship allows for much greater flexibility in organizing and searching products.
+
+
+**Practical Example:**
+
+Let's imagine an online store selling clothing. The category structure might look like this:
+
+* **Root Category:** Clothing
+    * **Subcategory:** Men's
+        * **Subcategory:** Shirts
+            * **Product:** Blue Oxford Shirt
+            * **Product:** White T-Shirt
+        * **Subcategory:** Pants
+            * **Product:** Jeans
+    * **Subcategory:** Women's
+        * **Subcategory:** Dresses
+            * **Product:** Red Dress
+        * **Subcategory:** Shoes
+            * **Product:** Black Boots
+
+
+Here:
+
+* "Clothing" is a root category.
+* "Men's" and "Women's" are subcategories of "Clothing."
+* "Shirts" and "Pants" are subcategories of "Men's."
+* The "Blue Oxford Shirt" is a product directly under the "Shirts" category.  It could also potentially be in another category like "Casual Wear" (illustrating the many-to-many relationship).
+
+This hierarchical structure allows for efficient navigation and searching for products by customers and effective management of product information by administrators.  The system doesn't duplicate the product data; instead, it manages relationships to link products to multiple categories as needed.

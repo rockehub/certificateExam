@@ -1,0 +1,31 @@
+The correct answers are **Option 2: Web content and e-mail management** and **Option 4: Payment and order management**.
+
+Let's break down why:
+
+**Option 2: Web content and e-mail management:**  The B2C Accelerator is built upon the foundation of Hybris's powerful content management system (CMS).  This means that managing website content (banners, text, images, product descriptions) and email marketing campaigns are core functionalities.  The accelerator provides pre-built templates and tools to easily create and deploy both website content and email marketing materials. This includes functionalities like:
+
+* **Content creation and editing:**  Using the backoffice, merchants can easily create and edit website content, assigning it to specific pages and sections.
+* **Template management:**  Pre-built templates streamline the process of creating consistent website layouts and email designs.
+* **Workflow management:**  Content changes can be managed through workflows, ensuring approvals and consistency.
+* **Email campaign management:**  The system allows for the creation, scheduling, and tracking of email marketing campaigns, including personalized messaging.
+
+**Practical Example:** A retailer using the B2C Accelerator can easily create a new banner promoting a summer sale on their homepage using the provided CMS tools.  They can also create and send an email blast announcing the sale to their subscribed customers, all within the accelerator's integrated backoffice.
+
+
+**Option 4: Payment and order management:**  The B2C Accelerator includes a robust set of features to manage payments and orders.  This is crucial for a functioning e-commerce platform.  These features encompass:
+
+* **Payment gateway integration:**  The accelerator supports various payment gateways, enabling customers to pay using different methods (credit cards, PayPal, etc.).  The configuration of these gateways is typically streamlined within the accelerator's backoffice.
+* **Order processing:**  The system manages the entire order lifecycle, from order creation to fulfillment and shipping.  This includes functionalities like order tracking, managing returns, and handling cancellations.
+* **Order history and reporting:**  Merchants can access detailed reports and analytics on orders, providing valuable insights into sales performance and customer behavior.
+
+**Practical Example:**  A customer places an order on a website built using the B2C Accelerator.  The system processes the payment through the integrated payment gateway, generates an order confirmation, and automatically updates inventory levels. The merchant can then track the order's status and manage any potential issues through the backoffice.
+
+
+**Why the other options are incorrect:**
+
+**Option 1: Future stock display on product page:** While displaying future stock availability *can* be implemented in SAP Commerce, it's not a standard, out-of-the-box feature of the B2C Accelerator.  It usually requires custom development or the use of third-party extensions.
+
+**Option 3: Price quote requests and negotiation:** This functionality is typically associated with B2B scenarios or custom implementations. The B2C Accelerator focuses primarily on straightforward, fixed-price sales to individual consumers.  While some customization could add this, it's not a standard feature.
+
+
+In summary, the B2C Accelerator provides a solid foundation for B2C e-commerce, including essential features for content and email management and comprehensive order and payment processing.  More advanced features often require custom development or extensions.

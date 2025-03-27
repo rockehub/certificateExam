@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:prettier/recommended'],
+  extends: ['@nuxtjs/eslint-config-typescript'],
   rules: {
     'vue/no-v-html': 'off',
     'no-console': 'off',

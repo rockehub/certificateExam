@@ -1,0 +1,47 @@
+In the context of SAP Commerce (formerly hybris), a widget's definition.xml file dictates its configuration and behavior within a storefront or backoffice.  Of the options provided, three correctly describe configurable aspects within a `definition.xml` file:
+
+**Correct Options:**
+
+* **Option 2: The available virtual sockets:**  This refers to the communication points a widget uses to interact with other components or services within the SAP Commerce platform.  Virtual sockets are essentially named interfaces for data exchange, allowing the widget to receive and send data. Defining them in `definition.xml` enables the framework to properly connect the widget with its data sources.
+
+* **Option 3: The view file:** The `definition.xml` file specifies the JSP (JavaServer Pages) or other template file responsible for rendering the widget's user interface. This file contains the HTML, CSS, and JavaScript that determines what the user sees.
+
+* **Option 4: The default values for widget settings:** The `definition.xml` file allows defining default values for various widget settings that can be customized through the backoffice or configuration tools. This ensures widgets have sensible defaults when initially deployed.
+
+
+**Incorrect Options:**
+
+* **Option 1: The available non-virtual sockets:** SAP Commerce primarily relies on virtual sockets for inter-component communication.  The concept of "non-virtual sockets" is not directly applicable within this context.
+
+* **Option 5: The business logic of the widget via a bean shell script:** While you can incorporate business logic into a widget, you wouldn't embed it directly in the `definition.xml`.  Business logic typically resides in separate Java classes, services, or Spring beans, which the widget then references and utilizes.  `definition.xml` configures *how* the widget connects and what data it uses, but not the logic itself.
+
+
+**Practical Example (snippet of definition.xml):**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="widgets.xsd"
+        id="myWidget"
+        type="simple">
+
+    <view>/mywidget/view.jsp</view>  <!-- Option 3: View file -->
+
+    <settings>
+        <setting name="mySetting" type="string" default="Default Value"/> <!-- Option 4: Default settings -->
+    </settings>
+
+    <sockets>
+        <socket name="productData" type="ProductData"/> <!-- Option 2: Virtual Socket -->
+    </sockets>
+
+</widget>
+```
+
+In this example:
+
+* `/mywidget/view.jsp` points to the JSP file defining the widget's UI.
+* The `mySetting` setting has a default value of "Default Value."
+* The `productData` socket suggests that this widget will receive data (likely product information) from a service or component providing `ProductData`.
+
+This `definition.xml` snippet shows how these three aspects (view file, default settings, and virtual sockets) are configured. The actual implementation details (like the `ProductData` service or the `view.jsp` content) are defined elsewhere in the project.  This file acts as a configuration blueprint for the widget.
