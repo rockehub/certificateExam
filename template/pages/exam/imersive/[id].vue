@@ -8,15 +8,16 @@
     </div>
 
     <div v-if="!examCompleted" class="mt-100">
-      <question-cards
-          v-if="selectedQuestions[currentQuestionIndex]"
-          :question="selectedQuestions[currentQuestionIndex]"
-          :exam="exam"
-          :exam-completed="examCompleted"
-          @isCorrectQuestion="pushToResult"
-          :is-immersive="true"
-      />
-
+      <div v-for="(question, index) in selectedQuestions">
+        <question-cards
+            v-if="index == currentQuestionIndex"
+            :question="question"
+            :exam="exam"
+            :exam-completed="examCompleted"
+            @isCorrectQuestion="pushToResult"
+            :is-immersive="true"
+        />
+      </div>
       <div class="d-flex gap-2 justify-content-center mt-3">
         <button class="btn btn-secondary" @click="prevQuestion" :disabled="currentQuestionIndex === 0">
           Previous
